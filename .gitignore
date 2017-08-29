@@ -1,0 +1,13 @@
+Deckblatt/*.pdf
+Deckblatt/*.png
+Fertige Noten/*
+Kritischer Bericht/*.pdf
+Manuskript/*
+*.kilepr
+*.zip
+*.pdf
+*.mid
+*.midi
+*.eps
+.~lock*
+*.kate-swp
