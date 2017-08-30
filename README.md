@@ -21,8 +21,8 @@ First version, in progress
     * N_10_Alto.ly
     * N_11_Tenore.ly
     * N_12_Basso.ly
-    * N_13_Bassi.ly
-    * N_14_Organo.ly
+    * N_13_Organo.ly
+    * N_14_Bassi.ly
 * Score and parts definitions in folder *Partituren*:
     * P_Partitur.ly
 

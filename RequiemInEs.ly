@@ -205,8 +205,9 @@ tempoRequiem = \tempoMarkup "Adagio"
 \include "Noten/N_10_Alto.ly"
 \include "Noten/N_11_Tenore.ly"
 \include "Noten/N_12_Basso.ly"
-\include "Noten/N_13_Bassi.ly"
-\include "Noten/N_14_Organo.ly"
+\include "Noten/N_13_Organo.ly"
+\include "Noten/N_14_Bassi.ly"
+
 
 \layout {
 	\context {

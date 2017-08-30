@@ -89,17 +89,20 @@
 					}
 					\new Lyrics \lyricsto Basso \RequiemBassoLyrics
 				>>
+				\new PianoStaff <<
+					\set PianoStaff.instrumentName = "Organo"
+					\new Staff { \RequiemOrganoR }
+					\new Staff { \dynamicUp \RequiemOrganoL }
+				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Bassi"
 						\RequiemBassi
 					}
 				>>
-				\new PianoStaff <<
-					\set PianoStaff.instrumentName = "Organo"
-					\new Staff { \RequiemOrganoR }
-					\new Staff { \dynamicUp \RequiemOrganoL }
-				>>
+				\new FiguredBass {
+					\RequiemBassFigures
+				}
 			>>
 % 			\midi { \tempo 4 = 60 }
 		}
