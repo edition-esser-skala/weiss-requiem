@@ -100,6 +100,9 @@ piuFE = #(make-dynamic-script (markup #:line (#:normal-text #:small #:italic "pi
 mvTr = \once \override TextScript.X-offset = #2
 mvTrr = \once \override TextScript.X-offset = #3
 hideTn = \once \override TupletNumber.stencil = ##f
+pao = \partcombineApartOnce
+pa = \partcombineApart
+pd = \partcombineAutomatic
 
 tempoMarkup =
 	#(define-music-function
@@ -231,6 +234,7 @@ tempoRequiem = \tempoMarkup "Adagio"
 		\override InstrumentName.font-shape = #'italic
 		\accidentalStyle neo-modern-voice
 		extraNatural = ##t
+		aDueText = \markup { \anmerkung { a2 } }
 	}
 	\context {
 		\Score

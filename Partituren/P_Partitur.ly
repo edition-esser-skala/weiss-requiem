@@ -35,8 +35,7 @@
 				\new StaffGroup {
 					\new Staff <<
 						\set Staff.instrumentName = \markup { \center-column { "Clarinetto I, II" "in B" } }
-						\new Voice { \voiceOne \RequiemClarinettoI }
-						\new Voice { \voiceTwo \RequiemClarinettoII }
+						\partcombine \RequiemClarinettoI \RequiemClarinettoII
 					>>
 				}
 				\new StaffGroup {

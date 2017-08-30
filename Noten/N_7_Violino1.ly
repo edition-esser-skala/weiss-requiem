@@ -18,7 +18,7 @@ RequiemViolinoI = {
 		g g,4 h d g8
 		g( c, es g) c( g) es'( c) %5
 		d( g) d h g( g') g-. g-.
-		es( c) g[ es] c'( g') c-. c-.
+		es( c) g es c'( g') c-. c-.
 		as( f) c( as) b( f') b b
 		g( es) b( g) f'( as,) g( es')
 		d\f b, d f b( f) d'-. b-. %10
