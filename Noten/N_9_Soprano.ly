@@ -30,7 +30,7 @@ RequiemSopranoNotes = {
 		f\fermata r
 		R1*4 %20
 		b4.\f b8 g'4 e
-		f8([ c)] f, es' \appoggiatura es d8([ c16 b] c8[ d)]
+		f8([ c)] f, es' \appoggiatura es16 d8([ c16 b] c8[ d)]
 		es4 r r8 es es4~
 		es g, r8 es' es4~
 		es g, r8 es' es4 %25

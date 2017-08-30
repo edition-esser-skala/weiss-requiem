@@ -30,7 +30,7 @@ RequiemTenoreNotes = {
 		b\fermata r
 		R1
 		b4.\f b8 g'4 e
-		f8([ c)] f es \appoggiatura es d8([ c16 b] c8[ d])
+		f8([ c)] f es \appoggiatura es16 d8([ c16 b] c8[ d])
 		es4 g,8([ b)] g4( c) %20
 		f,8 b c([ d)] es r r4
 		R1

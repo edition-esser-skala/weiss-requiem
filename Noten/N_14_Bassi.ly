@@ -44,7 +44,7 @@ RequiemBassi = {
 		es b g' es
 		b1
 		es2 r
-		es\p r %35
+		es\ppE r %35
 		es1\fermata \bar "|." %36 FINIS
 	}
 }
@@ -80,7 +80,7 @@ RequiemBassFigures = \figuremode {
 	<5 3>2. \bassFigureExtendersOn q4 %30
 	<6>2. q4
 	<5 3>2. q4 \bassFigureExtendersOff
-	r1
+	<7>1
 	r
 	r %35
 	r %36 FINIS
