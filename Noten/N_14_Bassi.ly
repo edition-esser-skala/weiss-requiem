@@ -128,7 +128,7 @@ DiesIraeBassi = {
 		ces8.\ff ces16 ces8. ces16 ces8. ces16 ces8. ces16
 		b4 r r b\p
 		b2 d4 es
-		b r r es
+		b r r es\ppE
 		h2 c4 es %40
 		g,2\<\fermata r
 		c2\ff d4.\trill c16( d)

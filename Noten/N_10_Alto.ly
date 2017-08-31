@@ -88,12 +88,120 @@ DiesIraeAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key es \major \time 4/4 \autoBeamOff \tempoRequiem
-		
+		\mvTrr c2\ffE^\tuttiE d
+		es4-. as-. r g8.-. f16-.
+		es4-. c-. r2
+		es f
+		g4-. c-. r b8. a16 %5
+		b4-. b,-. r2\fermata
+		R1*14 %20
+		r2 \mvTr as'4\f^\tutti as
+		as2 as
+		g as
+		as( g)
+		as4 r r2 %25
+		R1*3
+		r2 r4 e8.\f g16
+		as4. g8 as4 as %30
+		g g r e8. g16
+		as4. g8 as4 as
+		g g r c8\ff c
+		des2 b
+		g es %35
+		ges2.(-\parenthesize^> es4)
+		f2 r4 d8\p d
+		d4.( b8 f'4 es)
+		d2 r4 es8\pp es
+		f2.( es4) %40
+		d2\fermata\< r
+		c\ff d
+		es4 as r g8. f16
+		es4 c r2
+		es f %45
+		g4 c r b8. a16
+		b4 b, r2
+		r b4\p b
+		as'2 g
+		f es4( g) %50
+		as2 g
+		f4( es) f( es)
+		es d r2
+		R1
+		es2\p es %55
+		f4 f f f
+		es2 es
+		es g
+		d f4( es)
+		es8. d16 d4 r d8 es %60
+		f2 d4 es8 f
+		g2 es4 as8 b
+		c2 as
+		b\f b
+		as g %65
+		f2. f4
+		es r es\p es
+		es2 g
+		as1
+		g\fermata \bar "|." %70 FINIS
 	}
 }
 
 DiesIraeAltoLyrics = \lyricmode {
+	Di -- es
+	i -- rae, di -- es
+	il -- la,
+	di -- es
+	i -- rae, di -- es %5
+	il -- la.
 	
+	Cun -- cta %21
+	stri -- cte
+	di -- scus --
+	su --
+	rus. %25
+	
+	Mors stu -- %29
+	pe -- bit et na -- %30
+	tu -- ra, cum re --
+	sur -- get cre -- a --
+	tu -- ra, ju -- di --
+	can -- dus
+	ho -- mo %35
+	re --
+	us, ho -- mo
+	re --
+	us, ho -- mo
+	re -- %40
+	us.
+	La -- cri --
+	mo -- sa di -- es
+	il -- la,
+	qua re -- %45
+	sur -- get ex fa --
+	vil -- la
+	ju -- di --
+	can -- dus,
+	ju -- di -- %50
+	can -- dus
+	ho -- mo __
+	re -- us.
+	
+	Hu -- ic %55
+	er -- go par -- ce,
+	De -- us:
+	Pi -- e
+	Je -- su __
+	Do -- mi -- ne, do -- na %60
+	e -- is, do -- na
+	e -- is, do -- na
+	e -- is,
+	do -- na
+	e -- is %65
+	re -- qui --
+	em. A -- men,
+	a -- men,
+	a --
+	men. %70 FINIS
 }
 
 % AltoNotes = {

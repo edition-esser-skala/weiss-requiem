@@ -86,12 +86,120 @@ DiesIraeSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key es \major \time 4/4 \autoBeamOff \tempoRequiem
-		
+		\mvTrr c2\ff^\tuttiE d
+		es4-. as-. r g8.-. f16-.
+		es4-. c-. r2
+		es2 f
+		g4-. c-. r b8. a16 %5
+		b4-. b,-. r2\fermata
+		R1*14 %20
+		r2 \mvTr c'4\f^\tutti c
+		c2 des
+		des c
+		b1
+		as4 r r2 %25
+		R1*3
+		r4 c8. c16 c2~
+		c4. c8 c4 f %30
+		e c r c8. c16
+		c4. c8 c4 f
+		e c r c8\ff c
+		des2 b
+		g es4 es8 es %35
+		ces'2(-> b4 a)
+		b2 r4 b8\p b
+		b1
+		b4 r r g8\pp g
+		g1 %40
+		g2\<\fermata r
+		c,\ff d
+		es4 as r g8. f16
+		es4 c r2
+		es2 f %45
+		g4 c r b8. a16
+		b4 b, r2
+		R1
+		r2 b'4\p b
+		d2 es %50
+		f es
+		d4( es b) \appoggiatura as8 g4
+		g f r2
+		R1
+		es2\p g %55
+		b4 b b b
+		g2 es
+		c' b
+		b as4( g)
+		g8. f16 f4 r f8 g %60
+		as2 f4 g8 as
+		b2 g4 c8 d
+		es2 c
+		d\f es
+		f es4( g,) %65
+		b2. b4
+		g r g\p g
+		as2 b
+		c1
+		b\fermata \bar "|." %70 FINIS
 	}
 }
 
 DiesIraeSopranoLyrics = \lyricmode {
+	Di -- es
+	i -- rae, di -- es
+	il -- la,
+	di -- es
+	i -- rae, di -- es %5
+	il -- la.
 	
+	Cun -- cta %21
+	stri -- cte
+	di -- scus --
+	su --
+	rus. %25
+	
+	Mors stu -- pe -- %29
+	bit et na -- %30
+	tu -- ra, cum re --
+	sur -- get cre -- a --
+	tu -- ra, ju -- di --
+	can -- dus
+	ho -- mo, ho -- mo %35
+	re --
+	us, ho -- mo
+	re --
+	us, ho -- mo
+	re -- %40
+	us.
+	La -- cri --
+	mo -- sa di -- es
+	il -- la,
+	qua re -- %45
+	sur -- get ex fa --
+	vil -- la
+	
+	ju -- di --
+	can -- dus %50
+	ho -- mo,
+	ho -- mo
+	re -- us.
+	
+	Hu -- ic %55
+	er -- go par -- ce,
+	De -- us:
+	Pi -- e
+	Je -- su __
+	Do -- mi -- ne, do -- na %60
+	e -- is, do -- na
+	e -- is, do -- na
+	e -- is,
+	do -- na
+	e -- is __ %65
+	re -- qui --
+	em. A -- men,
+	a -- men,
+	a --
+	men. %70 FINIS
 }
 
 % SopranoNotes = {
