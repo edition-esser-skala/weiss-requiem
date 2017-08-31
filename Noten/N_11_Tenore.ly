@@ -88,7 +88,7 @@ RequiemTenoreLyrics = \lyricmode {
 	son. %34 finis
 }
 
-TenoreNotes = {
+DiesIraeTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key es \major \time 4/4 \autoBeamOff \tempoRequiem
@@ -96,7 +96,7 @@ TenoreNotes = {
 	}
 }
 
-TenoreLyrics = \lyricmode {
+DiesIraeTenoreLyrics = \lyricmode {
 	
 }
 

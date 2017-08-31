@@ -82,7 +82,7 @@ RequiemSopranoLyrics = \lyricmode {
 	son. %34 finis
 }
 
-SopranoNotes = {
+DiesIraeSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key es \major \time 4/4 \autoBeamOff \tempoRequiem
@@ -90,7 +90,7 @@ SopranoNotes = {
 	}
 }
 
-SopranoLyrics = \lyricmode {
+DiesIraeSopranoLyrics = \lyricmode {
 	
 }
 

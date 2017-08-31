@@ -42,14 +42,14 @@ RequiemClarinettoII = {
 % 	}
 }
 
-ClarinettoII = {
-	\transpose c' b {
+DiesIraeClarinettoII = {
+% 	\transpose c' b {
 		\relative c' {
 			\clef treble
 			\key f \major \time 4/4 \tempoRequiem
 			
 		}
-	}
+% 	}
 }
 
 % ClarinettoII = {

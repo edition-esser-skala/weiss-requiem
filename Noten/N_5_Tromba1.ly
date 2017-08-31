@@ -22,7 +22,7 @@ RequiemTrombaI = {
 	}
 }
 
-TrombaI = {
+DiesIraeTrombaI = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \tempoRequiem

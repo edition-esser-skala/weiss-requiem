@@ -84,7 +84,7 @@ RequiemAltoLyrics = \lyricmode {
 	son. %34 finis
 }
 
-AltoNotes = {
+DiesIraeAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key es \major \time 4/4 \autoBeamOff \tempoRequiem
@@ -92,7 +92,7 @@ AltoNotes = {
 	}
 }
 
-AltoLyrics = \lyricmode {
+DiesIraeAltoLyrics = \lyricmode {
 	
 }
 

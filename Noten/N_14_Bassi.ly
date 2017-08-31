@@ -90,7 +90,75 @@ DiesIraeBassi = {
 	\relative c {
 		\clef bass
 		\key c \minor \time 2/2 \tempoDiesIrae
-		
+		c2\ffE d4.\trill c16 d
+		es4-. as-. r g8. f16
+		es4 c-. r2
+		es2 f4.\trill es16( f)
+		g4-. c-. r b8. a16 %5
+		b4 b, r2\fermata
+		es2\p d
+		c4.\< h8 c4\f as!
+		g g' r2
+		c,4.\p h8 c4 as %10
+		g\f g' g, r
+		b2\p b
+		b b
+		es es
+		es es %15
+		es g
+		as c,4 r
+		des r d r
+		es r r2
+		es4 r r2 %20
+		as8\f as as as as as as as
+		ges ges ges ges f f f f
+		es es es es es es es es
+		es es es es es es es es
+		as4 r r2 %25
+		des,4\p r r2
+		es4 r des2
+		c8 r des r es r es r
+		as,4 r r c8.\ff e16
+		f4.-. e8-. f4-. des-. %30
+		c c'-. r c,8. e16
+		f4. e8 f4 des
+		c c' r c
+		des r b r
+		g r es r %35
+		ces8.\ff ces16 ces8. ces16 ces8. ces16 ces8. ces16
+		b4 r r b\p
+		b2 d4 es
+		b r r es
+		h2 c4 es %40
+		g,2\<\fermata r
+		c2\ff d4.\trill c16( d)
+		es4-. as-. r g8. f16
+		es4-. c-. r2
+		es2 f4.\trill es16 f %45
+		g4-. c-. r b8. a16
+		b4 b,\p b b
+		b r b r
+		b r b r
+		b r b r %50
+		b r b r
+		b1
+		b'4 b, r2
+		R1
+		es2\p es %55
+		d d
+		es es4 g
+		as2 es
+		b d4 es
+		b' b, b b %60
+		b f' b8 as g f
+		es4 es g c8 b
+		as4 as as as
+		as8\f as as as g g g g
+		d d d d es es es es %65
+		b b' b b b, b' b b
+		es,4 r r2
+		R1*2
+		R1\fermataMarkup \bar "|." %70 FINIS
 	}
 }
 

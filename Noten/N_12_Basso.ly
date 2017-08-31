@@ -88,7 +88,7 @@ RequiemBassoLyrics = \lyricmode {
 	son. %34 finis
 }
 
-BassoNotes = {
+DiesIraeBassoNotes = {
 	\relative c {
 		\clef bass
 		\key es \major \time 4/4 \autoBeamOff \tempoRequiem
@@ -96,7 +96,7 @@ BassoNotes = {
 	}
 }
 
-BassoLyrics = \lyricmode {
+DiesIraeBassoLyrics = \lyricmode {
 	
 }
 
