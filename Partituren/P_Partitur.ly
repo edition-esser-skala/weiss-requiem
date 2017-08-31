@@ -85,11 +85,6 @@
 % 					}
 % 					\new Lyrics \lyricsto Basso \RequiemBassoLyrics
 % 				>>
-% % 				\new PianoStaff <<
-% % 					\set PianoStaff.instrumentName = "Organo"
-% % 					\new Staff { \RequiemOrganoR }
-% % 					\new Staff { \dynamicUp \RequiemOrganoL }
-% % 				>>
 % 				\new StaffGroup <<
 % 					\new Staff {
 % 						\set Staff.instrumentName = \markup { \center-column { "Bassi" "[Organo]" } }
@@ -164,11 +159,6 @@
 					}
 					\new Lyrics \lyricsto Basso \DiesIraeBassoLyrics
 				>>
-% 				\new PianoStaff <<
-% 					\set PianoStaff.instrumentName = "Organo"
-% 					\new Staff { \DiesIraeOrganoR }
-% 					\new Staff { \dynamicUp \DiesIraeOrganoL }
-% 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "Bassi" "[Organo]" } }
@@ -179,7 +169,7 @@
 					\DiesIraeBassFigures
 				}
 			>>
-% 			\midi { \tempo 4 = 110 }
+			\midi { \tempo 4 = 110 }
 		}
 	}
 }

@@ -94,7 +94,7 @@ DiesIraeTenoreNotes = {
 		\key c \minor \time 2/2 \autoBeamOff \tempoDiesIrae
 		\mvTrr c,2\ff^\tuttiE d
 		es4-. as-. r g8. f16
-		es4-.^\critnote c-. r2\fermata
+		es4-.^\critnote c-. r2
 		es f
 		g4-. c-. r b8. a16 %5
 		b4-. b,-. r2\fermata
