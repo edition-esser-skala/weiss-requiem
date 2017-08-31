@@ -81,3 +81,87 @@ RequiemSopranoLyrics = \lyricmode {
 	lei --
 	son. %34 finis
 }
+
+SopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 4/4 \autoBeamOff \tempoRequiem
+		
+	}
+}
+
+SopranoLyrics = \lyricmode {
+	
+}
+
+% SopranoNotes = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key es \major \time 4/4 \autoBeamOff \tempoRequiem
+% 		
+% 	}
+% }
+% 
+% SopranoLyrics = \lyricmode {
+% 	
+% }
+% 
+% SopranoNotes = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key es \major \time 4/4 \autoBeamOff \tempoRequiem
+% 		
+% 	}
+% }
+% 
+% SopranoLyrics = \lyricmode {
+% 	
+% }
+% 
+% SopranoNotes = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key es \major \time 4/4 \autoBeamOff \tempoRequiem
+% 		
+% 	}
+% }
+% 
+% SopranoLyrics = \lyricmode {
+% 	
+% }
+% 
+% SopranoNotes = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key es \major \time 4/4 \autoBeamOff \tempoRequiem
+% 		
+% 	}
+% }
+% 
+% SopranoLyrics = \lyricmode {
+% 	
+% }
+% 
+% SopranoNotes = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key es \major \time 4/4 \autoBeamOff \tempoRequiem
+% 		
+% 	}
+% }
+% 
+% SopranoLyrics = \lyricmode {
+% 	
+% }
+% 
+% SopranoNotes = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key es \major \time 4/4 \autoBeamOff \tempoRequiem
+% 		
+% 	}
+% }
+% 
+% SopranoLyrics = \lyricmode {
+% 	
+% }

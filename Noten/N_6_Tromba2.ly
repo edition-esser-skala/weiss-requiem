@@ -13,6 +13,59 @@ RequiemTrombaII = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 4/4 \tempoRequiem
-			
+		R1*15 %15
+		R1\fermataMarkup %16
+		R1*9 %25
+		R1\fermataMarkup %26
+		R1*9 %35
+		R1\fermataMarkup \bar "|." %36 FINIS
 	}
 }
+
+TrombaII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoRequiem
+		
+	}
+}
+
+% TrombaII = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key c \major \time 4/4 \tempoRequiem
+% 		
+% 	}
+% }
+% 
+% TrombaII = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key c \major \time 4/4 \tempoRequiem
+% 		
+% 	}
+% }
+% 
+% TrombaII = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key c \major \time 4/4 \tempoRequiem
+% 		
+% 	}
+% }
+% 
+% TrombaII = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key c \major \time 4/4 \tempoRequiem
+% 		
+% 	}
+% }
+% 
+% TrombaII = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key c \major \time 4/4 \tempoRequiem
+% 		
+% 	}
+% }

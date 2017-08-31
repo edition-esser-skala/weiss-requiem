@@ -114,6 +114,7 @@ tempoMarkup =
 %
 
 tempoRequiem = \tempoMarkup "Adagio"
+tempoDiesIrae = \tempoMarkup "Andante"
 
 
 % modify the Scheme function 'format-bass-figure'
@@ -224,6 +225,8 @@ tempoRequiem = \tempoMarkup "Adagio"
 	\context {
 		\StaffGroup
 		\override SystemStartBracket.collapse-height = #1
+% 		\override StaffGrouper.staffgroup-staff-spacing.basic-distance = #13
+% 		\override StaffGrouper.default-staff-staff-spacing.basic-distance = #15
 	}
 	\context {
 		\Voice
@@ -240,7 +243,7 @@ tempoRequiem = \tempoMarkup "Adagio"
 		\Score
 		\override MetronomeMark.font-series = #'medium
 		\compressFullBarRests
-		\override BarNumber.break-visibility = #'#(#f #t #t) % uncomment to show each bar number
+% 		\override BarNumber.break-visibility = #'#(#f #t #t) % uncomment to show each bar number
 	}
 }
 

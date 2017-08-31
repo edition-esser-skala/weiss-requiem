@@ -46,3 +46,59 @@ RequiemViolinoII = {
 		q1\fermata \bar "|."
 	}
 }
+
+ViolinoII = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 4/4 \tempoRequiem
+		
+	}
+}
+
+% ViolinoII = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key es \major \time 4/4 \tempoRequiem
+% 		
+% 	}
+% }
+% 
+% ViolinoII = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key es \major \time 4/4 \tempoRequiem
+% 		
+% 	}
+% }
+% 
+% ViolinoII = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key es \major \time 4/4 \tempoRequiem
+% 		
+% 	}
+% }
+% 
+% ViolinoII = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key es \major \time 4/4 \tempoRequiem
+% 		
+% 	}
+% }
+% 
+% ViolinoII = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key es \major \time 4/4 \tempoRequiem
+% 		
+% 	}
+% }
+% 
+% ViolinoII = {
+% 	\relative c' {
+% 		\clef treble
+% 		\key es \major \time 4/4 \tempoRequiem
+% 		
+% 	}
+% }

@@ -85,3 +85,75 @@ RequiemBassFigures = \figuremode {
 	r %35
 	r %36 FINIS
 }
+
+DiesIraeBassi = {
+	\relative c {
+		\clef bass
+		\key c \minor \time 2/2 \tempoDiesIrae
+		
+	}
+}
+
+DiesIraeBassFigures = \figuremode {
+	
+}
+
+% Bassi = {
+% 	\relative c {
+% 		\clef bass
+% 		\key es \major \time 4/4 \tempoRequiem
+% 		
+% 	}
+% }
+% 
+% BassFigures = \figuremode {
+% 	
+% }
+% 
+% Bassi = {
+% 	\relative c {
+% 		\clef bass
+% 		\key es \major \time 4/4 \tempoRequiem
+% 		
+% 	}
+% }
+% 
+% BassFigures = \figuremode {
+% 	
+% }
+% 
+% Bassi = {
+% 	\relative c {
+% 		\clef bass
+% 		\key es \major \time 4/4 \tempoRequiem
+% 		
+% 	}
+% }
+% 
+% BassFigures = \figuremode {
+% 	
+% }
+% 
+% Bassi = {
+% 	\relative c {
+% 		\clef bass
+% 		\key es \major \time 4/4 \tempoRequiem
+% 		
+% 	}
+% }
+% 
+% BassFigures = \figuremode {
+% 	
+% }
+% 
+% Bassi = {
+% 	\relative c {
+% 		\clef bass
+% 		\key es \major \time 4/4 \tempoRequiem
+% 		
+% 	}
+% }
+% 
+% BassFigures = \figuremode {
+% 	
+% }

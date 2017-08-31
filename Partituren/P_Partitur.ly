@@ -27,9 +27,9 @@
 				}
 			}
 			subtitle = \markup { \vspace #3 \normal-text \larger \larger "1 REQUIEM" }
-			composer = \markup { \larger "Hörsching, 1830–40(?)" }
+			composer = \markup { \larger "Hörsching, 1830–50(?)" }
 		}
-% 		\paper { systems-per-page = #2 }
+		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup {
@@ -38,18 +38,16 @@
 						\partcombine \RequiemClarinettoI \RequiemClarinettoII
 					>>
 				}
-				\new StaffGroup {
+				\new StaffGroup <<
 					\new Staff <<
 						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "in Es" } }
-						\new Voice { \voiceOne \RequiemCornoI }
-						\new Voice { \voiceTwo \RequiemCornoII }
+						\partcombine  \RequiemCornoI \RequiemCornoII
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" "in C" } }
-						\new Voice { \voiceOne \RequiemTrombaI }
-						\new Voice { \voiceTwo \RequiemTrombaII }
+						\partcombine \RequiemTrombaI \RequiemTrombaII
 					>>
-				}
+				>>
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
@@ -58,7 +56,6 @@
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\override Staff.VerticalAxisGroup.minimum-Y-extent = #'(-10 . 4)
 							\RequiemViolinoII
 						}
 					>>
@@ -95,7 +92,7 @@
 % 				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Bassi"
+						\set Staff.instrumentName = \markup { \center-column { "Bassi" "[Organo]" } }
 						\RequiemBassi
 					}
 				>>
@@ -103,7 +100,7 @@
 					\RequiemBassFigures
 				}
 			>>
-% 			\midi { \tempo 4 = 120 }
+% 			\midi { \tempo 4 = 110 }
 		}
 	}
 

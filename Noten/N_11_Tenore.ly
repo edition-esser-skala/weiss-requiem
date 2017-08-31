@@ -87,3 +87,87 @@ RequiemTenoreLyrics = \lyricmode {
 	lei --
 	son. %34 finis
 }
+
+TenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key es \major \time 4/4 \autoBeamOff \tempoRequiem
+		
+	}
+}
+
+TenoreLyrics = \lyricmode {
+	
+}
+
+% TenoreNotes = {
+% 	\relative c' {
+% 		\clef "treble_8"
+% 		\key es \major \time 4/4 \autoBeamOff \tempoRequiem
+% 		
+% 	}
+% }
+% 
+% TenoreLyrics = \lyricmode {
+% 	
+% }
+% 
+% TenoreNotes = {
+% 	\relative c' {
+% 		\clef "treble_8"
+% 		\key es \major \time 4/4 \autoBeamOff \tempoRequiem
+% 		
+% 	}
+% }
+% 
+% TenoreLyrics = \lyricmode {
+% 	
+% }
+% 
+% TenoreNotes = {
+% 	\relative c' {
+% 		\clef "treble_8"
+% 		\key es \major \time 4/4 \autoBeamOff \tempoRequiem
+% 		
+% 	}
+% }
+% 
+% TenoreLyrics = \lyricmode {
+% 	
+% }
+% 
+% TenoreNotes = {
+% 	\relative c' {
+% 		\clef "treble_8"
+% 		\key es \major \time 4/4 \autoBeamOff \tempoRequiem
+% 		
+% 	}
+% }
+% 
+% TenoreLyrics = \lyricmode {
+% 	
+% }
+% 
+% TenoreNotes = {
+% 	\relative c' {
+% 		\clef "treble_8"
+% 		\key es \major \time 4/4 \autoBeamOff \tempoRequiem
+% 		
+% 	}
+% }
+% 
+% TenoreLyrics = \lyricmode {
+% 	
+% }
+% 
+% TenoreNotes = {
+% 	\relative c' {
+% 		\clef "treble_8"
+% 		\key es \major \time 4/4 \autoBeamOff \tempoRequiem
+% 		
+% 	}
+% }
+% 
+% TenoreLyrics = \lyricmode {
+% 	
+% }
