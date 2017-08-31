@@ -87,7 +87,7 @@ RequiemAltoLyrics = \lyricmode {
 DiesIraeAltoNotes = {
 	\relative c' {
 		\clef treble
-		\key es \major \time 4/4 \autoBeamOff \tempoRequiem
+		\key c \minor \time 2/2 \autoBeamOff \tempoDiesIrae
 		\mvTrr c2\ffE^\tuttiE d
 		es4-. as-. r g8.-. f16-.
 		es4-. c-. r2

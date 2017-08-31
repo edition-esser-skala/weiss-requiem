@@ -85,7 +85,7 @@ RequiemSopranoLyrics = \lyricmode {
 DiesIraeSopranoNotes = {
 	\relative c' {
 		\clef treble
-		\key es \major \time 4/4 \autoBeamOff \tempoRequiem
+		\key c \minor \time 2/2 \autoBeamOff \tempoDiesIrae
 		\mvTrr c2\ff^\tuttiE d
 		es4-. as-. r g8.-. f16-.
 		es4-. c-. r2
@@ -99,7 +99,7 @@ DiesIraeSopranoNotes = {
 		b1
 		as4 r r2 %25
 		R1*3
-		r4 c8. c16 c2~
+		r4 c8.\fE c16 c2~
 		c4. c8 c4 f %30
 		e c r c8. c16
 		c4. c8 c4 f

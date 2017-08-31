@@ -118,14 +118,14 @@ DiesIraeBassi = {
 		des,4\p r r2
 		es4 r des2
 		c8 r des r es r es r
-		as,4 r r c8.\ff e16
+		as,4 r r c8.\fE e16
 		f4.-. e8-. f4-. des-. %30
 		c c'-. r c,8. e16
 		f4. e8 f4 des
-		c c' r c
+		c c' r c\ffE
 		des r b r
 		g r es r %35
-		ces8.\ff ces16 ces8. ces16 ces8. ces16 ces8. ces16
+		ces8.-\parenthesize-> ces16 ces8. ces16 ces8. ces16 ces8. ces16
 		b4 r r b\p
 		b2 d4 es
 		b r r es\ppE
@@ -136,7 +136,7 @@ DiesIraeBassi = {
 		es4-. c-. r2
 		es2 f4.\trill es16 f %45
 		g4-. c-. r b8. a16
-		b4 b,\p b b
+		b4 b, b\p b
 		b r b r
 		b r b r
 		b r b r %50
