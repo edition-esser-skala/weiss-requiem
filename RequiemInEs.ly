@@ -74,6 +74,7 @@ t = \markup { \combine \fontsize #-2 \transparent \number 5 \raise #.6 \draw-lin
 l = \markup { \fontsize #-2 \transparent \number 5 }
 fermataMarkdown = \markup { \musicglyph #'"scripts.dfermata" }
 critnote = \markup { \musicglyph #'"pedal.*" }
+ped = \markup { \musicglyph #'"pedal.Ped" }
 trillE = \tweak self-alignment-X #CENTER ^\markup { \hspace #1.5 [ \musicglyph #'"scripts.trill" ] }
 extraNat = \once \override Accidental.restore-first = ##t
 kneeBeam = \once \override Beam.auto-knee-gap = #0
@@ -215,22 +216,26 @@ tempoDiesIrae = \tempoMarkup "Andante"
 
 \layout {
 	\context {
-		\FiguredBass
-		figuredBassPlusDirection = #1
-		\override VerticalAxisGroup.minimum-Y-extent = #'(0 . 1)
-		\override BassFigure.font-size = #-2
-		\override BassFigure.baseline-skip = #-3
+		\Score
+		\override MetronomeMark.font-series = #'medium
+		\compressFullBarRests
+		\override BarNumber.break-visibility = #'#(#f #t #t) % uncomment to show each bar number
 	}
-	\set figuredBassFormatter = #new-format-bass-figure
 	\context {
 		\StaffGroup
 		\override SystemStartBracket.collapse-height = #1
-% 		\override StaffGrouper.staffgroup-staff-spacing.basic-distance = #13
-% 		\override StaffGrouper.default-staff-staff-spacing.basic-distance = #15
+		\override StaffGrouper.staffgroup-staff-spacing.basic-distance = #14
+		\override StaffGrouper.staff-staff-spacing.basic-distance = #10
 	}
 	\context {
-		\Voice
-		\override TupletBracket.stencil = ##f
+		\ChoirStaff
+		\override StaffGrouper.staffgroup-staff-spacing.basic-distance = #14
+		\override StaffGrouper.staff-staff-spacing.basic-distance = #11
+	}
+	\context {
+		\PianoStaff
+		\override StaffGrouper.staffgroup-staff-spacing.basic-distance = #14
+		\override StaffGrouper.staff-staff-spacing.basic-distance = #11
 	}
 	\context {
 		\Staff
@@ -240,10 +245,16 @@ tempoDiesIrae = \tempoMarkup "Andante"
 		aDueText = \markup { \anmerkung { a2 } }
 	}
 	\context {
-		\Score
-		\override MetronomeMark.font-series = #'medium
-		\compressFullBarRests
-		\override BarNumber.break-visibility = #'#(#f #t #t) % uncomment to show each bar number
+		\FiguredBass
+		figuredBassPlusDirection = #1
+		\override VerticalAxisGroup.minimum-Y-extent = #'(0 . 1)
+		\override BassFigure.font-size = #-2
+		\override BassFigure.baseline-skip = #-3
+	}
+	\set figuredBassFormatter = #new-format-bass-figure
+	\context {
+		\Voice
+		\override TupletBracket.stencil = ##f
 	}
 }
 

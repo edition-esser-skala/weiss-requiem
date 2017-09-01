@@ -27,9 +27,8 @@
 % 				}
 % 			}
 % 			subtitle = \markup { \vspace #3 \normal-text \larger \larger "1 REQUIEM" }
-% 			composer = \markup { \larger "Hörsching, 1830–50(?)" }
+% 			composer = \markup { \larger "Johann Baptist Weiß (1813–1850)" }
 % 		}
-% 		\paper { systems-per-page = #2 }
 % 		\score {
 % 			<<
 % 				\new StaffGroup {
@@ -85,9 +84,14 @@
 % 					}
 % 					\new Lyrics \lyricsto Basso \RequiemBassoLyrics
 % 				>>
+% 				\new PianoStaff <<
+% 					\set PianoStaff.instrumentName = "Organo"
+% 					\new Staff << \RequiemOrganoR >>
+% 					\new Staff << \RequiemOrganoL >>
+% 				>>
 % 				\new StaffGroup <<
 % 					\new Staff {
-% 						\set Staff.instrumentName = \markup { \center-column { "Bassi" "[Organo]" } }
+% 						\set Staff.instrumentName = "Bassi"
 % 						\RequiemBassi
 % 					}
 % 				>>
@@ -159,9 +163,14 @@
 					}
 					\new Lyrics \lyricsto Basso \DiesIraeBassoLyrics
 				>>
+				\new PianoStaff <<
+					\set PianoStaff.instrumentName = "Organo"
+					\new Staff << \DiesIraeOrganoR >>
+					\new Staff << \DiesIraeOrganoL >>
+				>>
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Bassi" "[Organo]" } }
+						\set Staff.instrumentName = "Bassi"
 						\DiesIraeBassi
 					}
 				>>

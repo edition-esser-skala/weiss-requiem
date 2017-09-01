@@ -144,7 +144,7 @@ DiesIraeBassoNotes = {
 		as'4( g d) es
 		b' b, r2
 		R1
-		es2 es %55
+		es2\pE es %55
 		d4 d d d
 		es2 es
 		as es
