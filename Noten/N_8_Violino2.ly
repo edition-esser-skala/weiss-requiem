@@ -51,7 +51,75 @@ DiesIraeViolinoII = {
 	\relative c' {
 		\clef treble
 		\key c \minor \time 2/2 \tempoDiesIrae
-		
+		c2\ffE d4.\trill \once\slurDashed c16( d)
+		es4-. as-. r g8. f16
+		es4-. c-. r2
+		es2 f4.\trill es16( f)
+		g4-. c-. r \acciaccatura c8 b8. a16 %5
+		b4-. b,-. r2\fermata
+		b2\p h
+		c4.\< d8 c4 <c es>
+		<h d>\fE q r2
+		c4.\p d8 c4 <c es> %10
+		<h d>\f q8. q16 g4 r
+		<b d>1~\p
+		q
+		d8 b b4 g r
+		<b es>1 %15
+		des
+		des8 c c4 <c es> es
+		as,2 ces4 ces
+		c r r2
+		b4 r r2 %20
+		as8\f as as as as' as as as
+		as as as as as as as as
+		des des des des c c c c
+		b b b b b b b b
+		as4 r r2 %25
+		\mvTr as,4\pE-\markup { \anmerkungE "dolce" } r8. a16( b8.) c16( des8.) f16
+		<es b>4 r q2
+		<es as,>4 f c des
+		c c8.\f c16 c'4 e,8. g16
+		c4. c8 c4 as %30
+		g <c e, g,> r e,8. g16
+		c4. c8 c4 as
+		g <c e, g,>-\critnote r c,\ffE
+		r8 des des des r b b b
+		r g g g es'4 r %35
+		es8.\f es16 es8. es16 es8. es16 es8. es16
+		d8 b16( a) g8[ b] b8\pE b b b
+		f'( d b d) f( b, es b)
+		d b4 a16 as g8\ppE g g g
+		d'( g, f' d) g,( d') c( es) %40
+		<d h>2\<\fermata r
+		c\ffE d4.\trill c16( d)
+		es4-. as-. r g8. f16
+		es4-. c-. r2
+		es f4.\trill es16( f) %45
+		g4-. c-. r \acciaccatura c8 b8. a16
+		b4-. b,-. r2
+		r8 b(\p d b) r b( es b)
+		r d( f d) r es( g es)
+		r d( f b) r g( b g) %50
+		r as( d-\critnote as) r g( b g)
+		b( d es b) as( f es g)
+		es4 d r2
+		r \mvTr <b d>4\p-\markup { \anmerkung "dolce" } <as d>
+		<g es'>8( g b es) g,( es' g es) %55
+		f( d b d) f( b, d f)
+		es( b g b) g( b es b)
+		as( c es as) g( b, es g)
+		f( d b d) f( b, es b)
+		es( b d b) d( b d es) %60
+		f( b, d f) d( b es f)
+		g( b, es g) es( g as b)
+		c( as) es'( c) es( c) c( as)
+		<f b>\fE q4 q8 <es b'> q4 q8
+		<f b> q4 q8 g( b) g( es) %65
+		f f f f <b, f'> q q q
+		<g es'>4 r r2
+		R1*2
+		R1\fermataMarkup \bar "|."
 	}
 }
 

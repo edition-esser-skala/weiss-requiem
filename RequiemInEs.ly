@@ -242,7 +242,7 @@ tempoDiesIrae = \tempoMarkup "Andante"
 		\override InstrumentName.font-shape = #'italic
 		\accidentalStyle neo-modern-voice
 		extraNatural = ##t
-		aDueText = \markup { \anmerkung { a2 } }
+		aDueText = \markup { \medium \anmerkung { a2 } }
 	}
 	\context {
 		\FiguredBass

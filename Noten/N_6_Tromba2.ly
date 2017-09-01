@@ -25,8 +25,35 @@ RequiemTrombaII = {
 DiesIraeTrombaII = {
 	\relative c' {
 		\clef treble
-		\key c \minor \time 2/2 \tempoDiesIrae
-		
+		\key c \major \time 2/2 \tempoDiesIrae
+		c2\ffE g
+		c4-. c-. r2
+		r4 c-. r2
+		R1
+		g4-. c-. r2 %5
+		b'4-. b-. r2\fermata
+		R1*14 %20
+		c,2\f c4 c
+		c2 r
+		g r
+		r g
+		c4 r r2 %25
+		R1*3
+		r2 r4 c8.\f e!16
+		c2 c4 r %30
+		c e! r c8. e!16
+		c2 c4 r
+		c4-. c-. r2
+		R1*7 %40
+		g2\fermata\ppE\< r
+		c\ffE g
+		c4-. c-. r2
+		r4 c-. r2
+		R1 %45
+		g4-. c-. r2
+		b'4 b8 b g4 r
+		R1*22
+		R1\fermataMarkup \bar "|."
 	}
 }
 

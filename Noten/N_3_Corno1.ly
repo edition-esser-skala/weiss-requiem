@@ -46,13 +46,51 @@ RequiemCornoI = {
 }
 
 DiesIraeCornoI = {
-% 	\transpose c es {
+	\transpose c es {
 		\relative c' {
 			\clef treble
-			\key c \minor \time 2/2 \tempoDiesIrae
-			
+			\key a \minor \time 2/2 \tempoDiesIrae
+			R1*5 %5
+			R1\fermataMarkup
+			R1*14 %20
+			r2 c'4\f c
+			\pao c2 d
+			\pa c c4 c \pd
+			c1
+			c4 r r2 %25
+			R1*10 %35
+			c4.\f c8 c8. c16 c8. c16
+			g4 r r2
+			r4 \pao g\p d' e
+			d r r2
+			r4 e2\ppE e4 %40
+			e2\fermata r
+			R1*5 %46
+			r4 g,2\p g4
+			g1~
+			g~
+			g~ %50
+			g~
+			g
+			g4 g r2
+			r d'2\p
+			c e %55
+			r4 d d d
+			e2 \pao c
+			c c
+			\pao g d'4 e
+			e d r2 %60
+			r4 d2 e8 f
+			g2 e4 r
+			r c2\< c4
+			d\f d8 d e4 r
+			r f e \pao c %65
+			d2. d4
+			c2 r
+			R1*2
+			R1\fermataMarkup \bar "|." %70 FINIS
 		}
-% 	}
+	}
 }
 
 % CornoI = {

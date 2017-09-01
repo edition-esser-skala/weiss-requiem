@@ -89,7 +89,7 @@ DiesIraeAltoNotes = {
 		\clef treble
 		\key c \minor \time 2/2 \autoBeamOff \tempoDiesIrae
 		\mvTrr c2\ffE^\tuttiE d
-		es4-. as-. r g8.-. f16-.
+		es4-. as-. r g8. f16
 		es4-. c-. r2
 		es f
 		g4-. c-. r b8. a16 %5

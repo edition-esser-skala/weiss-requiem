@@ -90,15 +90,15 @@ DiesIraeBassi = {
 	\relative c {
 		\clef bass
 		\key c \minor \time 2/2 \tempoDiesIrae
-		c2\ffE d4.\trill c16 d
+		c2\ffE d4.\trill \once\slurDashed c16( d)
 		es4-. as-. r g8. f16
-		es4 c-. r2
+		es4-. c-. r2
 		es2 f4.\trill es16( f)
 		g4-. c-. r b8. a16 %5
-		b4 b, r2\fermata
+		b4-. b,-. r2\fermata
 		es2\p d
-		c4.\< h8 c4\f as!
-		g g' r2
+		c4.\< h8 c4 as
+		g\f g' r2
 		c,4.\p h8 c4 as %10
 		g\f g' g, r
 		b2\p b
@@ -120,7 +120,7 @@ DiesIraeBassi = {
 		c8 r des r es r es r
 		as,4 r r c8.\fE e16
 		f4.-. e8-. f4-. des-. %30
-		c c'-. r c,8. e16
+		c-. c'-. r c,8. e16
 		f4. e8 f4 des
 		c c' r c\ffE
 		des r b r
@@ -134,9 +134,9 @@ DiesIraeBassi = {
 		c2\ff d4.\trill c16( d)
 		es4-. as-. r g8. f16
 		es4-. c-. r2
-		es2 f4.\trill es16 f %45
+		es2 f4.\trill \once\slurDashed es16( f) %45
 		g4-. c-. r b8. a16
-		b4 b, b\p b
+		b4-. b,-. b\p b
 		b r b r
 		b r b r
 		b r b r %50
@@ -179,9 +179,9 @@ DiesIraeBassFigures = \figuremode {
 	<9 4>8 <8 3> r2.
 	<7->1 %15
 	<\t>2 <5->
-	r <6>
-	<7>4 <6> <7>2
-	<6 4>1
+	<6 4->8 <5 3> r4 <6>2
+	<7>4 <6> <7->2
+	<6! 4>1
 	<5 3> %20
 	r1
 	<2>2 <6->
@@ -189,8 +189,8 @@ DiesIraeBassFigures = \figuremode {
 	<5 4> <\l 3>
 	r1 %25
 	r
-	r
-	r
+	r2 <2>
+	<6>4 r <6 4> <7- 6>8 <\l 5>
 	r2. <_!>8. <6>16
 	r4. <6>8 r4 <6\\> %30
 	<_!>2. <_!>8. <6>16

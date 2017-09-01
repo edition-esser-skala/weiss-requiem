@@ -44,13 +44,54 @@ RequiemClarinettoI = {
 }
 
 DiesIraeClarinettoI = {
-% 	\transpose c' b {
+	\transpose c' b {
 		\relative c' {
 			\clef treble
-			\key c \minor \time 2/2 \tempoDiesIrae
-			
+			\key d \minor \time 2/2 \tempoDiesIrae
+			d'2\ffE e
+			f4-. b-. r a8. g16
+			f4-. d-. r2
+			f2 g
+			a4-. \pao d,-. r c'8. h16 %5
+			c4-. c,-. r2\fermata
+			R1*14 %20
+			r2 f4\f f
+			f2 es
+			c d4 es
+			f1
+			d4 r r2 %25
+			R1*7 %32
+			r2 r4 d\ff
+			es2 c
+			a r %35
+			f'1(
+			e2) r
+			b4.(\p c8 b4 a)
+			g2 r
+			R1 %40
+			r2\fermata r
+			d'2\ff e
+			f4-. b-. r a8. g16
+			f4-. d-. r2
+			f2 g %45
+			a4-. \pao d,-. r c'8. h16
+			c4-. c,-. r2
+			R1*7 %54
+			a2\p c %55
+			c c
+			c a
+			b c
+			c c
+			c r %60
+			R1*3
+			g'2\f f
+			c2. f4 %65
+			f2( e)
+			f4 r r2
+			R1*2
+			R1\fermataMarkup \bar "|." %70 FINIS
 		}
-% 	}
+	}
 }
 
 % ClarinettoI = {
