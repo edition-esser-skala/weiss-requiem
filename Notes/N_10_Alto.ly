@@ -303,8 +303,8 @@ SanctusAltoNotes = {
 		d4 r r
 		d\p\< f8 f f b16 b
 		as8.([\> g16)] f4\! r
-		es\< g8 g g g16 g
-		b8.([\> as16)] g4\! r %15
+		es g8 g g g16 g
+		b8.([ as16)] g4 r %15
 		f8.\f es16 es4 r
 		g8. g16 g4 r
 		ges4. ges8 ges4

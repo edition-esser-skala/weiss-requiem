@@ -331,7 +331,7 @@ SanctusBassoNotes = {
 		d2 es4
 		c2 c4 %10
 		b8 b' b b b16 b b8
-		b4\pE b, b'
+		b4 b, b'\pE
 		b, b8 b' b b
 		b4 b, b'
 		b, es r %15

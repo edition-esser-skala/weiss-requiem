@@ -386,7 +386,38 @@ SanctusBassi = {
 }
 
 SanctusBassFigures = \figuremode {
-	
+	r2 <6>4
+	<6 5>2 <\t \t>4
+	r2 <6>8 <5>
+	<9 4> <8 3> r2
+	r4 <6\\> r %5
+	<6 5>2.
+	r4 <6> <\t>
+	r2 <2>4
+	<6 5>2.
+	<6> %10
+	r
+	<7>2. \bassFigureExtendersOn
+	q2 q8 q
+	<6 4>2.
+	q4 q8 \bassFigureExtendersOff r r4 %15
+	<6 5>2.
+	<6 4>
+	<6!>
+	<6- 4 2>4 <5 3>2
+	r2 <7 4>4 %20
+	<8 3>2.
+	<6 4>2 r8 <6>8
+	<6 4>4 <5 3>2
+	r2 <7 4>4
+	<8 3>2. %25
+	<6 4>2 r8 <6>8
+	<6 4>4 <5 3>2
+	r4. <6>8 q4
+	r2 <6>4
+	<6 4>2 <7 5 3>4 %30
+	r2.
+	r %32 FINIS
 }
 
 % Bassi = {
