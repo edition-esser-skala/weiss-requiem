@@ -316,18 +316,18 @@ DomineBassoLyrics = \lyricmode {
 	ius. %52 FINIS
 }
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		\key es \major \time 4/4 \autoBeamOff \tempoRequiem
-% 		
-% 	}
-% }
-% 
-% BassoLyrics = \lyricmode {
-% 	
-% }
-% 
+SanctusBassoNotes = {
+	\relative c {
+		\clef bass
+		\key es \major \time 3/4 \autoBeamOff \tempoSanctus
+		
+	}
+}
+
+SanctusBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

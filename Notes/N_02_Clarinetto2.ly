@@ -134,16 +134,16 @@ DomineClarinettoII = {
 % 	}
 }
 
-% ClarinettoII = {
-% 	\transpose c' b {
-% 		\relative c' {
-% 			\clef treble
-% 			\key f \major \time 4/4 \tempoRequiem
-% 			
-% 		}
-% 	}
-% }
-% 
+SanctusClarinettoII = {
+	\transpose c' b {
+		\relative c' {
+			\clef treble
+			\key es \major \time 3/4 \tempoSanctus
+			
+		}
+	}
+}
+
 % ClarinettoII = {
 % 	\transpose c' b {
 % 		\relative c' {

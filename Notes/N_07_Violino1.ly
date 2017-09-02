@@ -181,14 +181,14 @@ DomineViolinoI = {
 	}
 }
 
-% ViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key es \major \time 4/4 \tempoRequiem
-% 		
-% 	}
-% }
-% 
+SanctusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 3/4 \tempoSanctus
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

@@ -135,16 +135,16 @@ DomineCornoI = {
 % 	}
 }
 
-% CornoI = {
-% 	\transpose c es {
-% 		\relative c' {
-% 			\clef treble
-% 			\key c \major \time 4/4 \tempoRequiem
-% 			
-% 		}
-% 	}
-% }
-% 
+SanctusCornoI = {
+	\transpose c es {
+		\relative c' {
+			\clef treble
+			\key es \major \time 3/4 \tempoSanctus
+			
+		}
+	}
+}
+
 % CornoI = {
 % 	\transpose c es {
 % 		\relative c' {

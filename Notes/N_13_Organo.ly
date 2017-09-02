@@ -670,25 +670,25 @@ DomineOrganoL = {
 	} >>
 }
 
-% OrganoR = {
-% 	\clef treble
-% 	\key c \minor \time 2/2 \tempoDiesIrae
-% 	<< \relative c' {
-% 			
-% 	} \\ \relative c' {
-% 		
-% 	} >>
-% }
-% 
-% OrganoL = {
-% 	\clef bass
-% 	\key c \minor \time 2/2 \tempoDiesIrae
-% 	<< \relative c {
-% 			
-% 	} \\ \relative c {
-% 		
-% 	} >>
-% }
+SanctusOrganoR = {
+	\clef treble
+	\key es \major \time 3/4 \tempoSanctus
+	<< \relative c' {
+			
+	} \\ \relative c' {
+		
+	} >>
+}
+
+SanctusOrganoL = {
+	\clef bass
+	\key es \major \time 3/4 \tempoSanctus
+	<< \relative c {
+			
+	} \\ \relative c {
+		
+	} >>
+}
 
 % OrganoR = {
 % 	\clef treble

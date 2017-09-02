@@ -345,19 +345,50 @@ DomineBassFigures = \figuremode {
 	<5 3>4 \bassFigureExtendersOn q8. q16 \bassFigureExtendersOff
 	r2 %52 FINIS
 }
-% 
-% Bassi = {
-% 	\relative c {
-% 		\clef bass
-% 		\key es \major \time 4/4 \tempoRequiem
-% 		
-% 	}
-% }
-% 
-% BassFigures = \figuremode {
-% 	
-% }
-% 
+
+SanctusBassi = {
+	\relative c {
+		\clef bass
+		\key es \major \time 3/4 \tempoSanctus
+		es2\p g4
+		as2 as4
+		b b, d
+		es es es
+		es d c %5
+		h h h
+		c es e
+		f\f f es
+		d2 es4
+		c c c %10
+		b8-. b'-. b-. b-. b-. b-.
+		b,4\p b' b,
+		b b8-\critnote b' b b
+		b4 b, b'
+		b, es8 es([\f f g)] %15
+		as4 as as
+		b b, b'
+		ces2 ces,4
+		b b'8 as([\p g f)]
+		es es' es es es es
+		es, es' es es es es
+		es,4 r r8 as
+		b4 b, b
+		es8 es es es es es
+		es es es es es es
+		es4 r r8 as
+		b4 b, b'\f
+		es,4. f8 g g
+		as4 as as8 as
+		b b b b b, b
+		es4 b g
+		es r r \bar "|."
+	}
+}
+
+SanctusBassFigures = \figuremode {
+	
+}
+
 % Bassi = {
 % 	\relative c {
 % 		\clef bass

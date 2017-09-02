@@ -98,14 +98,14 @@ DomineTrombaII = {
 % 	}
 }
 
-% TrombaII = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key c \major \time 4/4 \tempoRequiem
-% 		
-% 	}
-% }
-% 
+SanctusTrombaII = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 3/4 \tempoSanctus
+		
+	}
+}
+
 % TrombaII = {
 % 	\relative c' {
 % 		\clef treble

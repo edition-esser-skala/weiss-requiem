@@ -106,6 +106,7 @@ tempoMarkup =
 tempoRequiem = \tempoMarkup "Adagio"
 tempoDiesIrae = \tempoMarkup "Andante"
 tempoDomine = \tempoMarkup "Adagio"
+tempoSanctus = \tempoMarkup "Adagio"
 
 % modify the Scheme function 'format-bass-figure'
 % in usr/share/lilypond/current/scm/translation-functions.scm
