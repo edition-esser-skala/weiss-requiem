@@ -1,8 +1,8 @@
-Deckblatt/*.pdf
-Deckblatt/*.png
-Fertige Noten/*
-Kritischer Bericht/*.pdf
-Manuskript/*
+Front page/*.pdf
+Front page/*.png
+Final scores/*
+Critical report/*.pdf
+Manuscript/*
 *.kilepr
 *.zip
 *.pdf

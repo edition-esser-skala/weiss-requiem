@@ -166,7 +166,7 @@
 				\new PianoStaff <<
 					\set PianoStaff.instrumentName = "Organo"
 					\new Staff << \DiesIraeOrganoR >>
-					\new Staff << \DiesIraeOrganoL >>
+					\new Staff << \dynamicUp \DiesIraeOrganoL >>
 				>>
 				\new StaffGroup <<
 					\new Staff {

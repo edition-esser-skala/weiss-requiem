@@ -38,43 +38,32 @@
 	print-first-page-number = ##t
 }
 
-#(define-markup-command (anmerkung layout props text) (markup?)
+#(define-markup-command (remark layout props text) (markup?)
   (interpret-markup layout props
     #{\markup \small \upright #text #}))
 
-#(define-markup-command (anmerkungE layout props text) (markup?)
+#(define-markup-command (remarkE layout props text) (markup?)
   (interpret-markup layout props
     #{\markup \small \italic #text #}))
 %
 %
 
-solo = \markup { \anmerkung Solo }
-soloE = \markup { \anmerkungE Solo }
-tutti = \markup { \anmerkung Tutti }
-tuttiE = \markup { \anmerkungE Tutti }
-tasto = \markup { \anmerkung "tasto solo" }
-tastoE = \markup { \anmerkungE "tasto solo" }
-org = \markup { \anmerkung Org. }
-orgE = \markup { \anmerkungE Org. }
-rip = \markup { \anmerkung Rip. }
-ripE = \markup { \anmerkungE Rip. }
-flauti = \markup { \anmerkung Flauti }
-flautiE = \markup { \anmerkungE Flauti }
-tenuto = \markup { \anmerkung ten. }
-tenutoE = \markup { \anmerkungE ten. }
-sostenuto = \markup { \anmerkung sostenuto }
-sostenutoE = \markup { \anmerkungE sostenuto }
-vv = \markup { \anmerkung Vv. }
-vvE = \markup { \anmerkungE Vv. }
-adlibitum = \markup { \anmerkung "ad libitum" }
-adlibitumE = \markup { \anmerkungE "ad libitum" }
-unpocoF = \markup { \anmerkung "un poco" \large \bold f }
+solo = \markup { \remark Solo }
+soloE = \markup { \remarkE Solo }
+tutti = \markup { \remark Tutti }
+tuttiE = \markup { \remarkE Tutti }
+tasto = \markup { \remark "tasto solo" }
+tastoE = \markup { \remarkE "tasto solo" }
+org = \markup { \remark Org. }
+orgE = \markup { \remarkE Org. }
+ped = \markup { \remark "Ped." }
+pedE = \markup { \remarkE "Ped." }
+senzaPed = \markup { \remark "senza Ped." }
 
 t = \markup { \combine \fontsize #-2 \transparent \number 5 \raise #.6 \draw-line #'(1 . 0) }
 l = \markup { \fontsize #-2 \transparent \number 5 }
 fermataMarkdown = \markup { \musicglyph #'"scripts.dfermata" }
 critnote = \markup { \musicglyph #'"pedal.*" }
-ped = \markup { \musicglyph #'"pedal.Ped" }
 trillE = \tweak self-alignment-X #CENTER ^\markup { \hspace #1.5 [ \musicglyph #'"scripts.trill" ] }
 extraNat = \once \override Accidental.restore-first = ##t
 kneeBeam = \once \override Beam.auto-knee-gap = #0
@@ -198,20 +187,20 @@ tempoDiesIrae = \tempoMarkup "Andante"
         empty-markup)))
 
 
-\include "Noten/N_1_Clarinetto1.ly"
-\include "Noten/N_2_Clarinetto2.ly"
-\include "Noten/N_3_Corno1.ly"
-\include "Noten/N_4_Corno2.ly"
-\include "Noten/N_5_Tromba1.ly"
-\include "Noten/N_6_Tromba2.ly"
-\include "Noten/N_7_Violino1.ly"
-\include "Noten/N_8_Violino2.ly"
-\include "Noten/N_9_Soprano.ly"
-\include "Noten/N_10_Alto.ly"
-\include "Noten/N_11_Tenore.ly"
-\include "Noten/N_12_Basso.ly"
-\include "Noten/N_13_Organo.ly"
-\include "Noten/N_14_Bassi.ly"
+\include "Notes/N_01_Clarinetto1.ly"
+\include "Notes/N_02_Clarinetto2.ly"
+\include "Notes/N_03_Corno1.ly"
+\include "Notes/N_04_Corno2.ly"
+\include "Notes/N_05_Tromba1.ly"
+\include "Notes/N_06_Tromba2.ly"
+\include "Notes/N_07_Violino1.ly"
+\include "Notes/N_08_Violino2.ly"
+\include "Notes/N_09_Soprano.ly"
+\include "Notes/N_10_Alto.ly"
+\include "Notes/N_11_Tenore.ly"
+\include "Notes/N_12_Basso.ly"
+\include "Notes/N_13_Organo.ly"
+\include "Notes/N_14_Bassi.ly"
 
 
 \layout {
@@ -242,7 +231,7 @@ tempoDiesIrae = \tempoMarkup "Andante"
 		\override InstrumentName.font-shape = #'italic
 		\accidentalStyle neo-modern-voice
 		extraNatural = ##t
-		aDueText = \markup { \medium \anmerkung { a2 } }
+		aDueText = \markup { \medium \remark { a2 } }
 	}
 	\context {
 		\FiguredBass
@@ -258,12 +247,12 @@ tempoDiesIrae = \tempoMarkup "Andante"
 	}
 }
 
-\include "Partituren/P_Partitur.ly"
-% \include "Partituren/P_Oboe1.ly"
-% \include "Partituren/P_Oboe2.ly"
-% \include "Partituren/P_Violino1.ly"
-% \include "Partituren/P_Violino2.ly"
-% \include "Partituren/P_Viola.ly"
-% \include "Partituren/P_Coro.ly"
-% \include "Partituren/P_Bassi.ly"
-% \include "Partituren/P_Organo.ly"
+\include "Scores/P_Full_score.ly"
+% \include "Scores/P_Oboe1.ly"
+% \include "Scores/P_Oboe2.ly"
+% \include "Scores/P_Violino1.ly"
+% \include "Scores/P_Violino2.ly"
+% \include "Scores/P_Viola.ly"
+% \include "Scores/P_Coro.ly"
+% \include "Scores/P_Bassi.ly"
+% \include "Scores/P_Organo.ly"

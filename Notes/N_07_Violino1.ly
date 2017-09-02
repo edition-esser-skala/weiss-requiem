@@ -74,7 +74,7 @@ DiesIraeViolinoI = {
 		c c c c des des des des
 		g g g g as as as as
 		as as as as g g g g
-		as4 r8. \mvTr as,,16\p-\markup { \anmerkung "dolce" } c8. es16 g8. as16 %25
+		as4 r8. \mvTr as,,16\p-\markup {\remark "dolce" } c8. es16 g8. as16 %25
 		<f as,>4 r8. a16( b8.) c16( des8.) f16(
 		b,4) r8. \acciaccatura c8 b16 as8( g f es)
 		es'4 es16( des as b) as4\trill c8( b)
@@ -102,7 +102,7 @@ DiesIraeViolinoI = {
 		r f( b d) r b( es b) %50
 		r b( f' b,) r b( es g)
 		f( b g es) f( as, g es')
-		g,4 f \mvTr b\p-\markup { \anmerkung "dolce" } b
+		g,4 f \mvTr b\p-\markup {\remark "dolce" } b
 		b'8( f as d,) f( b, \grace { a16[ b] } c8 b)
 		es,(\p b g b) b( es g es) %55
 		b'( f d f) b,( d f b)

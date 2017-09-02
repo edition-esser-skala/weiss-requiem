@@ -76,7 +76,7 @@ DiesIraeViolinoII = {
 		des des des des c c c c
 		b b b b b b b b
 		as4 r r2 %25
-		\mvTr as,4\pE-\markup { \anmerkungE "dolce" } r8. a16( b8.) c16( des8.) f16
+		\mvTr as,4\pE-\markup { \remarkE "dolce" } r8. a16( b8.) c16( des8.) f16
 		<es b>4 r q2
 		<es as,>4 f c des
 		c c8.\f c16 c'4 e,8. g16
@@ -104,7 +104,7 @@ DiesIraeViolinoII = {
 		r as( d-\critnote as) r g( b g)
 		b( d es b) as( f es g)
 		es4 d r2
-		r \mvTr <b d>4\p-\markup { \anmerkung "dolce" } <as d>
+		r \mvTr <b d>4\p-\markup { \remark "dolce" } <as d>
 		<g es'>8( g b es) g,( es' g es) %55
 		f( d b d) f( b, d f)
 		es( b g b) g( b es b)

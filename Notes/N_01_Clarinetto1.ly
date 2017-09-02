@@ -9,91 +9,92 @@
 \version "2.18.0"
 
 
-RequiemClarinettoII = {
+RequiemClarinettoI = {
 % 	\transpose c' b {
 		\relative c' {
 			\clef treble
 			\key f \major \time 4/4 \tempoRequiem
-			c1~\p
-			c2 c4 r
-			f1
-			e2 r
+			\pd a'1
+			c
+			a
+			a2 r
 			R1*5 %9
-			r2 r4 g\f %10
-			b2 g
-			a4. a8 a2
+			r2 r4 c\f %10
+			d2 f4( e8 d)
+			cis4. cis8 d2
 			R1*3 %15
-			c2\p\fermata r
+			e2\p r
+			\pa R1
+			c4.\f c8 a'4 fis
+			g8( d) g f \appoggiatura f16 e8(-\critnote d16 c d8) e
+			f4 a,8 c a4 d %20
+			g,8 c d e f r r4
 			R1*3
-			f,4.\f f8 d'4 h %20
-			c8 g c b a( es') d( c)
-			b( a) b h c( g) c b
-			a4 r r2
-			R1*2 %25
-			a2\fermata r
+			r4 f2. %25
+			\pd es2\fermata r
 			R1*4 %30
-			g1\p
-			f2 r4 f\pp
-			g1
+			c1\p
+			c2 r4 c\pp
+			e1
 			f2 r
-			f\pp r %35
-			f1\fermata \bar "|." %36 FINIS
+			a,\pp r %35
+			a1\fermata %36 FINIS
 		}
 % 	}
 }
 
-DiesIraeClarinettoII = {
-	\transpose c' b {
+DiesIraeClarinettoI = {
+% 	\transpose c' b {
 		\relative c' {
 			\clef treble
 			\key d \minor \time 2/2 \tempoDiesIrae
-			d2\ffE e
+			d'2\ffE e
 			f4-. b-. r a8. g16
 			f4-. d-. r2
-			f g
-			a4-. d-. r c8. h16 %5
+			f2 g
+			a4-. \pao d,-. r c'8. h16 %5
 			c4-. c,-. r2\fermata
 			R1*14 %20
-			r2 b'4 b
-			b2 b
-			a b
-			b a
-			b4 r r2 %25
+			r2 f4\f f
+			f2 es
+			c d4 es
+			f1
+			d4 r r2 %25
 			R1*7 %32
-			r2 r4 d\ffE
+			r2 r4 d\ff
 			es2 c
 			a r %35
-			as1(-\critnote
-			g2) r
-			e4.(\p c8 g'4 f)
-			e2 r
+			f'1(
+			e2) r
+			b4.(\p c8 b4 a)
+			g2 r
 			R1 %40
 			r2\fermata r
-			d\ff e
+			d'2\ff e
 			f4-. b-. r a8. g16
 			f4-. d-. r2
 			f2 g %45
-			a4-. d-. r c8. h16
+			a4-. \pao d,-. r c'8. h16
 			c4-. c,-. r2
 			R1*7 %54
-			f2\p f %55
-			g g
-			f f
-			f a
-			e g4( f)
-			e2 r %60
+			a2\p c %55
+			c c
+			c a
+			b c
+			c c
+			c r %60
 			R1*3
-			c'2\f c
-			c a %65
-			g1
-			a4 r r2
+			g'2\f f
+			c2. f4 %65
+			f2( e)
+			f4 r r2
 			R1*2
 			R1\fermataMarkup \bar "|." %70 FINIS
 		}
-	}
+% 	}
 }
 
-% ClarinettoII = {
+% ClarinettoI = {
 % 	\transpose c' b {
 % 		\relative c' {
 % 			\clef treble
@@ -103,7 +104,7 @@ DiesIraeClarinettoII = {
 % 	}
 % }
 % 
-% ClarinettoII = {
+% ClarinettoI = {
 % 	\transpose c' b {
 % 		\relative c' {
 % 			\clef treble
@@ -113,7 +114,7 @@ DiesIraeClarinettoII = {
 % 	}
 % }
 % 
-% ClarinettoII = {
+% ClarinettoI = {
 % 	\transpose c' b {
 % 		\relative c' {
 % 			\clef treble
@@ -123,7 +124,7 @@ DiesIraeClarinettoII = {
 % 	}
 % }
 % 
-% ClarinettoII = {
+% ClarinettoI = {
 % 	\transpose c' b {
 % 		\relative c' {
 % 			\clef treble
@@ -133,7 +134,7 @@ DiesIraeClarinettoII = {
 % 	}
 % }
 % 
-% ClarinettoII = {
+% ClarinettoI = {
 % 	\transpose c' b {
 % 		\relative c' {
 % 			\clef treble

@@ -9,60 +9,60 @@
 \version "2.18.0"
 
 
-RequiemCornoII = {
+RequiemCornoI = {
 % 	\transpose c es {
 		\relative c' {
 			\clef treble
 			\key c \major \time 4/4 \tempoRequiem
-			e1\p
-			g
-			c
-			e,2\< e4 e
-			e2\f e %5
+			c'1\p
+			d
+			e
+			e2\< e4 e
+			c2\f c %5
 			e\p e4 e
-			c'2 r
-			r g
-			c d4 c
-			g2 r %10
-			c,\f-> r
+			e2 r
+			r d
+			e f4 e
+			d2 r %10
+			c-> r
 			R1*3
 			g2\p g4 g %15
 			g2\fermata r
 			R1*6 %22
-			e'4\f e8 e e2~
-			e4 e8 e c2~
-			c4 e8 e e2 %25
-			g\fermata r
+			c4\f c8 c c2~
+			c4 c8 c c2~
+			c4 c8 c c2 %25
+			b\fermata r
 			R1*3
-			e1\p %30
-			g2 r
-			c2. c4\pp
-			g1
-			e2 r
-			e\pp r %35
-			c1\fermata\bar "|." %36 FINIS
+			c1\p %30
+			d2 r
+			e2. e4\pp
+			d1
+			c2 r
+			g\pp r %35
+			e1\fermata-\critnote \bar "|." %36 FINIS
 		}
 % 	}
 }
 
-DiesIraeCornoII = {
-	\transpose c es {
+DiesIraeCornoI = {
+% 	\transpose c es {
 		\relative c' {
 			\clef treble
 			\key a \minor \time 2/2 \tempoDiesIrae
 			R1*5 %5
 			R1\fermataMarkup
 			R1*14 %20
-			r2 c4\f c
-			c'2 b
-			c c4 c
-			c,1
+			r2 c'4\f c
+			\pao c2 d
+			\pa c c4 c \pd
+			c1
 			c4 r r2 %25
 			R1*10 %35
 			c4.\f c8 c8. c16 c8. c16
 			g4 r r2
-			r4 g'\p g c
-			g r r2
+			r4 \pao g\p d' e
+			d r r2
 			r4 e2\ppE e4 %40
 			e2\fermata r
 			R1*5 %46
@@ -73,27 +73,27 @@ DiesIraeCornoII = {
 			g~
 			g
 			g4 g r2
-			r g'2\p
-			e c' %55
-			r4 g g g
-			c2 c
-			c, e
-			g g4 c
-			c g r2 %60
-			r4 g2 c8 d
-			e2 c4 r
-			r c,2\< c4
-			g'\f g8 g c4 r
-			r d c c %65
-			g2. g4
-			e2 r
+			r d'2\p
+			c e %55
+			r4 d d d
+			e2 \pao c
+			c c
+			\pao g d'4 e
+			e d r2 %60
+			r4 d2 e8 f
+			g2 e4 r
+			r c2\< c4
+			d\f d8 d e4 r
+			r f e \pao c %65
+			d2. d4
+			c2 r
 			R1*2
 			R1\fermataMarkup \bar "|." %70 FINIS
 		}
-	}
+% 	}
 }
 
-% CornoII = {
+% CornoI = {
 % 	\transpose c es {
 % 		\relative c' {
 % 			\clef treble
@@ -103,7 +103,7 @@ DiesIraeCornoII = {
 % 	}
 % }
 % 
-% CornoII = {
+% CornoI = {
 % 	\transpose c es {
 % 		\relative c' {
 % 			\clef treble
@@ -113,7 +113,7 @@ DiesIraeCornoII = {
 % 	}
 % }
 % 
-% CornoII = {
+% CornoI = {
 % 	\transpose c es {
 % 		\relative c' {
 % 			\clef treble
@@ -123,7 +123,7 @@ DiesIraeCornoII = {
 % 	}
 % }
 % 
-% CornoII = {
+% CornoI = {
 % 	\transpose c es {
 % 		\relative c' {
 % 			\clef treble
@@ -133,7 +133,7 @@ DiesIraeCornoII = {
 % 	}
 % }
 % 
-% CornoII = {
+% CornoI = {
 % 	\transpose c es {
 % 		\relative c' {
 % 			\clef treble
