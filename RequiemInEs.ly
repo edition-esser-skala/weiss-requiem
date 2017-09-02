@@ -223,6 +223,7 @@ tempoDomine = \tempoMarkup "Adagio"
 	}
 	\context {
 		\PianoStaff
+		\override InstrumentName.font-shape = #'italic
 		\override StaffGrouper.staffgroup-staff-spacing.basic-distance = #14
 		\override StaffGrouper.staff-staff-spacing.basic-distance = #11
 	}
