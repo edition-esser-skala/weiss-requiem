@@ -208,12 +208,82 @@ DomineAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key b \major \time 2/4 \autoBeamOff \tempoDomine
-		
+		\mvTr f8.\f^\tuttiE-> d16 d4
+		g8.-> es16 es4
+		a8 f16 f d8 g
+		f4 f8 r
+		f8.-> d16 d4 %5
+		f8.-> f16 f8 f16 f
+		es8.([ g16)] g8 g16 g
+		as8.([ c16)] c8 b16([ as)]
+		as16. g32 g8 r g\f
+		a8. a16 a8 a %10
+		b8. f16 f8 f
+		fis8. fis16 fis8 fis
+		g8. g16 g8^\critnote a
+		g4. fis8
+		g4 r %15
+		R2*17 %32
+		r4 r8 \mvTr f\f^\tutti
+		f es16 d f8 f
+		f8. f16 as8 as16 as %35
+		g4. g8
+		f f r a!
+		a4 es
+		d8 g r b
+		b4( as) %40
+		g8 r r g
+		f f a!4
+		f8 f f f
+		es8. es16 g8 g16 g
+		f4 a8 a16 a %45
+		g8 g r a\fE
+		b4 g8 g
+		f4( a)
+		f8 r r f\p
+		g4 as8 as %50
+		g2
+		f\fermata \bar "|." %52 FINIS
 	}
 }
 
 DomineAltoLyrics = \lyricmode {
+	Do -- mi -- ne,
+	Do -- mi -- ne,
+	Do -- mi -- ne Je -- su
+	Chri -- ste,
+	Do -- mi -- ne, %5
+	Do -- mi -- ne Je -- su
+	Chri -- ste, Je -- su
+	Chri -- ste, Rex __
+	glo -- ri -- ae, Rex
+	glo -- ri -- ae, Rex %10
+	glo -- ri -- ae, Rex
+	glo -- ri -- ae, Rex
+	glo -- ri -- ae, Rex
+	glo -- ri --
+	ae. %15
 	
+	Sed %33
+	si -- gni -- fer san -- ctus
+	Mi -- cha -- el re -- prae -- %35
+	sen -- tet
+	e -- as in
+	lu -- cem
+	san -- ctam, in
+	lu -- %40
+	cem, in
+	lu -- cem san --
+	ctam. Quam o -- lim
+	A -- bra -- hae pro -- mi --
+	si -- sti, pro -- mi -- %45
+	si -- sti et
+	se -- mi -- mi
+	e --
+	ius, et
+	se -- mi -- ni %50
+	e --
+	ius. %52 FINIS
 }
 
 % AltoNotes = {
