@@ -95,7 +95,7 @@ DiesIraeClarinettoI = {
 }
 
 DomineClarinettoI = {
-% 	\transpose c' b {
+	\transpose c' b {
 		\relative c' {
 			\clef treble
 			\key c \major \time 2/4 \tempoDomine
@@ -137,7 +137,7 @@ DomineClarinettoI = {
 			R2*2 %51
 			R2\fermataMarkup \bar "|." %52 FINIS
 		}
-% 	}
+	}
 }
 
 % ClarinettoI = {

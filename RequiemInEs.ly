@@ -234,7 +234,6 @@ tempoDomine = \tempoMarkup "Adagio"
 		\accidentalStyle neo-modern-voice
 		extraNatural = ##t
 		aDueText = \markup { \medium \remark { a2 } }
-		soloText = \markup { \medium \remark { Cl. I solo } }
 	}
 	\context {
 		\FiguredBass

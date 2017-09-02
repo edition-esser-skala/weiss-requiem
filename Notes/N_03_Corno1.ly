@@ -94,13 +94,45 @@ DiesIraeCornoI = {
 }
 
 DomineCornoI = {
-% 	\transpose c es {
+	\transpose c es {
 		\relative c' {
 			\clef treble
-			\key b \major \time 2/4 \tempoDomine
-			
+			\key c \major \time 2/4 \tempoDomine
+			d'8.\f-> g,16 g4
+			e'8.-\parenthesize-> c16 c4
+			r8 d e e
+			d4. r8
+			d8.-> d16 d4 %5
+			d8.-\parenthesize-> d16 d4
+			e c8 c
+			c4. c8
+			c4 r
+			r8 d4\f d8 %10
+			d2
+			R2*3
+			e8\fE r r4 %15
+			R2*18 %33
+			r8 d\f d d
+			d4 f %35
+			e8 e4 e8
+			d4 d8 d
+			d4 r
+			R2
+			r8 d4 d8 %40
+			e4 r8 e
+			d4 r8 d
+			d d d r
+			r e e r
+			r d d r %45
+			r4 r8 c\f
+			d4 e
+			d2
+			d8 r r4
+			r r8 d\p %50
+			e2
+			d\fermata \bar "|." %52 FINIS
 		}
-% 	}
+	}
 }
 
 % CornoI = {

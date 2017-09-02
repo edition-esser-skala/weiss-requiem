@@ -58,10 +58,43 @@ DiesIraeTrombaII = {
 }
 
 DomineTrombaII = {
-	\relative c' {
-		\clef treble
-		\key b \major \time 2/4 \tempoDomine
-		
+	\transpose c b, {
+		\relative c' {
+			\clef treble
+			\key c \major \time 2/4 \tempoDomine
+			e8.\f-\parenthesize-> e16 e4
+			c8.-\parenthesize-> c16 c4
+			r8 g' e c
+			g4. r8
+			c8.-> c16 c4 %5
+			c8.-\parenthesize-> c16 c4
+			c8 r r4
+			R2*2
+			r8 g4\f g8 %10
+			c2
+			R2*8 %19
+			e8\p e e r %20
+			R2*12 %32
+			r4 r8 g,\f
+			c4 r
+			e8 e e e %35
+			d'4 r
+			g,,2
+			g4 r
+			R2
+			r8 g'4 g8 %40
+			c,4 r8 c
+			g4 r8 g
+			c c c r
+			c r r4
+			g r %45
+			R2
+			c4\fE c
+			g g
+			c8 r r4
+			R2*2 %51
+			e2\pE\fermata \bar "|." %52 FINIS
+		}
 	}
 }
 

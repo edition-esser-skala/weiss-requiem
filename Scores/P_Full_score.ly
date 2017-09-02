@@ -188,7 +188,7 @@
 		\score {
 			<<
 				\new StaffGroup {
-					\new Staff <<
+					\new Staff \with { soloText = \markup { \medium \remark { Cl. I solo } } }<<
 						\set Staff.instrumentName = \markup { \center-column { "Clarinetto I, II" "in B" } }
 						\partcombine \DomineClarinettoI \DomineClarinettoII
 					>>
@@ -199,7 +199,7 @@
 						\partcombine \DomineCornoI \DomineCornoII
 					>>
 					\new Staff <<
-						\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" "in C" } }
+						\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" "in B" } }
 						\partcombine \DomineTrombaI \DomineTrombaII
 					>>
 				>>
