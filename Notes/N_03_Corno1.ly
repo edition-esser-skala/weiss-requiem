@@ -94,7 +94,7 @@ DiesIraeCornoI = {
 }
 
 DomineCornoI = {
-	\transpose c es {
+% 	\transpose c es {
 		\relative c' {
 			\clef treble
 			\key c \major \time 2/4 \tempoDomine
@@ -132,7 +132,7 @@ DomineCornoI = {
 			e2
 			d\fermata \bar "|." %52 FINIS
 		}
-	}
+% 	}
 }
 
 % CornoI = {

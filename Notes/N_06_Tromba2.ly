@@ -58,7 +58,7 @@ DiesIraeTrombaII = {
 }
 
 DomineTrombaII = {
-	\transpose c b, {
+% 	\transpose c b, {
 		\relative c' {
 			\clef treble
 			\key c \major \time 2/4 \tempoDomine
@@ -95,7 +95,7 @@ DomineTrombaII = {
 			R2*2 %51
 			e2\pE\fermata \bar "|." %52 FINIS
 		}
-	}
+% 	}
 }
 
 % TrombaII = {

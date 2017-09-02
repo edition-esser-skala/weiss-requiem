@@ -450,19 +450,223 @@ DomineOrganoR = {
 	\clef treble
 	\key b \major \time 2/4 \tempoDomine
 	<< \relative c' {
-			
+		<b f' b>8.-\parenthesize-> <b f'>16 q4
+		<g' b>8.-\parenthesize-> <es g>16 q4
+		es'8 a, b d16 c
+		b4 a8 r
+		<d, f b>8.-> <b d f>16 q4 %5
+		<f' b d>8.-> <d f b>16 q4
+		b' es
+		es es8 d16 c
+		c16. b32 b8 es4
+		f2 %10
+		f8. d16 d8 d
+		d2
+		d4 es8 c
+		b4 a
+		g8 r g4 %15
+		a8 r g fis
+		g r g4
+		fis8 r fis4
+		g a
+		g fis8 r %20
+		f r f4
+		f8 r f4
+		g f8 a~
+		a b f4
+		d f %25
+		f b
+		g8. a16 b8 c16 cis
+		d2
+		es4 d8 c16 b
+		a8. b16 a8 b %30
+		c2~
+		c4 r
+		r r8 f,
+		b4 a
+		b h %35
+		c8 d es c
+		b a c4
+		es c
+		b r8 d
+		f2 %40
+		g4 r8 c,
+		b4 a
+		b8 f d' b
+		g4 es'8 c
+		a4 f'8 d %45
+		c16 b b8 c g'
+		f4 es8 c
+		b4 d8 c
+		b b4 b8~
+		b2~ %50
+		b
+		b\fermata %52 FINIS
 	} \\ \relative c' {
-		
+		s2
+		s
+		a'8 f d g
+		f4~ f8 r
+		s2 %5
+		s
+		es4 g
+		as8. c16 c8 b16 as
+		as16. g32 g8 g4
+		a2 %10
+		b8. f16 f8 f
+		fis2
+		g4 a
+		g4. fis8
+		g r d4 %15
+		es8 r d4~
+		d8 r d4
+		d8 r d4
+		d es
+		d~ d8 r %20
+		d r d4
+		d8 r d4
+		c d8 es~
+		es d d4
+		b d %25
+		d d
+		es d
+		d f
+		g f8 es16 d
+		es8. d16 c8 d %30
+		g2
+		f4 r
+		r r8 f
+		<d f>4 <c f>
+		d8 b as'4 %35
+		g2
+		f4 a
+		a a
+		g r8 g
+		f4 as %40
+		g r8 g
+		es2
+		f4 f
+		es g
+		f a %45
+		g4. a8
+		b4 g
+		f es
+		d8 r r <d f>
+		<es g>4 <f as> %50
+		<es g>2
+		<d f> %52 FINIS
 	} >>
 }
 
 DomineOrganoL = {
-	\clef treble
+	\clef bass
 	\key b \major \time 2/4 \tempoDomine
 	<< \relative c {
-			
+		\dynamicUp b'2~\f
+		b
+		c8 es d g,
+		d'4 c8 r
+		s2 %5
+		s
+		es4 b
+		c8. as16 es'4
+		es b\fE
+		es2 %10
+		d4 d
+		a2
+		b4 es
+		d2
+		b8 r g4\p %15
+		c8 r b a
+		\mvTrr b\ppE-\solo r b4
+		a8 r a4
+		g c
+		b a8 r %20
+		b\pE r b4
+		b8 r b4
+		g f~
+		f4. b8
+		f4 b~ %25
+		b f
+		b4. a8
+		b2~
+		b
+		f %30
+		b\<
+		a4\fE r
+		r r8 f\f
+		b4 f
+		f f' %35
+		c8 g4 c8
+		d c f4
+		c es
+		d r8 b
+		b2~ %40
+		b4 r8 c
+		d4 es
+		d b
+		b c
+		c d %45
+		d c\f
+		b c8. es16
+		d4 a
+		b8 r r b~\pE
+		b2~ %50
+		\shape #'((0 . 0) (0 . 2) (0 . 2) (0 . 0)) Tie b~
+		b %52 FINIS
 	} \\ \relative c {
-		
+		b8.\f-\parenthesize-> d16 d4
+		es8.-\parenthesize-> g16 g4
+		f8 f g es
+		f f, f' r
+		b,8.-\parenthesize-> b'16 b4 %5
+		as8-\parenthesize-> as as as
+		g g es es
+		es es es es
+		es es es es
+		c c' c c %10
+		b b b b
+		d, d d d
+		b b c es
+		d d d d
+		g,8 r b4 %15
+		c8 r d4
+		g,8 r g'4
+		d8 r d4
+		b c8 c
+		d d' d, r %20
+		b r b b
+		b r b4
+		es f8 f,
+		b f b r
+		b4 b8 b %25
+		b b b b
+		b4 b'8 f
+		b,2~
+		b
+		f'4 f8 f %30
+		es es e e
+		f4 r
+		r r8 f
+		b,8 b c c
+		d d d d %35
+		es h? c es
+		f f, f' f
+		f4 fis
+		g8 g, r g'
+		d d d d %40
+		es4 r8 es
+		f f f, f
+		b b b d
+		es es c es
+		f f d f %45
+		g g es4
+		d es
+		f8 f f, f
+		b8 r r b
+		es es d d %50
+		es16 g b g es' b g es
+		<b f'>2\fermata \bar "|." %52 FINIS
 	} >>
 }
 
@@ -477,7 +681,7 @@ DomineOrganoL = {
 % }
 % 
 % OrganoL = {
-% 	\clef treble
+% 	\clef bass
 % 	\key c \minor \time 2/2 \tempoDiesIrae
 % 	<< \relative c {
 % 			
@@ -497,7 +701,7 @@ DomineOrganoL = {
 % }
 % 
 % OrganoL = {
-% 	\clef treble
+% 	\clef bass
 % 	\key c \minor \time 2/2 \tempoDiesIrae
 % 	<< \relative c {
 % 			
@@ -517,7 +721,7 @@ DomineOrganoL = {
 % }
 % 
 % OrganoL = {
-% 	\clef treble
+% 	\clef bass
 % 	\key c \minor \time 2/2 \tempoDiesIrae
 % 	<< \relative c {
 % 			
@@ -537,7 +741,7 @@ DomineOrganoL = {
 % }
 % 
 % OrganoL = {
-% 	\clef treble
+% 	\clef bass
 % 	\key c \minor \time 2/2 \tempoDiesIrae
 % 	<< \relative c {
 % 			
@@ -557,7 +761,7 @@ DomineOrganoL = {
 % }
 % 
 % OrganoL = {
-% 	\clef treble
+% 	\clef bass
 % 	\key c \minor \time 2/2 \tempoDiesIrae
 % 	<< \relative c {
 % 			

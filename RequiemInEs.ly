@@ -188,6 +188,7 @@ tempoDomine = \tempoMarkup "Adagio"
 
 #(define afterGraceFraction (cons 7 8))
 
+
 \include "Notes/N_01_Clarinetto1.ly"
 \include "Notes/N_02_Clarinetto2.ly"
 \include "Notes/N_03_Corno1.ly"
@@ -219,7 +220,7 @@ tempoDomine = \tempoMarkup "Adagio"
 	}
 	\context {
 		\ChoirStaff
-		\override StaffGrouper.staffgroup-staff-spacing.basic-distance = #14
+		\override StaffGrouper.staffgroup-staff-spacing.basic-distance = #16
 		\override StaffGrouper.staff-staff-spacing.basic-distance = #11
 	}
 	\context {

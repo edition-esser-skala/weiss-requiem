@@ -94,7 +94,7 @@ DiesIraeCornoII = {
 }
 
 DomineCornoII = {
-	\transpose c es {
+% 	\transpose c es {
 		\transpose c g, {
 			\relative c' {
 				\clef treble
@@ -134,7 +134,7 @@ DomineCornoII = {
 				g\fermata \bar "|." %52 FINIS
 			}
 		}
-	}
+% 	}
 }
 
 % CornoII = {
