@@ -316,12 +316,70 @@ SanctusSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key es \major \time 3/4 \autoBeamOff \tempoSanctus
-		
+		\mvTr b'2\p^\tuttiE es4
+		es( c) as
+		f2 b8([ as)]
+		as([ g)] g4 r
+		g( h) c %5
+		d8. g,16 g4 d'8 d
+		es8. c16 c4 r
+		c\f c f
+		f2 es4
+		es4.( c8) a8.([\trill g32 a)] %10
+		b4 r r
+		f\p\< as!8 as b d16 d
+		f8.([\> es16)] d4\! r
+		g, b8 b es es16 es
+		g8.([ f16)] es4 r %15
+		es8.\f f,16 f4 r
+		es'8. g,16 g4 r
+		es'4. es8 a,4
+		c8([ b)] b4 r8 \mvTr b\pE^\solo
+		b4. es8 d f %20
+		es4 b r8 b
+		c([ d es)] f g f
+		es4 d r
+		R2.*3 %26
+		r4 r r8 \mvTr b\f^\tutti
+		g'4. f8 es d
+		\appoggiatura d c4 c
+		f8 f %30
+		es2( d4)
+		es r r
+		R2. \bar "|." %33 FINIS
 	}
 }
 
 SanctusSopranoLyrics = \lyricmode {
+	San -- ctus,
+	San -- ctus,
+	San -- ctus, __
+	San -- ctus,
+	San -- ctus %5
+	Do -- mi -- nus De -- us
+	Sa -- ba -- oth,
+	Do -- mi -- nus
+	De -- us
+	Sa -- ba -- %10
+	oth.
+	Ple -- ni sunt coe -- li et
+	ter -- ra,
+	ple -- ni sunt coe -- li et
+	ter -- ra %15
+	glo -- ri -- a,
+	glo -- ri -- a,
+	glo -- ri -- a
+	tu -- a. Ho --
+	san -- na in ex -- %20
+	cel -- sis, ho --
+	san -- na in ex --
+	cel -- sis.
 	
+	Ho -- %27
+	san -- na in ex --
+	cel -- sis, in ex --
+	cel -- %30
+	sis. %31 FINIS
 }
 
 % SopranoNotes = {

@@ -369,19 +369,19 @@ SanctusBassi = {
 		b b, b'
 		ces2 ces,4
 		b b'8 as([\p g f)]
-		es es' es es es es
+		es es' es es es es %20
 		es, es' es es es es
 		es,4 r r8 as
 		b4 b, b
 		es8 es es es es es
-		es es es es es es
+		es es es es es es %25
 		es4 r r8 as
 		b4 b, b'\f
 		es,4. f8 g g
 		as4 as as8 as
-		b b b b b, b
+		b b b b b, b %30
 		es4 b g
-		es r r \bar "|."
+		es r r \bar "|." %32 FINIS
 	}
 }
 

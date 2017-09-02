@@ -290,12 +290,69 @@ SanctusAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key es \major \time 3/4 \autoBeamOff \tempoSanctus
-		
+		\mvTr g'2\p^\tuttiE es4
+		es2 f8([ es)]
+		d4( f) f
+		f8([ es)] es4 r
+		g( f) es %5
+		f8. f16 f4 f8 f
+		es8. g16 g4 r
+		as\f as as
+		as2 g4
+		g2 f8([ es)] %10
+		d4 r r
+		d\p\< f8 f f b16 b
+		as8.([\> g16)] f4\! r
+		es\< g8 g g g16 g
+		b8.([\> as16)] g4\! r %15
+		f8.\f es16 es4 r
+		g8. g16 g4 r
+		ges4. ges8 ges4
+		ges f r8 \mvTr b\p^\solo
+		g4. b8 b as %20
+		g4 g r8 g
+		as([ f g)] d es as
+		g4 f r
+		R2.*3 %26
+		r4 r r8 \mvTr b\f^\tutti
+		b4. as8 g b
+		\appoggiatura b8 as4 as as8 as
+		g2( f4) %30
+		g r r
+		R2. \bar "|." %32 FINIS
 	}
 }
 
 SanctusAltoLyrics = \lyricmode {
+	San -- ctus,
+	San -- ctus, __
+	San -- ctus,
+	San -- ctus,
+	San -- ctus %5
+	Do -- mi -- nus De -- us
+	Sa -- ba -- oth,
+	Do -- mi -- nus
+	De -- us
+	Sa -- ba -- %10
+	oth.
+	Ple -- ni sunt coe -- li et
+	ter -- ra,
+	ple -- ni sunt coe -- li et
+	ter -- ra %15
+	glo -- ri -- a,
+	glo -- ri -- a,
+	glo -- ri -- a
+	tu -- a. Ho --
+	san -- na in ex -- %20
+	cel -- sis, ho --
+	san -- na in ex --
+	cel -- sis.
 	
+	Ho -- %27
+	san -- na in ex --
+	cel -- sis, in ex --
+	cel -- %30
+	sis. %31 FINIS
 }
 
 % AltoNotes = {
