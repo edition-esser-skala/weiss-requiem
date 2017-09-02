@@ -244,8 +244,8 @@ DomineBassi = {
 		as as as as
 		g g es es
 		es es es es
-		es es es es
-		c16\f c' c c c c c c %10
+		es es es\f es
+		c16 c' c c c c c c %10
 		b b b b b b b b
 		d, d d d d d d d
 		b b b b c c c c
@@ -267,8 +267,8 @@ DomineBassi = {
 		b
 		f'4 f8 f %30
 		es\< es e e
-		f4\! r
-		r r8 f\f
+		f4\fE r
+		r r8 f
 		b,8 b c c
 		d d d d %35
 		es h c es
@@ -304,17 +304,17 @@ DomineBassFigures = \figuremode {
 	<6! 4 3>2 %10
 	r
 	<_+>
-	<6>4 <5>8 <6>
-	<6 4>4 <5 \t>8 <\t _+>
+	<6>4 q
+	<6 4> <5 \t>8 <\t _+>
 	r4 <6> %15
-	r <_+>
+	<6> <6 4>8 <5 _+>
 	r2
 	<_+>
-	<6>
+	<6>4 <5>8 <6>
 	<6 4>4 <5 _+> %20
 	r2
 	r
-	r4 <6 4>8 <5 3>
+	<6>4 <6 4>8 <5 3>
 	<2+> <6 4> <\t \t>4
 	r2 %25
 	r
@@ -337,7 +337,7 @@ DomineBassFigures = \figuremode {
 	r4. <6>8
 	r4. <6>8
 	r4. <6>8 %45
-	<4>8 <3> r <4 3>
+	<4>8 <3> <6> <4 3>
 	<6>4 <5>8 <6>
 	<6 4>4 <7 6>8 <\t 5>
 	r2

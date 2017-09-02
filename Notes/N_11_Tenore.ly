@@ -215,7 +215,7 @@ DomineTenoreNotes = {
 		c8 es16 es d8 es
 		d4 \appoggiatura { es16[ d] } c8 r
 		d8.-> b16 b4 %5
-		b8. d16 d8 d16 d
+		b8.-\parenthesize-> d16 d8 d16 d
 		es4 b8 b16 b
 		c8.([ es16)] es8 es
 		es16. es32 es8 r es\f

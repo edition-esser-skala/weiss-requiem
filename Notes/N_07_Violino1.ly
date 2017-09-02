@@ -126,7 +126,58 @@ DomineViolinoI = {
 	\relative c' {
 		\clef treble
 		\key b \major \time 2/4 \tempoDomine
-		
+		<f  b>8.\f-> <b, f'>16 q4
+		<g' b>8.-> <b, g'>16 q4
+		es'8 a, b16 g d' c
+		b8.([ c32 b] a16) g([-.\p f-. es-.)]
+		<f b>4\f-\parenthesize-> r16 f f f %5
+		<f d'>8-> r r16 <f b> q q
+		<es b'>8 r es'8. es16
+		es8 as,16 c es8 d16 c
+		c16. b32 b8 es16-.\f es-. es-. es-.
+		<a,! f'> <a f'> q q q q q q %10
+		f'( d) d-. d-. d-. d-. d-. d-.
+		d( fis) fis-. a-. a( d) d-. d-.
+		d( b) g-. g-. es( c) a-. a-.
+		r b b b r a a a
+		\acciaccatura g8 b'8. fis16 g\p b, d g %15
+		a,8.( c32 es) d16 d fis, fis
+		g8 r r16 d(-.\pp d-. g-.)
+		a8 r r16 fis(-. a-. a-.)
+		d8 r r16 c( a) a-.
+		r g g g fis8 d' %20
+		r16 f,(-.\pE f-. f-.) r f(-. f-. f-.)
+		r \slurDashed f(-. f-. f-.) r b(-. b-. b-.) \slurSolid
+		r es, es es r d r c
+		r cis( d) d-. d( f) f8
+		r16 d d d d( f) f8 %25
+		r16 f f f f( b) b8
+		r16 g g a r b( c cis)
+		r f,(-. f-. f-.) \once\slurDashed f( b) d8
+		r16 es(-. es-. es-.) r d(-. c-. b-.)
+		r f( a b) r es r d %30
+		c16\< c c c c c c c
+		c8\f \mvTr f[\p-\markup { \remark "dolce" } f] f16( e)
+		g( f c d) f( e) es-. a,-.
+		b(\fE d) c-. b-. a8[( \grace { b16-\critnote a } g a)]
+		b( d,) f-. b-. h( d) f-. h,-. %35
+		c( g) d'( g,) f'( es) d( c)
+		b( f) a( f) c'( a) f'(-\critnote e)
+		es( c) a'( c) a( c,) es( a,)
+		c( b) g( b) d( g,) b( d)
+		f( d) b'-. b-. f( as) f( b,) %40
+		b( g') g-. g-. \acciaccatura f8 es16( d) es-. c-.
+		b( d,) f-. b-. d8( c)
+		b16( f) f-. f-. d'( a) b( g)
+		r g g g es'( h) c( g)
+		r a-. a-. a-. f'( cis) d( a) %45
+		r b b b c(\fE g') g-. g-.
+		f( b) f-. f-. es( d) es( c)
+		b4\trill d8( c)
+		b8 b4\p b8
+		b2 %50
+		b8 es4 <g, b>8
+		<f b>2\fermata \bar "|."
 	}
 }
 

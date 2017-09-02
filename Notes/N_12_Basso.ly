@@ -243,7 +243,7 @@ DomineBassoNotes = {
 		f8 f16 f g8 es
 		f4 f,8 r
 		b8.-> b'16 b4 %5
-		as8. as16 as8 as16 as
+		as8.-\parenthesize-> as16 as8 as16 as
 		g4 es8 es16 es
 		es4 es8 as16([ c)]
 		es16. es,32 es8 r es\f

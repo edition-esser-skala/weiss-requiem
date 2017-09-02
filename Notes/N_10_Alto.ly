@@ -220,7 +220,7 @@ DomineAltoNotes = {
 		a8. a16 a8 a %10
 		b8. f16 f8 f
 		fis8. fis16 fis8 fis
-		g8. g16 g8^\critnote a
+		g8. g16 a8 a
 		g4. fis8
 		g4 r %15
 		R2*17 %32

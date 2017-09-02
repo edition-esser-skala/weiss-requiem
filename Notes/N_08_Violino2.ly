@@ -127,7 +127,58 @@ DomineViolinoII = {
 	\relative c' {
 		\clef treble
 		\key b \major \time 2/4 \tempoDomine
-		
+		<b d>8.\f-> q16 q4
+		<b es>8.-> es16 es4
+		c8 es d g
+		d8.( es32 d c16) \once\slurDashed es([\p d c)]
+		<b d>4\fE-> r16 q q q %5
+		b'8-> r r16 d, d d
+		es8 r g g
+		as es16-\critnote as c8 b16 as
+		as?16.-\critnote g32 g8 <g b>16\f-. q-. q-. q-.
+		<f es'> q q q q q q q %10
+		<f d'> <f b> q q q q q q
+		<fis a> q q q q q q q
+		g g g g a a es es
+		r g g g r g fis fis
+		g8 r d4\p %15
+		es8 es16( c) b b a a
+		b8 r r16 b(-.\pp b-. b-.)
+		<a fis'>8 r r16 d(-. fis-. fis-.)
+		g8 r r16 es( c) c-.
+		r b b b a8 r %20
+		r16 <b d>(-.\p q-. q-.) r q(-. q-. q-.)
+		r q(-. q-. q-.) r q(-. q-. q-.)
+		r c c c r b r a
+		r a( b) b b( d) d8
+		r16 b b b b( d) d8 %25
+		r16 d d d d( f) f8
+		r16 es es c r d( f) f
+		r d(-. d-. d-.) d8( f)
+		r16 g(-. g-. a-.) r f(-. es-. d-.)
+		r c c( d) r a' r b %30
+		<g b>\< q q q q q q q
+		<f a>8\f r r4
+		r r8 a
+		b16( d) c b a8[( \grace { b16 a } g a)]
+		b( d,) f-. b-. h( d) f-. h,-. %35
+		c( g) d'( g,) f'( es) d( c)
+		d,( f) c( f) a( f) c'( a)
+		c( a) c( es) c( a) c( es,)
+		d8 d16 g b( d, g b)
+		b( f)-\critnote f'-. f-. f( b,) as-. as-. %40
+		g( es') es-. b-. g( f) g-. es-.
+		d8 d16 f a( f es f)
+		d8 r r16 f-. f-. f-.
+		g( d) es( b) r g'-. g-. g-.
+		a( e) f( c) r a'-. a-. a-. %45
+		g( d) g g a\fE a a a
+		b b b b g g g g
+		f( b, d f) es8 es
+		d r r f\p
+		g16( es b g') as f b, as' %50
+		g8 g4 es8
+		<b d>2\fermata \bar "|." %52 FINIS
 	}
 }
 
