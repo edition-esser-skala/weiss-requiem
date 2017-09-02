@@ -210,12 +210,106 @@ DomineTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key b \major \time 2/4 \autoBeamOff \tempoDomine
-		
+		\mvTr d8.\f^\tuttiE-> b16 b4
+		es8.-> b16 b4
+		c8 es16 es d8 es
+		d4 \appoggiatura { es16[ d] } c8 r
+		d8.-> b16 b4 %5
+		b8. d16 d8 d16 d
+		es4 b8 b16 b
+		c8.([ es16)] es8 es
+		es16. es32 es8 r es\f
+		es8. es16 es8 es %10
+		d8. b16 b8 b
+		a8. a16 a8 a
+		g8. d'16 es8 es
+		d4.. d16
+		b4 r %15
+		R2*5 %20
+		\mvTr d8.\pE^\solo b16 f8 r16 b
+		d8. b16 f8 d'16 d
+		f([ es d c] b8[ c)]
+		cis([ d)] r f,
+		f8.([ b16)] d8 r16 d %25
+		f4-> d8 r16 d
+		es4 d8 a
+		b8.([ f16)] d'8 f,
+		<< \context Voice = "Tenore" { g8.([ a16)] b8 c16([ d)] } \\ { s4 s16 s^\reverseturn s8 } >>
+		es8.([ d16] a8) b %30
+		b2\<
+		a4\! r
+		r r8 \mvTr f\f^\tutti
+		b c16 d es8 es
+		d8. d16 f8 f16 f %35
+		es8([ d)] c8.([ es16)]
+		d8 c r c
+		c4 c8([ es)]
+		d d r d
+		b4( f') %40
+		es8 r r c
+		d d es4
+		d8 d b b
+		b8. b16 c8 c16 c
+		c4 d8 d16 d %45
+		d8 d r c\f
+		b4 c8. es16
+		d4( es)
+		d8 r r d\p
+		es4 f8 f %50
+		es2
+		d\fermata \bar "|." %52 FINIS
 	}
 }
 
 DomineTenoreLyrics = \lyricmode {
+	Do -- mi -- ne,
+	Do -- mi -- ne,
+	Do -- mi -- ne Je -- su
+	Chri -- ste,
+	Do -- mi -- ne, %5
+	Do -- mi -- ne Je -- su
+	Chri -- ste, Je -- su
+	Chri -- ste, Rex
+	glo -- ri -- ae, Rex
+	glo -- ri -- ae, Rex %10
+	glo -- ri -- ae, Rex
+	glo -- ri -- ae, Rex
+	glo -- ri -- ae, Rex
+	glo -- ri --
+	ae. %15
 	
+	O -- mni -- um fi -- %21
+	de -- li -- um de -- fun --
+	cto --
+	rum __ de
+	poe -- nis in -- %25
+	fer -- ni, de
+	poe -- nis in --
+	fer -- ni et
+	de __ _ pro --
+	fun -- do %30
+	la --
+	cu.
+	Sed
+	si -- gni -- fer san -- ctus
+	Mi -- cha -- el re -- prae -- %35
+	sen -- tet __
+	e -- as in
+	lu -- cem __
+	san -- ctam, in
+	lu -- %40
+	cem, in
+	lu -- cem san --
+	ctam. Quam o -- lim
+	A -- bra -- hae pro -- mi --
+	si -- sti, pro -- mi -- %45
+	si -- sti et
+	se -- mi -- mi
+	e --
+	ius, et
+	se -- mi -- ni %50
+	e --
+	ius. %52 FINIS
 }
 
 % TenoreNotes = {

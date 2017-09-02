@@ -238,12 +238,82 @@ DomineBassoNotes = {
 	\relative c {
 		\clef bass
 		\key b \major \time 2/4 \autoBeamOff \tempoDomine
-		
+		\mvTr b8.\f^\tuttiE-> d16 d4
+		es8.-> g16 g4
+		f8 f16 f g8 es
+		f4 f,8 r
+		b8.-> b'16 b4 %5
+		as8. as16 as8 as16 as
+		g4 es8 es16 es
+		es4 es8 as16([ c)]
+		es16. es,32 es8 r es\f
+		c8. c'16 c8 c %10
+		b8. b,16 b8 b
+		d8. d16 d8 d
+		b8. b16 c8 c
+		d4.. d16
+		g,4 r %15
+		R2*17 %32
+		r4 r8 \mvTr f'\f^\tutti
+		b, b16 b c8 c
+		d8. d16 d8 d16 d %35
+		es8([ h c)] es
+		f f, r f'
+		f4 fis
+		g8 g r g
+		d2 %40
+		es4 r8 es
+		f f f4
+		b,8 b b d
+		es8. es16 c8 es16 es
+		f4 d8 f16 f %45
+		g8 g r es\f
+		d4 es8 es
+		f4( f,)
+		b8 r r b\p
+		es4 d8 d %50
+		es2
+		b\fermata \bar "|." %52 FINIS
 	}
 }
 
 DomineBassoLyrics = \lyricmode {
+	Do -- mi -- ne,
+	Do -- mi -- ne,
+	Do -- mi -- ne Je -- su
+	Chri -- ste,
+	Do -- mi -- ne, %5
+	Do -- mi -- ne Je -- su
+	Chri -- ste, Je -- su
+	Chri -- ste, Rex __
+	glo -- ri -- ae, Rex
+	glo -- ri -- ae, Rex %10
+	glo -- ri -- ae, Rex
+	glo -- ri -- ae, Rex
+	glo -- ri -- ae, Rex
+	glo -- ri --
+	ae. %15
 	
+	Sed %33
+	si -- gni -- fer san -- ctus
+	Mi -- cha -- el re -- prae -- %35
+	sen -- tet
+	e -- as in
+	lu -- cem
+	san -- ctam, in
+	lu -- %40
+	cem, in
+	lu -- cem san --
+	ctam. Quam o -- lim
+	A -- bra -- hae pro -- mi --
+	si -- sti, pro -- mi -- %45
+	si -- sti et
+	se -- mi -- mi
+	e --
+	ius, et
+	se -- mi -- ni %50
+	e --
+	ius. %52 FINIS
 }
 
 % BassoNotes = {
