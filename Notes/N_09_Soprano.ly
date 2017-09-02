@@ -206,12 +206,110 @@ DomineSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key b \major \time 2/4 \autoBeamOff \tempoDomine
-		
+		\mvTr b'8.\f^\tuttiE-> f16 f4
+		b8.-> g16 g4
+		<< \context Voice = "Soprano" { \oneVoice es'8 a,16 a b8 d16([ c)] } \\ { s4 s16 s^\reverseturn s8 } >>
+		b4 \appoggiatura { c16[ b] } a8 r
+		b8.-> f16 f4 %5
+		d'8.-> b16 b8 b16 b
+		b8.([ es16)] es8 es16 es
+		es4 es8 d16([ c)]
+		c16. b32 b8 r es\f
+		f8. f16 f8 f %10
+		f8. d16 d8 d
+		d8. d16 d8 d
+		d8. d16 es8 c
+		b4( a8.) a16
+		g4 r %15
+		R2
+		\mvTr d'8.\pE^\solo g,16 g4
+		d'8. a16 a4
+		d8. d16 es8([ c)]
+		b8. b16 a4 %20
+		R2*3
+		r4 r8 f
+		d'8.([ b16)] f8 r16 f %25
+		d'4-> b8 r16 f
+		<< \context Voice = "Soprano" { \oneVoice g8.([ a16)] b8 c16([ cis)] } \\ { s4 s16 s^\reverseturn s8 } >>
+		d8 r b d
+		es4( d8) \appoggiatura { es16[ d] } c([ b)]
+		a8.([ b16] es8) d %30
+		c2\<
+		c4\! r
+		r r8 \mvTr f,\f^\tutti
+		d' c16 b a8 \appoggiatura { b16[ a] } g([ a)]
+		b8. b16 h8 h16 h %35
+		c8([ d] f16[ es)] d([ c)]
+		b8 a r c
+		es4 a,
+		\appoggiatura c16 b8 b r d
+		f4 b, %40
+		b8([ g'] es16[ d)] es([ c)]
+		b8.([ f16] d'8[ c)]
+		b f d' b
+		g8. g16 es'8 c16 c
+		a4 f'8 d16 d %45
+		c([ b)] b8 r g'\f
+		f4 es16([ d)] es([ c)]
+		<< \context Voice = "Soprano" { b4( d8[ c)] } \\ { s8 \once \override Script.Y-offset = #1 s\reverseturn s4 } >>
+		b8 b\p b b16 b
+		b2~ %50
+		b
+		b2\fermata \bar "|." %52 FINIS
 	}
 }
 
 DomineSopranoLyrics = \lyricmode {
+	Do -- mi -- ne,
+	Do -- mi -- ne,
+	Do -- mi -- ne Je -- su __
+	Chri -- ste,
+	Do -- mi -- ne, %5
+	Do -- mi -- ne Je -- su
+	Chri -- ste, Je -- su
+	Chri -- ste, Rex __
+	glo -- ri -- ae, Rex
+	glo -- ri -- ae, Rex %10
+	glo -- ri -- ae, Rex
+	glo -- ri -- ae, Rex
+	glo -- ri -- ae, Rex
+	glo -- ri --
+	ae. %15
 	
+	Li -- be -- ra,
+	li -- be -- ra,
+	li -- be -- ra __
+	a -- ni -- mas %20
+	
+	de %24
+	poe -- nis in -- %25
+	fer -- ni, de
+	poe -- nis in --
+	fer -- ni et
+	de __ pro --
+	fun -- do %30
+	la --
+	cu.
+	Sed
+	si -- gni -- fer san -- ctus
+	Mi -- cha -- el re -- prae -- %35
+	sen -- tet __
+	e -- as in
+	lu -- cem
+	san -- ctam, in
+	lu -- cem, %40
+	lu -- cem __
+	san --
+	ctam. Quam o -- lim
+	A -- bra -- hae pro -- mi --
+	si -- sti, pro -- mi -- %45
+	si -- sti et
+	se -- mi -- mi __
+	e --
+	ius, et se -- mi -- ni
+	e -- %50
+	
+	ius. %52 FINIS
 }
 
 % SopranoNotes = {

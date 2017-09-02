@@ -281,7 +281,7 @@ DomineBassi = {
 		b b b d
 		es es c es
 		f f d f %45
-		g g es es
+		g g es\fE es
 		d d es es
 		f16 f f f f, f f f
 		b8 r r b\p
