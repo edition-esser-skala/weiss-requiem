@@ -186,6 +186,7 @@ tempoDomine = \tempoMarkup "Adagio"
         (markup #:fontsize -2 fig-markup)
         empty-markup)))
 
+#(define afterGraceFraction (cons 7 8))
 
 \include "Notes/N_01_Clarinetto1.ly"
 \include "Notes/N_02_Clarinetto2.ly"
@@ -233,6 +234,7 @@ tempoDomine = \tempoMarkup "Adagio"
 		\accidentalStyle neo-modern-voice
 		extraNatural = ##t
 		aDueText = \markup { \medium \remark { a2 } }
+		soloText = \markup { \medium \remark { Cl. I solo } }
 	}
 	\context {
 		\FiguredBass

@@ -98,8 +98,44 @@ DomineClarinettoI = {
 % 	\transpose c' b {
 		\relative c' {
 			\clef treble
-			\key b \major \time 2/4 \tempoDomine
-			
+			\key c \major \time 2/4 \tempoDomine
+			e'8.\f-> c16 c4
+			f8.-> c16 c4
+			d8 f e \acciaccatura g f
+			\afterGrace e4 { f16( e) } d8 r
+			R2*4 %8
+			r4 r8 f\f
+			f8. f16 f8 f %10
+			e8. c16 c8 c
+			h8. h16 h8 h
+			\pa a8. e'16 \pd f8 f
+			e4.. e16
+			c4 r %15
+			R2*5 %20
+			e8.\p c16 g8 r
+			e'8. c16 g8. e'16
+			g( f e d) c8( d)
+			dis( e) r4
+			R2*8 %32
+			r4 r8 g,\f
+			c-\critnote d16( e) f4
+			e8. e16 g4 %35
+			f8( e) d8. f16
+			e8 d r d
+			d4 d8 f
+			e4 r8 e
+			c4( g') %40
+			f8 r r d
+			e4 f
+			e c
+			c d
+			d e %45
+			e r8 d\f
+			\pao c4 d8. f16
+			e4( f)
+			e8 r r4
+			R2*2 %51
+			R2\fermataMarkup \bar "|." %52 FINIS
 		}
 % 	}
 }

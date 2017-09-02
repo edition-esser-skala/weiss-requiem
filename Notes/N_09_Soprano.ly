@@ -209,7 +209,7 @@ DomineSopranoNotes = {
 		\mvTr b'8.\f^\tuttiE-> f16 f4
 		b8.-> g16 g4
 		<< \context Voice = "Soprano" { \oneVoice es'8 a,16 a b8 d16([ c)] } \\ { s4 s16 s^\reverseturn s8 } >>
-		b4 \appoggiatura { c16[ b] } a8 r
+		\afterGrace b4 { c16[( b)] } a8 r
 		b8.-> f16 f4 %5
 		d'8.-> b16 b8 b16 b
 		b8.([ es16)] es8 es16 es

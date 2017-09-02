@@ -213,7 +213,7 @@ DomineTenoreNotes = {
 		\mvTr d8.\f^\tuttiE-> b16 b4
 		es8.-> b16 b4
 		c8 es16 es d8 es
-		d4 \appoggiatura { es16[ d] } c8 r
+		\afterGrace d4 { es16[( d]) } c8 r
 		d8.-> b16 b4 %5
 		b8.-\parenthesize-> d16 d8 d16 d
 		es4 b8 b16 b
