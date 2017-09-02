@@ -122,14 +122,14 @@ DiesIraeViolinoI = {
 	}
 }
 
-% ViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key es \major \time 4/4 \tempoRequiem
-% 		
-% 	}
-% }
-% 
+DomineViolinoI = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 2/4 \tempoDomine
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

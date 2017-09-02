@@ -232,17 +232,68 @@ DiesIraeBassFigures = \figuremode {
 	r1*4 %70 FINIS
 }
 
-% Bassi = {
-% 	\relative c {
-% 		\clef bass
-% 		\key es \major \time 4/4 \tempoRequiem
-% 		
-% 	}
-% }
-% 
-% BassFigures = \figuremode {
-% 	
-% }
+DomineBassi = {
+	\relative c {
+		\clef bass
+		\key b \major \time 2/4 \tempoDomine
+		b8.\f-> d16 d4
+		es8.-> g16 g4
+		f8 f g es
+		f f, f' r
+		b,8.-> b'16 b8 b %5
+		as as as as
+		g g es es
+		es es es es
+		es es es es
+		c16\f c' c c c c c c %10
+		b b b b b b b b
+		d, d d d d d d d
+		b b b b c c c c
+		d d d d d d d d
+		g,8 r b4\p %15
+		c8 r d4
+		g,8\pp r g'4
+		d8 r d4
+		b c8 c
+		d d' d, r %20
+		b\p r b b
+		b r b b
+		es4 f8 f,
+		b f b r
+		b4 b8 b %25
+		b b b b
+		b4 b'8 f
+		b,2~
+		b
+		f'4 f8 f %30
+		es\< es e e
+		f4\! r
+		r r8 f\f
+		b,8 b c c
+		d d d d %35
+		es h c es
+		f f, f' f
+		f4 fis
+		g8 g, r g'
+		d d d d %40
+		es4 r8 es
+		f f f, f
+		b b b d
+		es es c es
+		f f d f %45
+		g g es es
+		d d es es
+		f16 f f f f, f f f
+		b8 r r b\p
+		es es d d %50
+		es16-. g-. b-. g-. es'-. b-. g-. es-.
+		b2\fermata \bar "|." %52 FINIS
+	}
+}
+
+DomineBassFigures = \figuremode {
+	
+}
 % 
 % Bassi = {
 % 	\relative c {

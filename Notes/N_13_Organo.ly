@@ -446,6 +446,26 @@ DiesIraeOrganoL = {
 	} >> \bar "|." %70 FINIS
 }
 
+DomineOrganoR = {
+	\clef treble
+	\key b \major \time 2/4 \tempoDomine
+	<< \relative c' {
+			
+	} \\ \relative c' {
+		
+	} >>
+}
+
+DomineOrganoL = {
+	\clef treble
+	\key b \major \time 2/4 \tempoDomine
+	<< \relative c {
+			
+	} \\ \relative c {
+		
+	} >>
+}
+
 % OrganoR = {
 % 	\clef treble
 % 	\key c \minor \time 2/2 \tempoDiesIrae
@@ -465,67 +485,83 @@ DiesIraeOrganoL = {
 % 		
 % 	} >>
 % }
-% 
+
 % OrganoR = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key es \major \time 4/4 \tempoRequiem
-% 		s1*36
-% 	}
+% 	\clef treble
+% 	\key c \minor \time 2/2 \tempoDiesIrae
+% 	<< \relative c' {
+% 			
+% 	} \\ \relative c' {
+% 		
+% 	} >>
 % }
 % 
 % OrganoL = {
-% 	\relative c {
-% 		\clef bass
-% 		\key es \major \time 4/4 \tempoRequiem
-% 		s1*36
-% 	}
+% 	\clef treble
+% 	\key c \minor \time 2/2 \tempoDiesIrae
+% 	<< \relative c {
+% 			
+% 	} \\ \relative c {
+% 		
+% 	} >>
 % }
-% 
+
 % OrganoR = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key es \major \time 4/4 \tempoRequiem
-% 		s1*36
-% 	}
+% 	\clef treble
+% 	\key c \minor \time 2/2 \tempoDiesIrae
+% 	<< \relative c' {
+% 			
+% 	} \\ \relative c' {
+% 		
+% 	} >>
 % }
 % 
 % OrganoL = {
-% 	\relative c {
-% 		\clef bass
-% 		\key es \major \time 4/4 \tempoRequiem
-% 		s1*36
-% 	}
+% 	\clef treble
+% 	\key c \minor \time 2/2 \tempoDiesIrae
+% 	<< \relative c {
+% 			
+% 	} \\ \relative c {
+% 		
+% 	} >>
 % }
-% 
+
 % OrganoR = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key es \major \time 4/4 \tempoRequiem
-% 		s1*36
-% 	}
+% 	\clef treble
+% 	\key c \minor \time 2/2 \tempoDiesIrae
+% 	<< \relative c' {
+% 			
+% 	} \\ \relative c' {
+% 		
+% 	} >>
 % }
 % 
 % OrganoL = {
-% 	\relative c {
-% 		\clef bass
-% 		\key es \major \time 4/4 \tempoRequiem
-% 		s1*36
-% 	}
+% 	\clef treble
+% 	\key c \minor \time 2/2 \tempoDiesIrae
+% 	<< \relative c {
+% 			
+% 	} \\ \relative c {
+% 		
+% 	} >>
 % }
-% 
+
 % OrganoR = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key es \major \time 4/4 \tempoRequiem
-% 		s1*36
-% 	}
+% 	\clef treble
+% 	\key c \minor \time 2/2 \tempoDiesIrae
+% 	<< \relative c' {
+% 			
+% 	} \\ \relative c' {
+% 		
+% 	} >>
 % }
 % 
 % OrganoL = {
-% 	\relative c {
-% 		\clef bass
-% 		\key es \major \time 4/4 \tempoRequiem
-% 		s1*36
-% 	}
+% 	\clef treble
+% 	\key c \minor \time 2/2 \tempoDiesIrae
+% 	<< \relative c {
+% 			
+% 	} \\ \relative c {
+% 		
+% 	} >>
 % }

@@ -57,14 +57,14 @@ DiesIraeTrombaI = {
 	}
 }
 
-% TrombaI = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key c \major \time 4/4 \tempoRequiem
-% 		
-% 	}
-% }
-% 
+DomineTrombaI = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 2/4 \tempoDomine
+		
+	}
+}
+
 % TrombaI = {
 % 	\relative c' {
 % 		\clef treble

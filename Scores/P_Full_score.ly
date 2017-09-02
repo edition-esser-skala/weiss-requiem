@@ -102,80 +102,157 @@
 % % 			\midi { \tempo 4 = 110 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			subtitle = \markup { \vspace #3 \normal-text \larger \larger "2 DIES IRAE" }
+% 			composer = \markup { \larger " " }
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup {
+% 					\new Staff <<
+% 						\set Staff.instrumentName = \markup { \center-column { "Clarinetto I, II" "in B" } }
+% 						\partcombine \DiesIraeClarinettoI \DiesIraeClarinettoII
+% 					>>
+% 				}
+% 				\new StaffGroup <<
+% 					\new Staff <<
+% 						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "in Es" } }
+% 						\partcombine \DiesIraeCornoI \DiesIraeCornoII
+% 					>>
+% 					\new Staff <<
+% 						\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" "in C" } }
+% 						\partcombine \DiesIraeTrombaI \DiesIraeTrombaII
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\DiesIraeViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\DiesIraeViolinoII
+% 						}
+% 					>>
+% 				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \DiesIraeSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \DiesIraeSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \DiesIraeAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \DiesIraeAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \DiesIraeTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \DiesIraeTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \DiesIraeBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \DiesIraeBassoLyrics
+% 				>>
+% 				\new PianoStaff <<
+% 					\set PianoStaff.instrumentName = "Organo"
+% 					\new Staff << \DiesIraeOrganoR >>
+% 					\new Staff << \dynamicUp \DiesIraeOrganoL >>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Bassi"
+% 						\DiesIraeBassi
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\DiesIraeBassFigures
+% 				}
+% 			>>
+% % 			\midi { \tempo 4 = 110 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			subtitle = \markup { \vspace #3 \normal-text \larger \larger "2 DIES IRAE" }
+			subtitle = \markup { \vspace #3 \normal-text \larger \larger "3 DOMINE" }
 			composer = \markup { \larger " " }
 		}
-% 		\paper { systems-per-page = #2 }
 		\score {
 			<<
 				\new StaffGroup {
 					\new Staff <<
 						\set Staff.instrumentName = \markup { \center-column { "Clarinetto I, II" "in B" } }
-						\partcombine \DiesIraeClarinettoI \DiesIraeClarinettoII
+						\partcombine \DomineClarinettoI \DomineClarinettoII
 					>>
 				}
 				\new StaffGroup <<
 					\new Staff <<
 						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "in Es" } }
-						\partcombine \DiesIraeCornoI \DiesIraeCornoII
+						\partcombine \DomineCornoI \DomineCornoII
 					>>
 					\new Staff <<
 						\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" "in C" } }
-						\partcombine \DiesIraeTrombaI \DiesIraeTrombaII
+						\partcombine \DomineTrombaI \DomineTrombaII
 					>>
 				>>
 				\new StaffGroup <<
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\DiesIraeViolinoI
+							\DomineViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\DiesIraeViolinoII
+							\DomineViolinoII
 						}
 					>>
 				>>
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \DiesIraeSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \DomineSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \DiesIraeSopranoLyrics
+					\new Lyrics \lyricsto Soprano \DomineSopranoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \DiesIraeAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \DomineAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \DiesIraeAltoLyrics
+					\new Lyrics \lyricsto Alto \DomineAltoLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \DiesIraeTenoreNotes }
+						\new Voice = "Tenore" { \dynamicUp \DomineTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \DiesIraeTenoreLyrics
+					\new Lyrics \lyricsto Tenore \DomineTenoreLyrics
 					
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \DiesIraeBassoNotes }
+						\new Voice = "Basso" { \dynamicUp \DomineBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \DiesIraeBassoLyrics
+					\new Lyrics \lyricsto Basso \DomineBassoLyrics
 				>>
 				\new PianoStaff <<
 					\set PianoStaff.instrumentName = "Organo"
-					\new Staff << \DiesIraeOrganoR >>
-					\new Staff << \dynamicUp \DiesIraeOrganoL >>
+					\new Staff << \DomineOrganoR >>
+					\new Staff << \dynamicUp \DomineOrganoL >>
 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Bassi"
-						\DiesIraeBassi
+						\DomineBassi
 					}
 				>>
 				\new FiguredBass {
-					\DiesIraeBassFigures
+					\DomineBassFigures
 				}
 			>>
 % 			\midi { \tempo 4 = 110 }

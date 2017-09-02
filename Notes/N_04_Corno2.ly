@@ -93,16 +93,16 @@ DiesIraeCornoII = {
 % 	}
 }
 
-% CornoII = {
+DomineCornoII = {
 % 	\transpose c es {
-% 		\relative c' {
-% 			\clef treble
-% 			\key c \major \time 4/4 \tempoRequiem
-% 			
-% 		}
+		\relative c' {
+			\clef treble
+			\key b \major \time 2/4 \tempoDomine
+			
+		}
 % 	}
-% }
-% 
+}
+
 % CornoII = {
 % 	\transpose c es {
 % 		\relative c' {

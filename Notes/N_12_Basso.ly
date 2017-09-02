@@ -234,18 +234,18 @@ DiesIraeBassoLyrics = \lyricmode {
 	men. %70 FINIS
 }
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		\key es \major \time 4/4 \autoBeamOff \tempoRequiem
-% 		
-% 	}
-% }
-% 
-% BassoLyrics = \lyricmode {
-% 	
-% }
-% 
+DomineBassoNotes = {
+	\relative c {
+		\clef bass
+		\key b \major \time 2/4 \autoBeamOff \tempoDomine
+		
+	}
+}
+
+DomineBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

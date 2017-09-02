@@ -94,16 +94,16 @@ DiesIraeClarinettoI = {
 % 	}
 }
 
-% ClarinettoI = {
+DomineClarinettoI = {
 % 	\transpose c' b {
-% 		\relative c' {
-% 			\clef treble
-% 			\key f \major \time 4/4 \tempoRequiem
-% 			
-% 		}
+		\relative c' {
+			\clef treble
+			\key b \major \time 2/4 \tempoDomine
+			
+		}
 % 	}
-% }
-% 
+}
+
 % ClarinettoI = {
 % 	\transpose c' b {
 % 		\relative c' {

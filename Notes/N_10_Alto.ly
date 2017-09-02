@@ -204,18 +204,18 @@ DiesIraeAltoLyrics = \lyricmode {
 	men. %70 FINIS
 }
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key es \major \time 4/4 \autoBeamOff \tempoRequiem
-% 		
-% 	}
-% }
-% 
-% AltoLyrics = \lyricmode {
-% 	
-% }
-% 
+DomineAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 2/4 \autoBeamOff \tempoDomine
+		
+	}
+}
+
+DomineAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

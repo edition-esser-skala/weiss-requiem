@@ -206,18 +206,18 @@ DiesIraeTenoreLyrics = \lyricmode {
 	men. %70 FINIS
 }
 
-% TenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-% 		\key es \major \time 4/4 \autoBeamOff \tempoRequiem
-% 		
-% 	}
-% }
-% 
-% TenoreLyrics = \lyricmode {
-% 	
-% }
-% 
+DomineTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key b \major \time 2/4 \autoBeamOff \tempoDomine
+		
+	}
+}
+
+DomineTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

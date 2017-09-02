@@ -202,18 +202,18 @@ DiesIraeSopranoLyrics = \lyricmode {
 	men. %70 FINIS
 }
 
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key es \major \time 4/4 \autoBeamOff \tempoRequiem
-% 		
-% 	}
-% }
-% 
-% SopranoLyrics = \lyricmode {
-% 	
-% }
-% 
+DomineSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key b \major \time 2/4 \autoBeamOff \tempoDomine
+		
+	}
+}
+
+DomineSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble
