@@ -1,10 +1,6 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
 % (c) 2017 by Wolfgang Skala.
 % This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 % To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \version "2.18.0"
 \language "deutsch"
@@ -187,24 +183,8 @@ tempoSanctus = \tempoMarkup "Adagio"
         (markup #:fontsize -2 fig-markup)
         empty-markup)))
 
+
 #(define afterGraceFraction (cons 7 8))
-
-
-\include "Notes/N_01_Clarinetto1.ly"
-\include "Notes/N_02_Clarinetto2.ly"
-\include "Notes/N_03_Corno1.ly"
-\include "Notes/N_04_Corno2.ly"
-\include "Notes/N_05_Tromba1.ly"
-\include "Notes/N_06_Tromba2.ly"
-\include "Notes/N_07_Violino1.ly"
-\include "Notes/N_08_Violino2.ly"
-\include "Notes/N_09_Soprano.ly"
-\include "Notes/N_10_Alto.ly"
-\include "Notes/N_11_Tenore.ly"
-\include "Notes/N_12_Basso.ly"
-\include "Notes/N_13_Organo.ly"
-\include "Notes/N_14_Bassi.ly"
-
 
 \layout {
 	\context {
@@ -238,6 +218,10 @@ tempoSanctus = \tempoMarkup "Adagio"
 		aDueText = \markup { \medium \remark { a2 } }
 	}
 	\context {
+		\Lyrics
+		\override LyricText.font-size = #-1
+	}
+	\context {
 		\FiguredBass
 		figuredBassPlusDirection = #1
 		\override VerticalAxisGroup.minimum-Y-extent = #'(0 . 1)
@@ -251,12 +235,17 @@ tempoSanctus = \tempoMarkup "Adagio"
 	}
 }
 
-\include "Scores/P_Full_score.ly"
-% \include "Scores/P_Oboe1.ly"
-% \include "Scores/P_Oboe2.ly"
-% \include "Scores/P_Violino1.ly"
-% \include "Scores/P_Violino2.ly"
-% \include "Scores/P_Viola.ly"
-% \include "Scores/P_Coro.ly"
-% \include "Scores/P_Bassi.ly"
-% \include "Scores/P_Organo.ly"
+\include "Notes/N_01_Clarinetto1.ly"
+\include "Notes/N_02_Clarinetto2.ly"
+\include "Notes/N_03_Corno1.ly"
+\include "Notes/N_04_Corno2.ly"
+\include "Notes/N_05_Tromba1.ly"
+\include "Notes/N_06_Tromba2.ly"
+\include "Notes/N_07_Violino1.ly"
+\include "Notes/N_08_Violino2.ly"
+\include "Notes/N_09_Soprano.ly"
+\include "Notes/N_10_Alto.ly"
+\include "Notes/N_11_Tenore.ly"
+\include "Notes/N_12_Basso.ly"
+\include "Notes/N_13_Organo.ly"
+\include "Notes/N_14_Bassi.ly"
