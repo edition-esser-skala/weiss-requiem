@@ -136,13 +136,37 @@ DomineCornoI = {
 }
 
 SanctusCornoI = {
-	\transpose c es {
+% 	\transpose c es {
 		\relative c' {
 			\clef treble
-			\key es \major \time 3/4 \tempoSanctus
-			
+			\key c \major \time 3/4 \tempoSanctus
+			c'2\p r4
+			c2 r4
+			r \pao g g
+			g e g
+			c r r %5
+			r e e
+			e r r
+			r \pao d2\fE
+			d e4
+			R2. %10
+			g,4 g g
+			g\pE g r
+			g4. g8 g g
+			g4 r g
+			g g8 r r4 %15
+			c\f r r
+			c\f r r
+			c2-> r4
+			R2.*8 %26
+			r4 r \pao g\f
+			c4. d8 c4
+			c r f
+			e2 d4 %30
+			c c g
+			e2 r4 \bar "|." %32 FINIS
 		}
-	}
+% 	}
 }
 
 % CornoI = {
