@@ -28,7 +28,7 @@
 						\partcombine \SanctusCornoI \SanctusCornoII
 					>>
 					\new Staff <<
-						\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" "in B" } }
+						\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" "in Es" } }
 						\partcombine \SanctusTrombaI \SanctusTrombaII
 					>>
 				>>

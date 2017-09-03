@@ -99,11 +99,26 @@ DomineTrombaII = {
 }
 
 SanctusTrombaII = {
-	\relative c' {
-		\clef treble
-		\key es \major \time 3/4 \tempoSanctus
-		
-	}
+% 	\transpose c es' {
+		\relative c' {
+			\clef treble
+			\key f \major \time 3/4 \tempoSanctus
+			R2.*10 %10
+			g4\f g g
+			g\pE g r
+			R2.*3 %15
+			c4\f r r
+			c\f r r
+			c2-\parenthesize-> r4
+			R2.*8 %26
+			r4 r g\f
+			c r r
+			R2.
+			r4 r g %30
+			c g-\critnote g
+			g2 r4 \bar "|." %32 FINIS
+		}
+% 	}
 }
 
 % TrombaII = {

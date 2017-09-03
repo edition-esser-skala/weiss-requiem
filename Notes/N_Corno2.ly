@@ -158,7 +158,7 @@ SanctusCornoII = {
 			g4 r g
 			g c8 r r4 %15
 			c\f r r
-			c\fE r r
+			c\f r r
 			c2-> r4
 			R2.*8 %26
 			r4 r g'\f
