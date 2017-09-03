@@ -382,18 +382,18 @@ SanctusSopranoLyrics = \lyricmode {
 	sis. %31 FINIS
 }
 
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key es \major \time 4/4 \autoBeamOff \tempoRequiem
-% 		
-% 	}
-% }
-% 
-% SopranoLyrics = \lyricmode {
-% 	
-% }
-% 
+BenedictusSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 2/4 \autoBeamOff \tempoBenedictus
+		
+	}
+}
+
+BenedictusSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

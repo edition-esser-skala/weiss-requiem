@@ -121,14 +121,14 @@ SanctusTrombaI = {
 % 	}
 }
 
-% TrombaI = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key c \major \time 4/4 \tempoRequiem
-% 		
-% 	}
-% }
-% 
+BenedictusTrombaI = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 2/4 \tempoBenedictus
+		
+	}
+}
+
 % TrombaI = {
 % 	\relative c' {
 % 		\clef treble

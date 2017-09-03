@@ -355,18 +355,18 @@ SanctusAltoLyrics = \lyricmode {
 	sis. %31 FINIS
 }
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key es \major \time 4/4 \autoBeamOff \tempoRequiem
-% 		
-% 	}
-% }
-% 
-% AltoLyrics = \lyricmode {
-% 	
-% }
-% 
+BenedictusAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 2/4 \autoBeamOff \tempoBenedictus
+		
+	}
+}
+
+BenedictusAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

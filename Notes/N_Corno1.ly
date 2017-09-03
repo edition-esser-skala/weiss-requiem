@@ -169,16 +169,16 @@ SanctusCornoI = {
 % 	}
 }
 
-% CornoI = {
+BenedictusCornoI = {
 % 	\transpose c es {
-% 		\relative c' {
-% 			\clef treble
-% 			\key c \major \time 4/4 \tempoRequiem
-% 			
-% 		}
+		\relative c' {
+			\clef treble
+			\key es \major \time 2/4 \tempoBenedictus
+			
+		}
 % 	}
-% }
-% 
+}
+
 % CornoI = {
 % 	\transpose c es {
 % 		\relative c' {

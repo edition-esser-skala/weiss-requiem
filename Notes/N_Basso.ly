@@ -385,18 +385,18 @@ SanctusBassoLyrics = \lyricmode {
 	sis. %31 FINIS
 }
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		\key es \major \time 4/4 \autoBeamOff \tempoRequiem
-% 		
-% 	}
-% }
-% 
-% BassoLyrics = \lyricmode {
-% 	
-% }
-% 
+BenedictusBassoNotes = {
+	\relative c {
+		\clef bass
+		\key es \major \time 2/4 \autoBeamOff \tempoBenedictus
+		
+	}
+}
+
+BenedictusBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

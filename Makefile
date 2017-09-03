@@ -3,7 +3,7 @@ project = Weiß_RequiemInEs
 notes = Clarinetto1 Clarinetto2 Corno1 Corno2 Tromba1 Tromba2 \
         Violino1 Violino2 Soprano Alto Tenore Basso Organo Bassi
 parts = Bassi
-movements = Requiem DiesIrae Domine Sanctus
+movements = Requiem DiesIrae Domine Sanctus Benedictus
 
 
 .DEFAULT_GOAL := info
@@ -32,7 +32,7 @@ VPATH = ./Notes ./MIDI ./Parts ./PDF ./Scores
 # The dependencies of the parts:
 # (a) Individual parts (e.g., `make Bassi')
 $(parts): %: P_%.pdf
-$(parts:%=P_%.pdf): P_%.pdf: P_%.ly $(notes:%=N_%.ly)
+$(parts:%=P_%.pdf): P_%.pdf: P_%.ly $(notes:%=N_%.ly) definitions.ly
 
 # (b) All parts (`make parts')
 .PHONY: parts
@@ -41,7 +41,7 @@ parts: $(parts)
 # The dependencies of the movements:
 # (a) Individual movements (e.g., `make Requiem')
 $(movements): %: S_%.pdf
-$(movements:%=S_%.pdf): S_%.pdf: S_%.ly $(notes:%=N_%.ly)
+$(movements:%=S_%.pdf): S_%.pdf: S_%.ly $(notes:%=N_%.ly) definitions.ly
 
 # (b) All movements (`make movements')
 .PHONY: movements

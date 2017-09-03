@@ -220,14 +220,14 @@ SanctusViolinoI = {
 	}
 }
 
-% ViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key es \major \time 4/4 \tempoRequiem
-% 		
-% 	}
-% }
-% 
+BenedictusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 2/4 \tempoBenedictus
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

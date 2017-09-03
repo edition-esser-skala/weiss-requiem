@@ -420,18 +420,18 @@ SanctusBassFigures = \figuremode {
 	r %32 FINIS
 }
 
-% Bassi = {
-% 	\relative c {
-% 		\clef bass
-% 		\key es \major \time 4/4 \tempoRequiem
-% 		
-% 	}
-% }
-% 
-% BassFigures = \figuremode {
-% 	
-% }
-% 
+BenedictusBassi = {
+	\relative c {
+		\clef bass
+		\key es \major \time 2/4 \tempoBenedictus
+		es8 b' g es
+	}
+}
+
+BenedictusBassFigures = \figuremode {
+	
+}
+
 % Bassi = {
 % 	\relative c {
 % 		\clef bass

@@ -814,25 +814,25 @@ SanctusOrganoL = {
 	} >>
 }
 
-% OrganoR = {
-% 	\clef treble
-% 	\key c \minor \time 2/2 \tempoDiesIrae
-% 	<< \relative c' {
-% 			
-% 	} \\ \relative c' {
-% 		
-% 	} >>
-% }
-% 
-% OrganoL = {
-% 	\clef bass
-% 	\key c \minor \time 2/2 \tempoDiesIrae
-% 	<< \relative c {
-% 			
-% 	} \\ \relative c {
-% 		
-% 	} >>
-% }
+BenedictusOrganoR = {
+	\clef treble
+	\key es \major \time 2/4 \tempoBenedictus
+	<< \relative c' {
+			
+	} \\ \relative c' {
+		
+	} >>
+}
+
+BenedictusOrganoL = {
+	\clef bass
+	\key es \major \time 2/4 \tempoBenedictus
+	<< \relative c {
+			
+	} \\ \relative c {
+		
+	} >>
+}
 
 % OrganoR = {
 % 	\clef treble
