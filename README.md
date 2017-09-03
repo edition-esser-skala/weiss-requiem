@@ -20,12 +20,14 @@ Use the `make` tool for building scores. Specify one of the following **targets*
 
 PDF files will be stored in a subfolder *./PDF*, MIDI files in a subfolder *./MIDI*.
 
-The file *run.sh* integrates make with Kile: Change the variable `target` in this script to the `make` target. Executing this shell script will run make and create a symlink *definitions.pdf* in the main directory. Kile opens this file by ViewPDF if *directory.ly* has been specified as the master file of the project.
+The file *RequiemInEs.ly* allows you to work with an editor like Kile: Change the included movement/parts file in this script to generate files *RequiemInEs.pdf* and *RequiemInEs.midi*, which can be opened via the ViewPDF and OpenMIDI functionalities.
 
 
 ## Files
 
+* *Makefile* – the configuration file for make.
 * *definitions.ly* – contains general definitions.
+* *RequiemInEs.ly* – allows building movements/parts from within Kile.
 * Individual voices in folder *Notes*:
     * N_Clarinetto1.ly
     * N_Clarinetto2.ly

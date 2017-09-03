@@ -1,3 +1,8 @@
+# (c) 2017 by Wolfgang Skala.
+# This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+# To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
+
+
 # change the following variables according to your project
 project = Weiß_RequiemInEs
 notes = Clarinetto1 Clarinetto2 Corno1 Corno2 Tromba1 Tromba2 \
