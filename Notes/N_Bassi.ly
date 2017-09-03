@@ -395,8 +395,8 @@ SanctusBassFigures = \figuremode {
 	r4 <6> <\t>
 	r2 <2>4
 	<6 5>2.
-	<6> %10
-	r
+	r2 <6>4 %10
+	r2.
 	<7>2. \bassFigureExtendersOn
 	q2 q8 q
 	<6 4>2.

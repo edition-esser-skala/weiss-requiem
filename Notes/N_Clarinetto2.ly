@@ -135,13 +135,28 @@ DomineClarinettoII = {
 }
 
 SanctusClarinettoII = {
-	\transpose c' b {
+% 	\transpose c' b {
 		\relative c' {
 			\clef treble
-			\key es \major \time 3/4 \tempoSanctus
-			
+			\key f \major \time 3/4 \tempoSanctus
+			R2.*11 %11
+			e4\p\< g8 g g([ c)]
+			b8.\! a16 g4 r
+			f\pE\< a8 a a a
+			c8.(\! b16) a4 r %15
+			g8.\f f16 f4 r
+			a8.\f a16 a4 a
+			as4. as8 as4
+			as g r
+			R2.*7 %26
+			r4 r r8 c\f
+			c4. b8( a c)
+			b2 b4
+			a2( g4) %30
+			a r r
+			R2. \bar "|." %32 FINIS
 		}
-	}
+% 	}
 }
 
 % ClarinettoII = {
