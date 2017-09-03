@@ -674,9 +674,71 @@ SanctusOrganoR = {
 	\clef treble
 	\key es \major \time 3/4 \tempoSanctus
 	<< \relative c' {
-			
+		b'2 es4
+		es c as
+		f2 b8 as~
+		as g g4 g~
+		g h c %5
+		d8. g,16 g4 d'
+		es c c
+		as2.~
+		as2 g4~
+		g2 a4 %10
+		b r r
+		f2 as!4
+		<f as>8. <es g>16 <d f>2
+		<b es g>4 <es g b> <g b es>
+		<d g b>8. <f as>16 g8 g as b %15
+		<c es>4 f, f
+		<g b es> <b, es g> q
+		<a' es'>2 <a>4
+		c8 b b4 r8 b
+		b4. es8 d f %20
+		es4 g, r8 b
+		c d es f g f
+		es4 d r8 b,
+		b4. es8 d f
+		es4 b r8 es %25
+		c d es f g f
+		es4 d b'
+		g'4. f8 es d
+		d c c4 f
+		es2 d4 %30
+		es es, es
+		es2 r4 %32 FINIS
 	} \\ \relative c' {
-		
+		g'2 es4
+		f2 f8 es
+		d2 f4
+		f8 es es4 es~
+		es f es %5
+		f2 f4
+		es g g
+		f2.~
+		f2 es4~
+		es2 f8 es %10
+		d4 r r
+		d2 f4
+		s2.
+		s
+		s4 es es %15
+		f <c es> q
+		s2.
+		ges'2 <es ges>4
+		q <d f>8 c b as
+		g'2 f8 as %20
+		g2 r8 g
+		as f g d es as
+		g4 f r8 b,
+		b2 b4
+		b2 r4 %25
+		r r r8 c
+		b2 b'4
+		b2.~
+		b8 as as4 as
+		g2 f4 %30
+		g b, b
+		b2 r4 %32 FINIS
 	} >>
 }
 
@@ -684,9 +746,71 @@ SanctusOrganoL = {
 	\clef bass
 	\key es \major \time 3/4 \tempoSanctus
 	<< \relative c {
-			
+		\dynamicUp es'2\pE b4
+		c2.
+		b~
+		b2 b4~
+		b g2~ %5
+		g g4
+		g2 c4
+		c2.\fE
+		b
+		c2 f,4 %10
+		f s s
+		b2\pE d4
+		d8. es16 b2
+		s2.
+		s2 b4 %15
+		s2.
+		s
+		s
+		s
+		s %20
+		s
+		es,4 r r8 c'
+		b4 b r
+		g2 b8 as
+		g8. as16 g4 r8 g %25
+		as4 g8 d es as
+		g4 f b
+		es4. d8 es4~
+		es2 c4
+		b2.~ %30
+		b4 g g
+		g r r4 %32 FINIS
 	} \\ \relative c {
-		
+		\dynamicUp es2 g4
+		as2 as4
+		b b, d
+		es es es
+		es d c %5
+		h h h
+		c es e
+		f f es
+		d2 es4
+		c c c %10
+		b8 b' b b b b
+		b,4 b' b,
+		b b8 b' b b
+		b4 b, b'
+		b, es8-\critnote \once\slurDashed es([\fE f g)] %15
+		as4 as as
+		b b, b'
+		ces2 ces,4
+		b b'8 \once\slurDashed as([\pE g f)]
+		es es' es es es es %20
+		es, es' es es es es
+		es,4 r r8 as
+		b4 b, b
+		es8 es es es es es
+		es es es es es es %25
+		es4 r r8 as,
+		b4 b b'\fE
+		es,4. f8 g g
+		as4 as as8 as
+		b b b b b, b %30
+		es4 b g
+		es-\critnote r r \bar "|." %32 FINIS
 	} >>
 }
 
