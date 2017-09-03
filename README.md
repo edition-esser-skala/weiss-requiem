@@ -8,14 +8,15 @@ First version, September 2017
 ## Build instructions
 
 Use the `make` tool for building scores. Specify one of the following **targets** to create:
-    * **Requiem** etc.: individual movements
-    * **Bassi** etc.: individual parts
-    * **parts**: all parts
-    * **movements**: all movements
-    * **score**: full score
-    * **all**: full score and all parts
-    * **archive**: ZIP file with all sources
-    * **info**: show all available targets
+
+* **Requiem** etc.: individual movements
+* **Bassi** etc.: individual parts
+* **parts**: all parts
+* **movements**: all movements
+* **score**: full score
+* **all**: full score and all parts
+* **archive**: ZIP file with all sources
+* **info**: show all available targets
 
 PDF files will be stored in a subfolder *./PDF*, MIDI files in a subfolder *./MIDI*.
 
