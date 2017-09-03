@@ -29,20 +29,20 @@ The file *RequiemInEs.ly* allows you to work with an editor like Kile: Change th
 * *definitions.ly* – contains general definitions.
 * *RequiemInEs.ly* – allows building movements/parts from within Kile.
 * Individual voices in folder *Notes*:
-    * N_Clarinetto1.ly
-    * N_Clarinetto2.ly
-    * N_Corno1.ly
-    * N_Corno2.ly
-    * N_Tromba1.ly
-    * N_Tromba2.ly
-    * N_Violino1.ly
-    * N_Violino2.ly
-    * N_Soprano.ly
-    * N_Alto.ly
-    * N_Tenore.ly
-    * N_Basso.ly
-    * N_Organo.ly
-    * N_Bassi.ly
+    * N_01_Clarinetto1.ly
+    * N_02_Clarinetto2.ly
+    * N_03_Corno1.ly
+    * N_04_Corno2.ly
+    * N_05_Tromba1.ly
+    * N_06_Tromba2.ly
+    * N_07_Violino1.ly
+    * N_08_Violino2.ly
+    * N_09_Soprano.ly
+    * N_10_Alto.ly
+    * N_11_Tenore.ly
+    * N_12_Basso.ly
+    * N_13_Organo.ly
+    * N_14_Bassi.ly
 * Movement definitions in folder *Scores*:
     * S_Requiem.ly
     * S_DiesIrae.ly

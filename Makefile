@@ -37,7 +37,7 @@ VPATH = ./Notes ./MIDI ./Parts ./PDF ./Scores
 # The dependencies of the parts:
 # (a) Individual parts (e.g., `make Bassi')
 $(parts): %: P_%.pdf
-$(parts:%=P_%.pdf): P_%.pdf: P_%.ly $(notes:%=N_%.ly) definitions.ly
+$(parts:%=P_%.pdf): P_%.pdf: P_%.ly $(notes:%=Notes/N_??_%.ly) definitions.ly
 
 # (b) All parts (`make parts')
 .PHONY: parts
@@ -46,7 +46,7 @@ parts: $(parts)
 # The dependencies of the movements:
 # (a) Individual movements (e.g., `make Requiem')
 $(movements): %: S_%.pdf
-$(movements:%=S_%.pdf): S_%.pdf: S_%.ly $(notes:%=N_%.ly) definitions.ly
+$(movements:%=S_%.pdf): S_%.pdf: S_%.ly $(notes:%=Notes/N_??_%.ly) definitions.ly
 
 # (b) All movements (`make movements')
 .PHONY: movements
@@ -61,7 +61,7 @@ score: $(movements)
 all: score parts
 
 archive:
-	zip $(project).zip README.md Makefile run.sh \
+	zip $(project).zip README.md Makefile \
 	*.ly Notes/*.ly Parts/*.ly Scores/*.ly
 
 space := $(subst ,, )
