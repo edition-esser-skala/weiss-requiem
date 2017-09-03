@@ -1,5 +1,6 @@
 # sh file for integration in Kile
-# variable `curmov' should contain the name of the PDF file that should be built
-curmov=S_IV
-make $curmov.pdf
-if [ -f PDF/$curmov.pdf ]; then ln -sf PDF/$curmov.pdf definitions.pdf; fi
+# variable `target' should contain the name of the current target
+target=Sanctus
+make $target
+if [ -f PDF/P_$target.pdf ]; then ln -sf PDF/P_$target.pdf definitions.pdf; fi
+if [ -f PDF/S_$target.pdf ]; then ln -sf PDF/S_$target.pdf definitions.pdf; fi

@@ -1,11 +1,12 @@
 # change the following variables according to your project
-piece = Weiß_RequiemInEs
+project = Weiß_RequiemInEs
 notes = Clarinetto1 Clarinetto2 Corno1 Corno2 Tromba1 Tromba2 \
         Violino1 Violino2 Soprano Alto Tenore Basso Organo Bassi
 parts = Bassi
-movements = I II III IV
+movements = Requiem DiesIrae Domine Sanctus
 
 
+.DEFAULT_GOAL := info
 # determine how many processors are present
 CPU_CORES = `cat /proc/cpuinfo | grep -m1 "cpu cores" | sed s/".*: "//`
 # The command to run lilypond
@@ -29,31 +30,46 @@ VPATH = ./Notes ./MIDI ./Parts ./PDF ./Scores
 	if [ -f "$*.midi" ]; then mv "$*.midi" MIDI/; fi
 
 # The dependencies of the parts:
-# (a) Individual parts (e.g., `make P_Bassi.pdf')
-$(parts:%=P_%.pdf): %.pdf: %.ly $(notes:%=Notes/N_??_%.ly)
+# (a) Individual parts (e.g., `make Bassi')
+$(parts): %: P_%.pdf
+$(parts:%=P_%.pdf): P_%.pdf: P_%.ly $(notes:%=N_%.ly)
 
 # (b) All parts (`make parts')
 .PHONY: parts
-parts: $(parts :%=P_%.pdf)
+parts: $(parts)
 
 # The dependencies of the movements:
-# (a) Individual movements (e.g., `make S_I.pdf')
-$(movements:%=S_%.pdf): %.pdf: %.ly $(notes:%=Notes/N_??_%.ly)
+# (a) Individual movements (e.g., `make Requiem')
+$(movements): %: S_%.pdf
+$(movements:%=S_%.pdf): S_%.pdf: S_%.ly $(notes:%=N_%.ly)
 
 # (b) All movements (`make movements')
 .PHONY: movements
-movements: $(movements:%=S_%.pdf)
+movements: $(movements)
 
 # The dependencies of the full score (`make score'):
 .PHONY: score
-score: $(movements:%=S_%.pdf)
-	pdfunite $(movements:%=PDF/S_%.pdf) PDF/$(piece)_Full_score.pdf
+score: $(movements)
+	pdfunite $(movements:%=PDF/S_%.pdf) PDF/$(project)_Full_score.pdf
 
 # make scores and parts
 all: score parts
 
-#archive:
-#	tar -cvvf $(piece).tar \
-#	  --exclude=*pdf --exclude=*~ \
-#	  --exclude=*midi --exclude=*.tar \
-#	  ./*
+archive:
+	zip $(project).zip README.md Makefile run.sh \
+	*.ly Notes/*.ly Parts/*.ly Scores/*.ly
+
+space := $(subst ,, )
+sep := ", "
+info:
+	@color=`tput setaf 6; tput bold`; \
+	reset=`tput sgr0`; \
+	echo "Specify one of the following $${color}targets$${reset} to create:\n" \
+	"* $${color}$(subst $(space),$(sep),$(movements))$${reset}: individual movements\n" \
+	"* $${color}$(subst $(space),$(sep),$(parts))$${reset}: individual parts\n" \
+	"* $${color}parts$${reset}: all parts\n" \
+	"* $${color}movements$${reset}: all movements\n" \
+	"* $${color}score$${reset}: full score\n" \
+	"* $${color}all$${reset}: full score and all parts\n" \
+	"* $${color}archive$${reset}: ZIP file with all sources\n" \
+	"* $${color}info$${reset}: prints this message"
