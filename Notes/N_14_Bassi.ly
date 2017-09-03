@@ -420,7 +420,60 @@ BenedictusBassi = {
 	\relative c {
 		\clef bass
 		\key es \major \time 2/4 \tempoBenedictus
-		es8 b' g es
+		es8\pE b' g es
+		b4 r8 h
+		c as' b b,
+		es b es r
+		es-\solo b' g es %5
+		b' b, r d
+		es es, r g'
+		as c as e
+		f f, f' as
+		g d es as %10
+		b[ b, b] b'\f
+		f f, r f'
+		b b, r d
+		es4. e8
+		f fis g es %15
+		f f, f' r
+		\mvTr b,\p-\solo f' d b
+		f' f, r a
+		b b' r d,
+		es4 d8 b %20
+		g g a a
+		b b[\f b b']
+		b b, b b'
+		b b, b b
+		b b b b %25
+		b4 r
+		es8\p b' g es
+		b' b, r d
+		es b' g es
+		b' b, r d %30
+		es es' es, g
+		b b, r d
+		es4 es8 es
+		as8.( b32 c) e,8 e
+		f8.( g32 as) d,8 d %35
+		es f g as
+		b4 b,
+		es8 es' es es
+		es, es'\trill es es
+		es es, es es %40
+		es es es es
+		es es es es
+		es[ es, es'] g\f
+		as c16( b) as8 g
+		f g as a %45
+		b8[ c d] d,\p
+		es es as, as
+		b b b b
+		es\p es es es
+		es es es es %50
+		es es es es
+		es es es es
+		es es'16( b) b( g) g( es)
+		es4 r \bar "|." %54 FINIS
 	}
 }
 
