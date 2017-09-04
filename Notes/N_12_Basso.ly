@@ -385,12 +385,90 @@ BenedictusBassoNotes = {
 	\relative c {
 		\clef bass
 		\key es \major \time 2/4 \autoBeamOff \tempoBenedictus
-		
+		R2*10 %10
+		r8 \mvTr d\f^\tutti d d
+		r4 r8 f
+		d f r d
+		es4. e8
+		f([ fis g)] es %15
+		f4 f,8 r
+		R2*5 %21
+		r8 \mvTr d'\f^\tutti f d
+		r f as f
+		r8^\critnote b, b4~
+		b8. b16 b8 b %25
+		b b r4
+		R2*2
+		r8 \mvTr b'([\p^\solo g)] es
+		b' b, r d %30
+		es es r4
+		r r8 d
+		es4\< es8 \mvTr es\fE^\tutti
+		as8.([-> b32 c)] e,8 e
+		f8.([-> g32 as)] d,8 d\pE %35
+		es([ f)] g as
+		b4 b,
+		es r
+		r r8 b'^\solo
+		g g b as %40
+		g g r b
+		g g b as
+		g g r g\f
+		as c16([ b)] as8 g
+		f([ g)] as a %45
+		b([ c)] d d,\pp
+		es es as, as
+		b2
+		es4 r
+		r8 \mvTr b\p^\markup { \remarkE "dolce" } b4 %50
+		es r8 es16 es
+		b2->
+		es~\<
+		es4\> r\! \bar "|." %54 FINIS
 	}
 }
 
 BenedictusBassoLyrics = \lyricmode {
+	Ho -- san -- na, %11
+	ho --
+	san -- na, ho --
+	san -- na
+	in __ ex -- %15
+	cel -- sis.
 	
+	Ho -- san -- na, %22
+	ho -- san -- na,
+	ho -- san --
+	na in ex -- %25
+	cel -- sis.
+	
+	
+	Be -- ne -- %29
+	di -- ctus, qui %30
+	ve -- nit,
+	qui
+	ve -- nit, qui
+	ve -- nit, qui
+	ve -- nit in %35
+	no -- mi -- ne
+	Do -- mi --
+	ni.
+	Ho --
+	san -- na in ex -- %40
+	cel -- sis, ho --
+	san -- na in ex --
+	cel -- sis, ho --
+	san -- na __ in ex --
+	cel -- sis, ho -- %45
+	san -- na, ho --
+	san -- na in ex --
+	cel --
+	sis.
+	Ho -- san -- %50
+	na in ex --
+	cel --
+	sis. __
+	%54 FINIS
 }
 
 % BassoNotes = {

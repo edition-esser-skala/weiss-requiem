@@ -416,11 +416,11 @@ BenedictusSopranoNotes = {
 		b es d f
 		es b r b %40
 		b es d f
-		es b r \mvTr b\f^\tuttiE
+		es b r b\f
 		es g16([ f)] es8 d
 		c c r c
 		as'([ g)] f es %45
-		d([ c)] b b\p
+		d([ c)] b b\ppE
 		b b c c
 		g4( f)
 		es r

@@ -381,12 +381,91 @@ BenedictusTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key es \major \time 2/4 \autoBeamOff \tempoBenedictus
-		
+		R2*10 %10
+		r8 \mvTr f,\f^\tutti f b
+		r a a c
+		r4 r8 b
+		b4( c8[ des)]
+		c4 b8 es %15
+		d4^\critnote c8 r
+		R2*5 %21
+		r8 \mvTr f,\f^\tutti d' b
+		r d f d
+		r b([ d es)]
+		f8. es16 d8 es %25
+		d b r4
+		\mvTr b4.\pE^\solo es8
+		d8.([ es32 f)] b,8 as
+		g([ b)] es r
+		r4 b8 b %30
+		b4 es8 es
+		d8.([ es16)] f8 as,
+		g([\< es')] b \mvTr b\f^\tutti
+		c c r c
+		c c r b\pE %35
+		b([ d)] es c
+		g4 as
+		g r
+		r r8 b^\solo
+		b es d f %40
+		es b r b
+		b es d f
+		es b r4
+		es4.( e8)
+		f([ e)] f c\f %45
+		d([ f16 es)] d8 f\ppE
+		es b as c
+		b2
+		g4 r
+		r8 \mvTr b\p^\markup { \remark "dolce" } d8..([ f32)] %50
+		es4 r8 b16 b
+		b4( d8..[-> es32)]
+		es2~\<
+		es4\> r\! \bar "|." %54 FINIS
 	}
 }
 
 BenedictusTenoreLyrics = \lyricmode {
+	Ho -- san -- na, %11
+	ho -- san -- na,
+	ho --
+	san --
+	na in ex -- %15
+	cel -- sis.
 	
+	Ho -- san -- na, %22
+	ho -- san -- na,
+	ho --
+	san -- na in ex -- %25
+	cel -- sis.
+	Be -- ne --
+	di -- ctus qui
+	ve -- nit.
+	Be -- ne -- %30
+	di -- ctus, qui
+	ve -- nit, qui
+	ve -- nit, qui
+	ve -- nit, qui
+	ve -- nit in %35
+	no -- mi -- ne
+	Do -- mi --
+	ni.
+	Ho --
+	san -- na in ex -- %40
+	cel -- sis, ho --
+	san -- na in ex --
+	cel -- sis,
+	ho --
+	san -- na, ho -- %45
+	san -- na, ho --
+	san -- na in ex --
+	cel --
+	sis.
+	Ho -- san -- %50
+	na in ex --
+	cel --
+	sis. __
+	%54 FINIS
 }
 
 % TenoreNotes = {

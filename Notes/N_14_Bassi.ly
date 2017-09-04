@@ -457,15 +457,15 @@ BenedictusBassi = {
 		f8.( g32 as) d,8 d\pE %35
 		es f g as
 		b4 b,
-		es8 es'-\soloE es es
+		es8 es' es-\soloE es
 		es, es'\trill es es
 		es es, es es %40
 		es es es es
-		es es es \mvTr es\fE-\tuttiE
-		es[ es, es'] g
+		es es es es
+		es[ es, es'] g\fE
 		as c16( b) as8 g
 		f g as a %45
-		b8[ c d] d,\p
+		b8[ c d] d,\ppE
 		es es as, as
 		b b b b
 		es\p es es es
