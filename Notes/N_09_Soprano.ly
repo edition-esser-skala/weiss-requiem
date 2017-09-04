@@ -424,7 +424,7 @@ BenedictusSopranoNotes = {
 		b b c c
 		g4( f)
 		es r
-		r8 \mvTr d'\p^\markup { \remark "dolce" } f8..([ d32)] %50
+		r8 \mvTr d'\p^\dolce f8..([ d32)] %50
 		es4 r8 es16 es
 		d4( f8..[-> es32)]
 		es2~\<

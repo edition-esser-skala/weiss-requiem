@@ -420,7 +420,7 @@ BenedictusBassoNotes = {
 		es es as, as
 		b2
 		es4 r
-		r8 \mvTr b\p^\markup { \remarkE "dolce" } b4 %50
+		r8 \mvTr b\p^\dolceE b4 %50
 		es r8 es16 es
 		b2->
 		es~\<

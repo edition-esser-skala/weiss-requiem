@@ -55,6 +55,8 @@ orgE = \markup { \remarkE Org. }
 ped = \markup { \remark "Ped." }
 pedE = \markup { \remarkE "Ped." }
 senzaPed = \markup { \remark "senza Ped." }
+dolce = \markup { \remark "dolce" }
+dolceE = \markup { \remarkE "dolce" }
 
 t = \markup { \combine \fontsize #-2 \transparent \number 5 \raise #.6 \draw-line #'(1 . 0) }
 l = \markup { \fontsize #-2 \transparent \number 5 }

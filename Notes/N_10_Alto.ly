@@ -395,7 +395,7 @@ BenedictusAltoNotes = {
 		g g f f
 		es4( d)
 		es r
-		r8 \mvTr f\p^\markup { \remarkE "dolce" } as4 %50
+		r8 \mvTr f\p^\dolceE as4 %50
 		g4 r8 g16 g
 		f4( as8..[^>-\critnote g32])
 		g2~\<

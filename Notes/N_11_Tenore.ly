@@ -417,7 +417,7 @@ BenedictusTenoreNotes = {
 		es b as c
 		b2
 		g4 r
-		r8 \mvTr b\p^\markup { \remark "dolce" } d8..([ f32)] %50
+		r8 \mvTr b\p^\dolce d8..([ f32)] %50
 		es4 r8 b16 b
 		b4( d8..[-> es32)]
 		es2~\<

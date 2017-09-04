@@ -70,7 +70,7 @@ DiesIraeViolinoI = {
 		c c c c des des des des
 		g g g g as as as as
 		as as as as g g g g
-		as4 r8. \mvTr as,,16\p-\markup {\remark "dolce" } c8. es16 g8. as16 %25
+		as4 r8. \mvTr as,,16\p-\dolce c8. es16 g8. as16 %25
 		<f as,>4 r8. a16( b8.) c16( des8.) f16(
 		b,4) r8. \acciaccatura c8 b16 as8( g f es)
 		es'4 es16( des as b) as4\trill c8( b)
@@ -98,7 +98,7 @@ DiesIraeViolinoI = {
 		r f( b d) r b( es b) %50
 		r b( f' b,) r b( es g)
 		f( b g es) f( as, g es')
-		g,4 f \mvTr b\p-\markup {\remark "dolce" } b
+		g,4 f \mvTr b\p-\dolce b
 		b'8( f as d,) f( b, \grace { a16[ b] } c8 b)
 		es,(\p b g b) b( es g es) %55
 		b'( f d f) b,( d f b)
@@ -153,7 +153,7 @@ DomineViolinoI = {
 		r16 es(-. es-. es-.) r d(-. c-. b-.)
 		r f( a b) r es r d %30
 		c16\< c c c c c c c
-		c8\f \mvTr f[\p-\markup { \remark "dolce" } f] f16( e)
+		c8\f \mvTr f[\p-\dolce f] f16( e)
 		g( f c d) f( e) es-. a,-.
 		b(\fE d) c-. b-. a8[( \grace { b16-\critnote a } g a)]
 		b( d,) f-. b-. h( d) f-. h,-. %35
@@ -220,7 +220,60 @@ BenedictusViolinoI = {
 	\relative c' {
 		\clef treble
 		\key es \major \time 2/4 \tempoBenedictus
-		
+		\mvTr b'4.\p-\dolce es8
+		\acciaccatura f8 es16( d) c'( b) as( f c d)
+		f( es) f,( c') es,8 g16.( f32)
+		f4( es8) r
+		b'4.(\p es8) %5
+		d8.( es32 f) as,8 as
+		g8.( as32 b) es,8 es
+		es'8[ r16 c] c c c c
+		c8 r16 as as8( f16 d)
+		es8( as) g( as16 f) %10
+		g( f) f8 f16(\f d d' b)
+		a8( f16. g32) a16( c es a,)
+		d( f, b d) f4~
+		f8 es16( d c8 b)
+		a8.( g32 a) b8( d16 c) %15
+		\afterGrace b4 { d16[ c] } a8 r
+		f4.\p b8
+		a8. b16 c8 es,
+		r d16 es f8( b16 a)
+		g8.( a16) b( a g f) %20
+		f8 f es es
+		d\f f16(\trill e?32 f) d'8 b16(\trill a32 b)
+		d8 d16(\trill cis?32 d) f8 f16(\trill e?32 f)
+		as!8 f16( d-\critnote f8 es)
+		d8. c16 b8 a %25
+		b b, r4
+		b'4\p g'8( es)
+		d8.( es32 f) b,8( as)
+		g( b) es es
+		d8.( es32 f) b,8( as) %30
+		g r es' b'~
+		b b,4 b'16( as)
+		g8( as) f-. es-.\f
+		es16( c) c'-. c-. c8-. c,-.
+		c16( as) as'-. as-. b,8 b'\p %35
+		g( d) es f,16( c')
+		es,8( b') as( f)
+		es[ b'(-. b-. b-.)]
+		b( es) d( f)
+		es16( b) b-. b-. b( as) f( d) %40
+		es8( es') d( f)
+		es16( b) b-. b-. b,8 b'\f
+		es g16( f) es8-. d-.
+		c c r c
+		as'( g f es) %45
+		d( c) b-. b-.\ppE
+		b( es) e,16( f as c)
+		g8( b as d,)
+		es b''16(\pE fis) g( d) es( c)
+		b8( d) f8.. d32 %50
+		es8 b'16( fis) g( d es g)
+		b,8( d) f8.. es32
+		es8 <es es,>([-.\pp q-. q-.)]
+		q2 \bar "|." %54 FINIS
 	}
 }
 

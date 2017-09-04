@@ -72,7 +72,7 @@ DiesIraeViolinoII = {
 		des des des des c c c c
 		b b b b b b b b
 		as4 r r2 %25
-		\mvTr as,4\pE-\markup { \remarkE "dolce" } r8. a16( b8.) c16( des8.) f16
+		\mvTr as,4\pE-\dolceE r8. a16( b8.) c16( des8.) f16
 		<es b>4 r q2
 		<es as,>4 f c des
 		c c8.\f c16 c'4 e,8. g16
@@ -100,7 +100,7 @@ DiesIraeViolinoII = {
 		r as( d-\critnote as) r g( b g)
 		b( d es b) as( f es g)
 		es4 d r2
-		r \mvTr <b d>4\p-\markup { \remark "dolce" } <as d>
+		r \mvTr <b d>4\p-\dolce <as d>
 		<g es'>8( g b es) g,( es' g es) %55
 		f( d b d) f( b, d f)
 		es( b g b) g( b es b)
@@ -221,7 +221,60 @@ BenedictusViolinoII = {
 	\relative c' {
 		\clef treble
 		\key es \major \time 2/4 \tempoBenedictus
-		
+		\mvTr <b g'>4\pE-\dolceE q
+		b r8 as'
+		g c,16 c g8 b16.( as32)
+		as4( g8) r
+		r g16(\p b es b g' es) %5
+		r8 f16( b,) b( f') f-. f-.
+		r8 g,16( b) es( b) b-. b-.
+		c8[( r16 as')] es-\critnote es g g
+		as8 r16 f f8( d16 b)
+		b8( f') es( c) %10
+		es16(-\critnote d) d8 d16(\f b f' d)
+		c8 c f16( a c a)
+		d,8 d16( f) r8 as
+		g g4 des8
+		c( es) d( es) %15
+		d?4( c8) r
+		r b16(\p d) f( b,) d( f)
+		r8 c16( f) a,( c) c c
+		r8 b16( c) d8( f)
+		es es f( d) %20
+		b b c c
+		d8\f d16(\trill cis32 d) f8 d16(\trill cis?32 d)
+		f8 f16(\trill e32 f) as8 as16(\trill g32 as)
+		f8 as as( g)
+		f8.( es16) d( f) es( ges) %25
+		f8 b, r4
+		r8 g16(\p b) es( b g b)
+		r8 f'16( b,) b( f') f-. f-.
+		r8 g,16( b) g( b g' es)
+		r8 f16( b,) b( f') f-. f-. %30
+		es8 es16( f) g( es) es-. es-.
+		f8 f16( g) as8( f)
+		b( c) d-. es-.\f
+		c16( es) as as g8 g,
+		as16( c) f-. f-. f,8 b\p %35
+		b8( as) g as16( f)
+		g,4 b8( as)
+		g[ g'(-. g-. g-.)]
+		g g f( as)
+		g g16 g d( f) d( b) %40
+		g8( g' f as)
+		g g16 g f( d b as)
+		g8 b'4\f b8
+		as es es e16( g)
+		as8( c16 b) as8 c, %45
+		d( f16 es) d8 as'\ppE
+		g g c,( f)
+		es( g f as,)
+		g <b g'>4\pE q8
+		f' b16( f) as( d, f b,) %50
+		es4 <b g'>8 q
+		f' b16( f) as( d, f g)
+		es8 <b g'>([-.\pp q-. q-.)]
+		q2 \bar "|." %54 FINIS
 	}
 }
 
