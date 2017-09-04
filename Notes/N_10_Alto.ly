@@ -355,12 +355,99 @@ BenedictusAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key es \major \time 2/4 \autoBeamOff \tempoBenedictus
-		
+		R2*10 %10
+		r4 r8 \mvTr b'\f^\tutti
+		a f r a
+		b d r as
+		g g r g(
+		es4) d8([ g)] %15
+		f4 f8 r
+		\mvTr f4.\pE^\solo b8
+		a8.([ b16)] c8 es,
+		d8.([ es16)] f8 b16([ a)]
+		g8.([ a16)] b([ a)] g([ f)] %20
+		f4( es8.) es16
+		d4 r8 \mvTr f\f^\tutti
+		f d r f
+		as!4. g8
+		as8.([ g16 f8)] ges %25
+		f f r4
+		R2
+		r4 \mvTr d8\p^\solo f
+		es4 g8 g
+		f f r f %30
+		es8.([ f16]) g8 r
+		f8.([ g16 as8)] f
+		g\< as4 \mvTr g8\f^\tutti
+		as c r g
+		as as r as\p %35
+		g([ as)] g f
+		es4 d
+		es r8 b'^\solo
+		g g b as
+		g g r b %40
+		g g b as
+		g g r4
+		r8 b b4
+		as r8 \mvTr g\f^\tuttiE
+		as([ c16 b)] as8 g %45
+		f([ a)] f as\pp
+		g g f f
+		es4( d)
+		es r
+		r8 \mvTr f\p^\markup { \remarkE "dolce" } as4 %50
+		g4 r8 g16 g
+		f4( as8.[^> g16])
+		g2~\<
+		g4\> r\! \bar "|." %54 FINIS
 	}
 }
 
 BenedictusAltoLyrics = \lyricmode {
+	Ho -- %11
+	san -- na, ho --
+	san -- na, ho --
+	san -- na in __
+	ex -- %15
+	cel -- sis.
+	Be -- ne --
+	di -- ctus, qui
+	ve -- nit in __
+	no -- mi -- ne __ %20
+	Do -- mi --
+	ni. Ho --
+	san -- na, ho --
+	san -- na
+	in __ ex -- %25
+	cel -- sis.
 	
+	Be -- ne --
+	di -- ctus qui
+	ve -- nit, qui %30
+	ve -- nit.
+	Be -- ne --
+	di -- ctus, qui
+	ve -- nit, qui
+	ve -- nit in %35
+	no -- mi -- ne
+	Do -- mi --
+	ni. Ho --
+	san -- na in ex --
+	cel -- sis, ho -- %40
+	san -- na in ex --
+	cel -- sis,
+	ho -- san --
+	na, ho --
+	san -- na, ho -- %45
+	san -- na, ho --
+	san -- na in ex --
+	cel --
+	sis.
+	Ho -- san -- %50
+	na in ex --
+	cel --
+	sis. __
+	%54 FINIS
 }
 
 % AltoNotes = {

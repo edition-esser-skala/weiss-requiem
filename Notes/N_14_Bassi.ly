@@ -430,7 +430,7 @@ BenedictusBassi = {
 		as c as e
 		f f, f' as
 		g d es as %10
-		b[ b, b] b'\f
+		b[ b, b] \mvTr b'\f-\tuttiE
 		f f, r f'
 		b b, r d
 		es4. e8
@@ -441,28 +441,28 @@ BenedictusBassi = {
 		b b' r d,
 		es4 d8 b %20
 		g g a a
-		b b[\f b b']
+		b \mvTr b[\f-\tuttiE b b']
 		b b, b b'
 		b b, b b
 		b b b b %25
 		b4 r
-		es8\p b' g es
+		\mvTr es8\p-\soloE b' g es
 		b' b, r d
 		es b' g es
 		b' b, r d %30
 		es es' es, g
 		b b, r d
-		es4 es8 es
+		es4 es8 \mvTr es\f-\tuttiE
 		as8.( b32 c) e,8 e
-		f8.( g32 as) d,8 d %35
+		f8.( g32 as) d,8 d\pE %35
 		es f g as
 		b4 b,
-		es8 es' es es
+		es8 es'-\soloE es es
 		es, es'\trill es es
 		es es, es es %40
 		es es es es
-		es es es es
-		es[ es, es'] g\f
+		es es es \mvTr es\fE-\tuttiE
+		es[ es, es'] g
 		as c16( b) as8 g
 		f g as a %45
 		b8[ c d] d,\p

@@ -382,12 +382,103 @@ BenedictusSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key es \major \time 2/4 \autoBeamOff \tempoBenedictus
-		
+		R2*4
+		\mvTr b'4.\pE^\solo es8 %5
+		d8.([ es32 f)] as,8 as
+		g8.([ as32 b)] es,8 es
+		es'8.([-> c16)] c8 c
+		c8.-> as16 as8 f
+		b4~ b16([ c)] as f %10
+		g f f8 r4
+		r8 \mvTr f\f^\tutti f es'
+		r d f4~
+		f8([ es16 d] c8[ b])
+		a8.([ g32 a)] b8 d16([ c)] %15
+		b4 a8 r
+		R2*5 %21
+		r4 r8 \mvTr b\f^\tutti
+		d b r d
+		f8.([ d16 f8)] es
+		d8.([ c16 b8)] a %25
+		b b r4
+		R2
+		r4 \mvTr b8\p^\solo b
+		b4 es8 es
+		d8.([ es32 f)] b,8 as %30
+		g8.([ as16)] b8 r
+		r b4 b8
+		b([\< c)] d \mvTr es\f^\tutti
+		es c r c
+		c as r b\p %35
+		b4~ b16([ es)] as, c
+		<< \context Voice = "Soprano" { es,4 f } \\ { s8 s\reverseturn s4 } >>
+		es4 r8 b'^\solo
+		b es d f
+		es b r b %40
+		b es d f
+		es b r \mvTr b\f^\tuttiE
+		es g16([ f)] es8 d
+		c c r c
+		as'([ g)] f es %45
+		d([ c)] b b\p
+		b b c c
+		g4( f)
+		es r
+		r8 \mvTr d'\p^\markup { \remark "dolce" } f8..([ d32)] %50
+		es4 r8 es16 es
+		d4( f8..[-> es32)]
+		es2~\<
+		es4\> r\! \bar "|." %54 FINIS
 	}
 }
 
 BenedictusSopranoLyrics = \lyricmode {
+	Be -- ne -- %5
+	di -- ctus, qui
+	ve -- nit in
+	no -- mi -- ne,
+	no -- mi -- ne, in
+	no -- mi -- ne %10
+	Do -- mi -- ne.
+	Ho -- san -- na,
+	ho -- san --
 	
+	na __ in ex -- %15
+	cel -- sis.
+	
+	Ho -- %22
+	san -- na, ho --
+	san -- na
+	in __ ex -- %25
+	cel -- sis.
+	
+	Be -- ne --
+	di -- ctus qui
+	ve -- nit, qui %30
+	ve -- nit.
+	Be -- ne --
+	di -- ctus, qui
+	ve -- nit, qui
+	ve -- nit in %35
+	no -- mi -- ne
+	Do -- mi --
+	ni. Ho --
+	san -- na in ex --
+	cel -- sis, ho -- %40
+	san -- na in ex --
+	cel -- sis, ho --
+	san -- na __ in ex --
+	cel -- sis, ho --
+	san -- na, ho -- %45
+	san -- na, ho --
+	san -- na in ex --
+	cel --
+	sis.
+	Ho -- san -- %50
+	na in ex --
+	cel --
+	sis. __
+	%54 FINIS
 }
 
 % SopranoNotes = {
