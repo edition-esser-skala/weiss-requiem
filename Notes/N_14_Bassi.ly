@@ -478,7 +478,60 @@ BenedictusBassi = {
 }
 
 BenedictusBassFigures = \figuremode {
-	
+	<5 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	r4. <7>8
+	r <6> <6 4> <5 3>
+	<9 4> <\t \t> <8 3>4
+	<5 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff %5
+	r4. <6 5>8
+	r4. <6>8
+	r q r q
+	r4. <2>8
+	<6> <6 5> r <6> %10
+	<6 4> <5 3> r4
+	<_!>4. q8
+	r4. <6 5->8
+	<9>8 <8>16 <7> <6>8 <7->
+	<_!> <7> r <7>16 <6> %15
+	<6 4>4 <5 _!>
+	<5 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	<_!>4. <6 5>8
+	r4. <6>8
+	r4 <6>8 q %20
+	<7>4 <5>
+	r2
+	r
+	<7->4. <6 4>8
+	<5 3>4. <7! 6- 4>8 %25
+	r2
+	<5 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	r4. <6>8
+	<5 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	r4. <6>8 %30
+	<5 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff
+	r4. <6>8
+	<5 3>8 <6 4> <7 4 2> <8 5 3>
+	r4 <6>
+	r <6 5> %35
+	r8 <6> q <6 5>
+	<6 4>4 <7 5 3>
+	r2
+	r
+	r %40
+	r
+	r
+	r4. <6>8
+	<5 3>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff <6\\>
+	r <6\\> <6> <7> %45
+	r <6\\> <6> <6 5->
+	r4 <6 5>
+	<6 4> <7 5 3>
+	r2
+	r %50
+	r
+	r
+	r
+	r %54 FINIS
 }
 
 % Bassi = {
