@@ -168,8 +168,48 @@ BenedictusCornoI = {
 % 	\transpose c es {
 		\relative c' {
 			\clef treble
-			\key es \major \time 2/4 \tempoBenedictus
-			
+			\key c \major \time 2/4 \tempoBenedictus
+			c'4\p r
+			d r
+			r r8 g,
+			g4 e8 r
+			R2*6 %10
+			g4\f-> r
+			\pao d' r
+			d r
+			e r
+			r r8 e %15
+			\pa d4~ d8 \pd r
+			R2*5 %21
+			g,4\f-> r
+			d' r
+			f4. e8
+			R2 %25
+			d8 d r4
+			R2*2
+			\mvTr c2\p-\solo
+			d %30
+			e8[ g( e) c]
+			\pao g4 g
+			c r
+			R2
+			r4 r8 d\p %35
+			e c c \pao d
+			e4 d
+			\pa c8 c c \pd r
+			R2*4 %42
+			r4 r8 c\f
+			c4 c8 r
+			R2 %45
+			r4 r8 d\ppE
+			e4( f
+			e d)
+			c8 g[ c e]
+			d4 r %50
+			r8 g,[ c e]
+			d4 r
+			r8 \pa c,[\p e g]
+			c2 \bar "|." %54 FINIS
 		}
 % 	}
 }

@@ -164,8 +164,29 @@ BenedictusClarinettoI = {
 % 	\transpose c' b {
 		\relative c' {
 			\clef treble
-			\key es \major \time 2/4 \tempoBenedictus
-			
+			\key f \major \time 2/4 \tempoBenedictus
+			R2*10 %10
+			\pa R2
+			r8 g'\f g f'
+			r e g4~
+			g8 f16( e d8 c)
+			h8.( a32 h) c8( e16 d)-\critnote %15
+			c4( h8) r
+			\pd R2*5 %21
+			r4 r8 c\f
+			e c r e
+			g8.([ e16 g8 f)]
+			e8.([ d16 c8 h)] %25
+			c4 r
+			R2*15 %41
+			\pa r4 r8 c\f
+			f a16( g) f8 e
+			d4 r8 d
+			b'( a g f) %45
+			e( d) c-. r
+			R2*6 %52
+			f2\p\<
+			f4\> r\! \bar "|." %54 FINIS
 		}
 % 	}
 }
