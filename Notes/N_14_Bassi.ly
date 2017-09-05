@@ -548,6 +548,73 @@ AgnusDeiBassi = {
 		\clef bass
 		\key c \minor \time 3/4 \tempoAgnusDei
 		c'2\f g4-.
+		es-. c8 r16 c\p h( c es g)
+		as8. g16 f4 fis
+		g g,8 r r4
+		R2.*2 %6
+		c4\f es c
+		as c as
+		f8 f' f f fis fis
+		g8. g,16 g4 g'\p %10
+		as8.( g16) h,4 h
+		c c8 es([ g a)]
+		b4 des, des
+		des2.~
+		des4 des des\f %15
+		c8.( b16) as4 ges'
+		f8. es16 des4 d
+		es es es
+		es es es
+		es, es es %20
+		as8 r es'\p r c r
+		as as' as as as as
+		es4 as, r
+		R2.
+		r4 r r8 es'\p %25
+		as,4 c es
+		as as, r
+		des8\p des des des des des
+		des des des des des des
+		c4 c r %30
+		R2.
+		r4 r es8\p es
+		e e f f f f
+		r d!\f f as d d,
+		r des g b des des, %35
+		c\p c c c c c
+		des des des des des des
+		des des es es f f
+		ges ges ges ges ges ges
+		d! d d d d d %40
+		es es ces ces a a
+		b4 r8 ces'\ff-> b-> ces->
+		b4 b, r
+		es'2 b4-.
+		ges es8 r16 es\p d( es ges b) %45
+		ces8. b16 as4 a
+		b b, r
+		R2.*2
+		es4\f ges es %50
+		ces es ces
+		a a' a,
+		b b b'
+		ces-> b-. r
+		r r8 b\p b b %55
+		ces8.-> des,16 des8 des des des
+		des4 r8 des des des
+		des4 r8 des des des
+		des4 des r
+		ces8.\ff ces16 ces4\fermata r %60
+		ces\pp ces'2
+		b,4 b'2
+		heses,4 heses'2
+		as,4 as'2
+		g,!4 g'2 %65
+		fis,4\< fis'2
+		g4\! r g,~
+		g8 r r4 g~
+		g8 r r g' g g
+		g,2\fermata r4 \bar "||" %70 FINIS
 	}
 }
 
