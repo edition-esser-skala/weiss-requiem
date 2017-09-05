@@ -225,16 +225,16 @@ BenedictusCornoII = {
 	}
 }
 
-% CornoII = {
-% 	\transpose c es {
-% 		\relative c' {
-% 			\clef treble
-% 			\key c \major \time 4/4 \tempoRequiem
-% 			
-% 		}
-% 	}
-% }
-% 
+AgnusDeiCornoII = {
+	\transpose c es {
+		\relative c' {
+			\clef treble
+			\key c \minor \time 3/4 \tempoAgnusDei
+			
+		}
+	}
+}
+
 % CornoII = {
 % 	\transpose c es {
 % 		\relative c' {

@@ -1060,45 +1060,25 @@ BenedictusOrganoL = {
 	} >>
 }
 
-% OrganoR = {
-% 	\clef treble
-% 	\key c \minor \time 2/2 \tempoDiesIrae
-% 	<< \relative c' {
-% 			
-% 	} \\ \relative c' {
-% 		
-% 	} >>
-% }
-% 
-% OrganoL = {
-% 	\clef bass
-% 	\key c \minor \time 2/2 \tempoDiesIrae
-% 	<< \relative c {
-% 			
-% 	} \\ \relative c {
-% 		
-% 	} >>
-% }
+AgnusDeiOrganoR = {
+	\clef treble
+	\key c \minor \time 3/4 \tempoAgnusDei
+	<< \relative c' {
+			
+	} \\ \relative c' {
+		
+	} >>
+}
 
-% OrganoR = {
-% 	\clef treble
-% 	\key c \minor \time 2/2 \tempoDiesIrae
-% 	<< \relative c' {
-% 			
-% 	} \\ \relative c' {
-% 		
-% 	} >>
-% }
-% 
-% OrganoL = {
-% 	\clef bass
-% 	\key c \minor \time 2/2 \tempoDiesIrae
-% 	<< \relative c {
-% 			
-% 	} \\ \relative c {
-% 		
-% 	} >>
-% }
+AgnusDeiOrganoL = {
+	\clef bass
+	\key c \minor \time 3/4 \tempoAgnusDei
+	<< \relative c {
+			
+	} \\ \relative c {
+		
+	} >>
+}
 
 % OrganoR = {
 % 	\clef treble

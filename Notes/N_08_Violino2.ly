@@ -287,14 +287,14 @@ BenedictusViolinoII = {
 	}
 }
 
-% ViolinoII = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key es \major \time 4/4 \tempoRequiem
-% 		
-% 	}
-% }
-% 
+AgnusDeiViolinoII = {
+	\relative c' {
+		\clef treble
+		\key c \minor \time 3/4 \tempoAgnusDei
+		
+	}
+}
+
 % ViolinoII = {
 % 	\relative c' {
 % 		\clef treble

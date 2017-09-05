@@ -543,18 +543,18 @@ BenedictusBassFigures = \figuremode {
 	r %54 FINIS
 }
 
-% Bassi = {
-% 	\relative c {
-% 		\clef bass
-% 		\key es \major \time 4/4 \tempoRequiem
-% 		
-% 	}
-% }
-% 
-% BassFigures = \figuremode {
-% 	
-% }
-% 
+AgnusDeiBassi = {
+	\relative c {
+		\clef bass
+		\key c \minor \time 3/4 \tempoAgnusDei
+		c'2\f g4-.
+	}
+}
+
+AgnusDeiBassFigures = \figuremode {
+	
+}
+
 % Bassi = {
 % 	\relative c {
 % 		\clef bass

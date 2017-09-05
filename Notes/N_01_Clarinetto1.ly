@@ -200,16 +200,16 @@ BenedictusClarinettoI = {
 	}
 }
 
-% ClarinettoI = {
-% 	\transpose c' b {
-% 		\relative c' {
-% 			\clef treble
-% 			\key f \major \time 4/4 \tempoRequiem
-% 			
-% 		}
-% 	}
-% }
-% 
+AgnusDeiClarinettoI = {
+	\transpose c' b {
+		\relative c' {
+			\clef treble
+			\key c \minor \time 3/4 \tempoAgnusDei
+			
+		}
+	}
+}
+
 % ClarinettoI = {
 % 	\transpose c' b {
 % 		\relative c' {
