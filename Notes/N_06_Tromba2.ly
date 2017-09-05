@@ -119,8 +119,8 @@ SanctusTrombaII = {
 BenedictusTrombaII = {
 	\relative c' {
 		\clef treble
-		\key es \major \time 2/4 \tempoBenedictus
-		
+		\key c \major \time 2/4 \tempoBenedictus
+		R2*54 \bar "|."
 	}
 }
 

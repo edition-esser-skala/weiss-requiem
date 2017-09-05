@@ -167,7 +167,16 @@ SanctusCornoII = {
 }
 
 BenedictusCornoII = {
-% 	\transpose c es {
+	\overrideTimeSignatureSettings
+		2/4
+		1/4
+		#'(3 1)
+		#'((end . (
+			((1 . 8) . (4))
+			((1 . 16) . (4 4))
+			((1 . 32) . (8 8))
+		)))
+	\transpose c es {
 		\relative c' {
 			\clef treble
 			\key c \major \time 2/4 \tempoBenedictus
@@ -213,7 +222,7 @@ BenedictusCornoII = {
 			r8 c[\p c g']
 			e2 \bar "|." %54 FINIS
 		}
-% 	}
+	}
 }
 
 % CornoII = {

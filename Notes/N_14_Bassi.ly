@@ -417,6 +417,15 @@ SanctusBassFigures = \figuremode {
 }
 
 BenedictusBassi = {
+	\overrideTimeSignatureSettings
+		2/4
+		1/4
+		#'(3 1)
+		#'((end . (
+			((1 . 8) . (4))
+			((1 . 16) . (4 4))
+			((1 . 32) . (8 8))
+		)))
 	\relative c {
 		\clef bass
 		\key es \major \time 2/4 \tempoBenedictus

@@ -161,7 +161,16 @@ SanctusClarinettoI = {
 }
 
 BenedictusClarinettoI = {
-% 	\transpose c' b {
+	\overrideTimeSignatureSettings
+		2/4
+		1/4
+		#'(3 1)
+		#'((end . (
+			((1 . 8) . (4))
+			((1 . 16) . (4 4))
+			((1 . 32) . (8 8))
+		)))
+	\transpose c' b {
 		\relative c' {
 			\clef treble
 			\key f \major \time 2/4 \tempoBenedictus
@@ -188,7 +197,7 @@ BenedictusClarinettoI = {
 			f2\p\<
 			f4\> r\! \bar "|." %54 FINIS
 		}
-% 	}
+	}
 }
 
 % ClarinettoI = {

@@ -811,22 +811,252 @@ SanctusOrganoL = {
 }
 
 BenedictusOrganoR = {
+	\overrideTimeSignatureSettings
+		2/4
+		1/4
+		#'(3 1)
+		#'((end . (
+			((1 . 8) . (4))
+			((1 . 16) . (4 4))
+			((1 . 32) . (8 8))
+		)))
 	\clef treble
 	\key es \major \time 2/4 \tempoBenedictus
 	<< \relative c' {
-			
+		\once\tieDown <b~ es g>2
+		<b f' as>4 r8 <d f as>
+		g f es d
+		d4 es8 r
+		<b es g>2 %5
+		as'4. as8
+		g4 r8 b
+		c2
+		as4. b8
+		b4. as8 %10
+		g16 f f8 b4
+		a r8 es'
+		d4 r8 f
+		f es16 d c8 b
+		a4 b8 d16 c %15
+		b4 a8 r
+		<b, d>2
+		<a c>4. <c es>8
+		<d b>4. b'16 a
+		g8. a16 b a g f %20
+		f4 es
+		d8 f4 b8~
+		b d4 f8
+		d4. es8
+		d8. c16 b8 a %25
+		b d, r4
+		<es g>2
+		<d f>4. <f as>8
+		<es g>2
+		<d f>4. <f as>8 %30
+		<es g>8. <f as>16 <g b>8 es
+		<d f>8. <es g>16 <f as>8 b16 as
+		g8 as f g
+		as4 c8 c
+		as4 b8 as %35
+		g as g c
+		g4. f8
+		g4 r8 b
+		b es d f
+		es r r b %40
+		b es d f
+		es r r b
+		es4. d8
+		c2
+		as'8 g f es %45
+		d c b as
+		g4 c
+		g f
+		g2
+		\oneVoice <d as'> %50
+		<es g>
+		<d as'>
+		<b es g>~
+		q4 r %54 FINIS
 	} \\ \relative c' {
-		
+		s2
+		s
+		es8 c b4
+		as g
+		s2 %5
+		f'8 d4 f8
+		es4 r8 es
+		as4. g8
+		f4. f8
+		es f g f %10
+		es16 d d8 f4
+		f8 r r a?
+		b f r as
+		g2
+		es4 d8 g %15
+		f4. r8
+		s2
+		a,4. c8
+		b4. f'8
+		es4 f8 d %20
+		d4 c
+		b8 d4 f8~
+		f b4 b8
+		as!4. g8
+		as8. g16-\critnote f8 ges %25
+		f b, r4
+		b2
+		b4. b8
+		b2
+		b4. b8 %30
+		b2
+		s4. f'8
+		es4 d8 es
+		es4 g
+		f f %35
+		es8 d es f
+		es4 d
+		es r8 g
+		g4 b8 as
+		es' r r b %40
+		g4 b8 as
+		g r r b
+		g4. b8
+		as4. c8
+		c2 %45
+		b8 a b f
+		es4 f
+		es d
+		es2
+		s %50
+		s
+		s
+		s
+		s %54 FINIS
 	} >>
 }
 
 BenedictusOrganoL = {
+	\overrideTimeSignatureSettings
+		2/4
+		1/4
+		#'(3 1)
+		#'((end . (
+			((1 . 8) . (4))
+			((1 . 16) . (4 4))
+			((1 . 32) . (8 8))
+		)))
 	\clef bass
 	\key es \major \time 2/4 \tempoBenedictus
 	<< \relative c {
-			
+		s2
+		s
+		g'8 as g f
+		f4 g8 r
+		s2 %5
+		b
+		b4 r8 b
+		es4. c8~
+		c4. d8
+		es b4 c8 %10
+		b4 d
+		c r8 c
+		b4 r8 b~
+		b4 c8 des
+		c4 b8 es %15
+		d4 c8 r
+		f,2
+		f~
+		f8 b r b~
+		b4 b %20
+		b f
+		f8 b4 \once\tieDashed d8~
+		d f4 d8
+		f4. es8
+		f8. es16 d8 es %25
+		d b r4
+		s2
+		s
+		s
+		s %30
+		s
+		b~
+		b
+		c4 c~
+		c b %35
+		b4. as8
+		es'4 b
+		b r
+		r r8 b
+		<g b> es' <b d> <as f'> %40
+		<g es'> r r b
+		<g b> es' d f
+		b,4. b8
+		es4. e8
+		f e f4~ %45
+		f4. b,8
+		b4 as8 c
+		b2~
+		b~
+		b~ %50
+		b~
+		b
+		s
+		s %54 FINIS
 	} \\ \relative c {
-		
+		\dynamicUp \mvTr es8\pE^\dolce b' g es
+		b4 r8 h
+		c as' b b,
+		es b es r
+		\mvTr es\p^\solo b' g es %5
+		b' b, r d
+		es es, r g'
+		as c as e
+		f f, f' as
+		g d es as %10
+		b[ b, b] b'\f
+		f f, r f'
+		b b, r d
+		es4. e8
+		f fis g es %15
+		f f, f' r
+		\mvTr b,\p^\solo f' d b
+		f' f, r a
+		b b' r d,
+		es4 d8 b %20
+		g g a a
+		b b\f b b'
+		b b, b b
+		b' b, b b
+		b b b b %25
+		b4 r
+		es8\p b' g es
+		b' b, r d
+		es b' g es
+		b' b, r d %30
+		es es' es, g
+		b b, r d
+		es4 es8 es\fE
+		as8.([ b32 c)] e,8 e
+		f8.([ g32 as)] d,8 d\pE %35
+		es f g as
+		b4 b,
+		es8 es' es es
+		es, es'\trill es es
+		es, es es es %40
+		es es es es
+		es es es es
+		es[ es, es'] g\fE
+		as c16 b as8 g
+		f g as a %45
+		b8[ c d] d,\ppE
+		es es as, as
+		b b b b
+		es\p es es es
+		es es es es %50
+		es es es es
+		es es es es
+		es \slurDashed es'16( b) b( g) g( es)
+		es4 r \bar "|." %54 FINIS
 	} >>
 }
 
