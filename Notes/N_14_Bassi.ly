@@ -619,7 +619,75 @@ AgnusDeiBassi = {
 }
 
 AgnusDeiBassFigures = \figuremode {
-	
+	<1>2 q4
+	q q r
+	<5 3>2 \bassFigureExtendersOn q4 \bassFigureExtendersOff
+	<6 4> <5 _!>2
+	r2.*2 %6
+	<8 3>2. \bassFigureExtendersOn
+	q2 q4 \bassFigureExtendersOff
+	<6>2 <7 _!>4
+	<_!>2 <1>4 %10
+	q8. q16 q4 <6>8 <5>
+	<9 4>4 <8 3>8 <1> q q
+	q4 <6 4 2!>2 \bassFigureExtendersOn
+	q2.
+	q4 q \bassFigureExtendersOff <2-> %15
+	<6>8. <6 _->16 r4 <2>
+	<6->8. <6 _->16 r4 <6! 5>
+	<6 4>4 \bassFigureExtendersOn q q
+	<5 4> q q
+	<5 3> q \bassFigureExtendersOff <7-> %20
+	<5 3> <\t \t> q
+	r2.
+	<7->
+	r
+	r2 r8 <7-> %25
+	<5 3>2. \bassFigureExtendersOn
+	q4 q \bassFigureExtendersOff r
+	r2.
+	<6 5 2>4 \bassFigureExtendersOn <6 4 2> <6 3 2> \bassFigureExtendersOff
+	<6>4 <\t> r %30
+	r2.
+	r2 <7->4
+	<\t>2.
+	r8 <7->2 \bassFigureExtendersOn q8
+	r <2>2 q8 \bassFigureExtendersOff %35
+	<6>4 <5> <5->
+	<9 5> <8 5!> <6>
+	q <7- _-> <6- 5->
+	<9 4->2 <8 3>4
+	<6>2 <5>4 %40
+	<9 _-> <5- 3> <7- 3!>
+	r4. <6! 5->8 r q
+	r2.
+	<1>2 q4
+	q q r %45
+	<5- 3>2 \bassFigureExtendersOn q4 \bassFigureExtendersOff
+	<6- 4> <5 3> r
+	r2.
+	r
+	<8 _->2. \bassFigureExtendersOn %50
+	q
+	q2 q4 \bassFigureExtendersOff
+	<6- 4> <5 3> r
+	<6! 5->2.
+	r4. <1>8 q q %55
+	q8. q16 <5 3>4. \bassFigureExtendersOn q8
+	<7->2 q8 q
+	<6 4->2.
+	q4 q \bassFigureExtendersOff r
+	<5->2. %60
+	<5- 3>
+	<6- 5- _->
+	<6- 4 2->
+	<6\\ _!>
+	<6 4> %65
+	<7 _!>
+	<_!>
+	r
+	r
+	r %70 FINIS
 }
 
 % Bassi = {
