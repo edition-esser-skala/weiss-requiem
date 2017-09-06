@@ -548,9 +548,9 @@ AgnusDeiSopranoNotes = {
 		ges,2\pp ges4
 		ges ges r
 		ges ges4. ges8
-		ges8. ges16 ges4 r
+		fis8.^\critnote fis16 fis4 r
 		g4. g8 g4 %65
-		as2.\<
+		a?2.\<
 		g4\! r r
 		R2.*2
 		R2.\fermataMarkup \bar "|." %70 FINIS

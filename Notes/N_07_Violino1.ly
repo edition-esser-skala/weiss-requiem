@@ -290,7 +290,76 @@ AgnusDeiViolinoI = {
 	\relative c' {
 		\clef treble
 		\key c \minor \time 3/4 \tempoAgnusDei
-		
+		c'2\f g4-.
+		es-. c-. r
+		r8 es-.\p es([-. es-. es-. es-.)]
+		es4( d8) r16 g,-\dolce h( d f g)
+		as8.( b32 as) g8 g f f %5
+		f( es) es4 r
+		c'8\f c r16 c,-. es-. g-. c( es) h( c)
+		<c es,>8 q r16 c,-. es-. as-\parenthesize-. c( es) h( c)
+		d8 d d d c c
+		h8. <h, g'>16 q4 r %10
+		r r g'8\p f
+		f8. g32 f es4 r
+		r r g8 g
+		g8. a16 b4 a
+		g8. g16 g4 g16\f b es g, %15
+		as8.( b16) c8 c c16( es as c,)
+		des8. es16 f8 f f16( g as f)
+		es8 as4 es4 c8
+		b b r b a16 b c b
+		es8 es r g, as16( g f g) %20
+		as8-\critnote es\p r es r es
+		as\f as,16 c es( c) as'( es) c'( es,) as( c)
+		es8.(-> des16) c8 r16 as,\p c( es as c)
+		des4 r8 des(-. des-. des-.)
+		des8. c16 b8 g([ as b)] %25
+		c4 r8 es(-. es-. es-.)
+		es4 c r
+		f2\p es16( des c b)
+		as4 g f'8.-> es16
+		es4 c8 es,([ as c)] %30
+		es es es es es es
+		es es d d des des
+		des[ des] c c4 c8
+		<ces f>8\f q4 q q8
+		<es, b'>8 q4 q q8 %35
+		es'\p es es es es es
+		es es es es des des
+		des des des des ces ces
+		ces ces4 b8 b[ b]
+		b f'4 b,8 as[ f'] %40
+		ges, ges4 es'8 es[ ges,]
+		f4 r8 a\ffE-> b-> a->
+		b4 b, r
+		es'2->\f b4-.
+		ges-. es-. r %45
+		r8 ges\p ges ges ges ges
+		ges4 f8 r16 b,-\dolce d( f as b)
+		ces8.( des32 ces) b8 b as as
+		as4 ges r
+		<es es'>8\f-. q-. r16 es-. ges-. b-. es( ges) d( es) %50
+		<es, es'>8-. q-. r16 es-. ges-. ces-. es( ges) d( es)
+		es8-. es-. r16 es( d es) ges8 ges,
+		ges4 f8 f[\p-. f-. b-.]
+		a8.(\trill g32 a) b8 ges'( f d)
+		a8.(\trill g32 a) b8 r r4 %55
+		r r8 f4 as8
+		ces4 as f
+		ges ges8 ges b8. b16
+		des8. des16 b4 r
+		<es, es'>8.\ffE q16 q4\fermata r %60
+		ges\pp r8 ges(-. ges-. ges-.)
+		ges4 r8 ges(-. ges-. ges-.)
+		ges4 r8 ges(-. ges-. ges-.)
+		fis4 r8 fis(-. fis-. fis-.)
+		g4 r8 g(-. g-. g-.) %65
+		a4\< r8 a(-. a-. a-.)
+		g4\! r8 d'(-.-\solo d-. d-.)
+		d4 g,8 d'([-. d-. d-.)]
+		d4 g,8 g([-. g-. g-.)]
+		g2\fermata r4 \bar "|." %70 FINIS
 	}
 }
 

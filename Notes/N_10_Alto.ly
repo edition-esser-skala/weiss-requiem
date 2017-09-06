@@ -467,7 +467,7 @@ AgnusDeiAltoNotes = {
 		r r d8\p d
 		d4 c r
 		r r e8 e
-		es2 es4
+		e2 e4
 		e8. e16 e4 es8\f es %15
 		es4 es as8 as
 		as4 as as8 as

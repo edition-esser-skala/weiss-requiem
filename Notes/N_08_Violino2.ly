@@ -291,7 +291,76 @@ AgnusDeiViolinoII = {
 	\relative c' {
 		\clef treble
 		\key c \minor \time 3/4 \tempoAgnusDei
-		
+		c2\fE g'4-.
+		es-. c-. r
+		r8 c\p c([-. c-. c-. c-.)]
+		c4 h8 r r4
+		r8 d d d d d %5
+		d4 c r
+		<g es'>8\fE q r16 c-. es-. g-. c( es) h( c)
+		as,8 as' r16 c,-. es-. as-. c( es) h( c)
+		as8-\critnote as as as a a
+		g8. g,16 g4 r %10
+		r r d'8\p d
+		d4 c r
+		r r e8 e
+		e4. e8 e e
+		e4 e es8\f es %15
+		es8.( g16) as8 as4 as8
+		as8.( c16) des4 ces8 ces
+		c c4 c as8
+		as as4 as as8
+		g g4 es8 des[ des] %20
+		c c\p r c r c
+		as'\f as, as[ c es as]
+		g4( as8)-\critnote r r as\p
+		as4 r8 as(-. as-. as-.)
+		g8.( as16 g8) es([ f g)] %25
+		as4 r8 <es c'>(-. q-. q-.)
+		q4 as8 as([-. as-. as-.)]
+		as\p f-\critnote as as f f
+		r es4 es8 g8. b16
+		as4 as8 r r4 %30
+		r8 as as as as as
+		as f f f g g
+		g4( as8) as[ as as]
+		as\f as4 as as8
+		g g4 g g8 %35
+		as\p as g g ges ges
+		f f a a b b
+		f f ges ges as as
+		as as4 ges8 ges[ ges]
+		f b,4 f'8 f[ as] %40
+		f[ f] es es4 es8
+		d4 r8 es\ffE-> d-> es->
+		d4 b r
+		es2\f-> b'4
+		ges es r %45
+		r8 es\p es es es es
+		es4 d8-\critnote r r4
+		r8 f f f f f
+		f4 es r
+		ges8 ges r16 es-. ges-. b-. es( ges) d( es) %50
+		ges,8 ges r16 es-. ges-. ces-. es( ges) d( es)
+		ges,8 ges4 ges8 es[ es]
+		es4 d8 d[-.\p d-. d-.]
+		es4( d8) r f f
+		ges4( f8) r r4 %55
+		r r8 des4 f8
+		f4 f ces
+		b des8 b ges' ges
+		b8. b16 ges4 r
+		ges8.\ffE ges16 ges4\fermata r %60
+		es4\pp r8 es(-. es-. es-.)
+		fes4 r8 fes(-. fes-. fes-.)
+		es4 r8 es(-. es-. es-.)
+		<c! es>4 r8 \slurDashed <c es>(-. q-. q-.)
+		q4 r8 q(-. q-. q-.) %65
+		q4\< r8 q(-. q-. q-.) \slurSolid
+		<h d>4\! r <c fis>->(
+		<h g'>8) r r4 <c fis>->(
+		<h g'>8) r r <h d>(-. q-. q-.)
+		q2\fermata r4 \bar "|." %70 FINIS
 	}
 }
 
