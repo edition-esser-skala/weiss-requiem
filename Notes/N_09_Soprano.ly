@@ -641,10 +641,10 @@ CumSanctisSopranoNotes = {
 		r d es f %20
 		es( d8[ c] d4) es
 		c2( b4) c8([ d)]
-		es2( as,4 b8[ c]
+		es2 as,4 b8[ c]
 		d2 g,4 a8[ h]
 		c4 b as2~ %25
-		as g)
+		as g
 		f r
 		R1
 		r2 b
@@ -682,9 +682,11 @@ CumSanctisSopranoLyrics = \lyricmode {
 	cum san -- ctis %20
 	tu -- is
 	in __ ae --
-	ter --
-	
-	num, %27
+	ter -- _ _
+	_ _ _
+	_ _ _ %25
+	_
+	num,
 	
 	cum
 	san -- ctis, %30

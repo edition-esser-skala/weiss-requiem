@@ -30,7 +30,6 @@
 	system-separator-markup = \slashSeparator
 	system-system-spacing = #'((basic-distance . 20) (minimum-distance . 8) (padding . 1) (stretchability . 600))
 	last-bottom-spacing = #'((basic-distance . 1) (minimum-distance . 0) (padding . 1) (stretchability . 10000))
-	first-page-number = #1
 	print-first-page-number = ##t
 }
 
@@ -196,7 +195,7 @@ tempoCumSanctis = \tempoMarkup "Alla Capella"
 		\Score
 		\override MetronomeMark.font-series = #'medium
 		\compressFullBarRests
-		\override BarNumber.break-visibility = #'#(#f #t #t) % uncomment to show each bar number
+% 		\override BarNumber.break-visibility = #'#(#f #t #t) % uncomment to show each bar number
 	}
 	\context {
 		\StaffGroup

@@ -6,6 +6,8 @@
 
 \include "../definitions.ly"
 
+\paper { first-page-number = #17 }
+
 #(set-global-staff-size 14.14)
 
 \book {

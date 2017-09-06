@@ -615,9 +615,9 @@ CumSanctisAltoNotes = {
 		f2.( es4
 		es2 d4) es8([ f)]
 		g2 c,4 d8([ es)]
-		f2( h,4 c8[ d]
+		f2 h,4 c8[ d]
 		c4 g'2 f4~ %25
-		f2 es)
+		f2 es
 		d r
 		R1*2
 		r4 b' as g %30
@@ -659,9 +659,10 @@ CumSanctisAltoLyrics = \lyricmode {
 	
 	ae --
 	ter -- num, ae --
-	ter --
-	
-	num, %27
+	ter -- _ _
+	_ _ _ %25
+	_
+	num,
 	
 	cum san -- ctis %30
 	tu -- is

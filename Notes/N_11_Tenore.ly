@@ -621,9 +621,9 @@ CumSanctisTenoreNotes = {
 		es( d8[ es] f4) es
 		d2 b
 		r4 b2 g4 %10
-		es2( c'
+		es2 c'
 		b4 d2 es4~
-		es2 d)
+		es2 d
 		es r
 		R1*4 %18
 		r2 g,
@@ -668,9 +668,10 @@ CumSanctisTenoreLyrics = \lyricmode {
 	in __ ae --
 	ter -- num,
 	in ae -- %10
-	ter --
-	
-	num, %14
+	ter -- _
+	_ _ _
+	_
+	num,
 	
 	cum %19
 	san -- ctis %20
