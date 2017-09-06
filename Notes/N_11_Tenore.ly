@@ -614,10 +614,93 @@ CumSanctisTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key es \major \time 2/2 \autoBeamOff \tempoCumSanctis
-		
+		R1*4
+		\mvTr b1\f^\tuttiE %5
+		g'2 e
+		f c4( d)
+		es( d8[ es] f4) es
+		d2 b
+		r4 b2 g4 %10
+		es2( c'
+		b4 d2 es4~
+		es2 d)
+		es r
+		R1*4 %18
+		r2 g,
+		es' c %20
+		b4( d8[ es] f4) b,
+		c( b8[ c] d4 c
+		b as8[ b] c4) b
+		as( g8[ as)] g2
+		g4( c) c2 %25
+		b1
+		b2 r
+		r b
+		g' e
+		r4 des c b %30
+		as( g) f r
+		r c'( b) as
+		g( f) es2
+		r es'4( d)
+		c2 es4( d) %35
+		c2 a
+		as( g4) c
+		c2( b)
+		b es~\ff
+		es es %40
+		es1~
+		es2 es
+		es1
+		des(
+		c2) c %45
+		b1~
+		b
+		b
+		b
+		R1*2 \bar "|." %51 FINIS
 	}
 }
 
 CumSanctisTenoreLyrics = \lyricmode {
+	Cum %5
+	san -- ctis
+	tu -- is __
+	in __ ae --
+	ter -- num,
+	in ae -- %10
+	ter --
 	
+	num, %14
+	
+	cum %19
+	san -- ctis %20
+	tu -- is
+	in __
+	ae --
+	ter -- num,
+	in __ ae -- %25
+	ter --
+	num,
+	cum
+	san -- ctis,
+	cum san -- ctis %30
+	tu -- is
+	in __ ae --
+	ter -- num,
+	cum __
+	san -- ctis __ %35
+	tu -- is
+	in __ ae --
+	ter --
+	num: Qui --
+	a %40
+	pi --
+	us
+	es,
+	qui --
+	a %45
+	pi --
+	
+	us
+	es. %49 FINIS
 }

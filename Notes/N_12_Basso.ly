@@ -617,10 +617,92 @@ CumSanctisBassoNotes = {
 	\relative c {
 		\clef bass
 		\key es \major \time 2/2 \autoBeamOff \tempoCumSanctis
-		
+		\mvTr es1\f^\tuttiE
+		c'2 a
+		b f4( g)
+		as( g8[ as] b4) as
+		g2 es %5
+		r b'~
+		b4( a) as2
+		g( f4 g8[ a]
+		b2.) as4
+		as( g f es) %10
+		c( d8[ es]) f4( es)
+		d( b) as'( g)
+		f2 b,
+		es g
+		R1*4 %18
+		es1
+		c'2 a %20
+		b f4( g)
+		as( g8[ as] b4 as
+		g f8[ g] as4) g
+		f( es8[ f]) g4( f)
+		e2 f4.( es8) %25
+		d2( es)
+		b2 b
+		b1~
+		b~
+		b~ %30
+		b~
+		b~
+		b~
+		b~
+		b~ %35
+		b~
+		b2( c
+		as b)
+		es es(\ff
+		c') a %40
+		b1(
+		des2) h
+		c1
+		b(
+		as4 g) f( es) %45
+		d2( es
+		b1)
+		b
+		es1
+		R1*2 \bar "|." %51 FINIS
 	}
 }
 
 CumSanctisBassoLyrics = \lyricmode {
+	Cum
+	san -- ctis
+	tu -- is __
+	in __ ae --
+	ter -- num, %5
+	in __
+	ae --
+	ter --
+	num,
+	cum __ %10
+	san -- ctis __
+	tu -- is __
+	in ae --
+	ter -- num,
 	
+	cum %19
+	san -- ctis %20
+	tu -- is __
+	in __
+	ae --
+	ter -- num, __
+	in ae -- %25
+	ter --
+	num, ae --
+	ter --
+	
+	num: Qui -- %39
+	a %40
+	pi --
+	us
+	es,
+	qui --
+	a %45
+	pi --
+	
+	us
+	es. %49 FINIS
 }

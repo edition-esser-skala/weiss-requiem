@@ -698,27 +698,27 @@ CumSanctisBassi = {
 		c'2 a
 		b-. f4-. g-.
 		as-. g8-. as-. b4-. as-.
-		g2 es r b'~ %5
+		g2 es %5
+		r b'~
 		b4 a as2
 		g f4 g8 a
 		b2. as4~
-		as g f es
-		c d8 d f4 es %10
+		as g f es %10
+		c d8 es-\critnote f4 es
 		d b as' g
 		f2 b,
 		es g
-		R1*4 %17
+		R1*4 %18
 		es1
-		c'2 a
-		b f4 g %20
+		c'2 a %20
+		b f4 g
 		as g8 as b4 as
 		g f8 g as4 g
 		f es8 f g4 f
-		e2 f4. es8
-		d4 b es g %25
+		e2 f4. es8 %25
+		d4 b es g
 		b2 b,~
 		b1~
-		b~
 		b~
 		b~ %30
 		b~
@@ -726,21 +726,22 @@ CumSanctisBassi = {
 		b~
 		b~
 		b~ %35
+		b~
 		b2 c
 		as b
 		es es\ff
-		c' a
-		b2. es,4 %40
+		c' a %40
+		b2. es,4
 		des'2 h
 		c c,
 		b' b,
-		as'4 g f es
-		d2 es %45
+		as'4 g f es %45
+		d2 es
 		b'1
 		b,
 		es2 r
-		es\p es
-		es r \bar "|." %50 FINIS
+		es\p es %50
+		es r \bar "|." %51 FINIS
 	}
 }
 

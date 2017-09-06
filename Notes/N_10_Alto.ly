@@ -663,12 +663,12 @@ CumSanctisAltoLyrics = \lyricmode {
 	
 	num, %27
 	
-	cum san -- ctis
+	cum san -- ctis %30
 	tu -- is
 	in __ ae --
 	ter -- num,
 	cum __
-	san -- ctis __
+	san -- ctis __ %35
 	tu -- is
 	in ae --
 	ter --
