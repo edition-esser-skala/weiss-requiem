@@ -631,10 +631,79 @@ CumSanctisSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key es \major \time 2/2 \autoBeamOff \tempoCumSanctis
-		
+		R1*13 %13
+		\mvTr b'1\f^\tuttiE
+		g'2 e %15
+		f c4( d)
+		es4( d8[ es] f4) es
+		d( es f2~
+		f4 es8[ d)] es4 r
+		r d es f %20
+		es( d8[ c] d4) es
+		c2( b4) c8([ d)]
+		es2( as,4 b8[ c]
+		d2 g,4 a8[ h]
+		c4 b as2~ %25
+		as g)
+		f r
+		R1
+		r2 b
+		g' e %30
+		r as,
+		f' d
+		r es
+		g, b
+		b4( a) c( d) %35
+		es( d) es( f)
+		f( d es2~
+		es4 d8[ c] d2)
+		es es~\ff
+		es es es1~ %40
+		es2 es
+		es1
+		e1(
+		f2) f
+		f( es~) %45
+		es1
+		d
+		es
+		R1*2 \bar "|." %50 FINIS
 	}
 }
 
 CumSanctisSopranoLyrics = \lyricmode {
+	Cum %14
+	san -- ctis %15
+	tu -- is __
+	in __ ae --
+	ter --
+	num,
+	cum san -- ctis %20
+	tu -- is
+	in __ ae --
+	ter --
 	
+	num, %27
+	
+	cum
+	san -- ctis, %30
+	cum
+	san -- ctis,
+	cum
+	san -- ctis
+	tu -- is __ %35
+	in __ ae --
+	ter --
+	
+	num: Qui --
+	a %40
+	pi --
+	us
+	es,
+	qui --
+	a %45
+	pi --
+	
+	us
+	es. %49 FINIS
 }
