@@ -201,13 +201,42 @@ BenedictusClarinettoI = {
 }
 
 AgnusDeiClarinettoI = {
-	\transpose c' b {
+% 	\transpose c' b {
 		\relative c' {
 			\clef treble
-			\key c \minor \time 3/4 \tempoAgnusDei
-			
+			\key d \minor \time 3/4 \tempoAgnusDei
+			d'2\f a4-.
+			f'-. d-. r
+			R2.*4 %6
+			d2.\fE
+			d
+			e2( d4)
+			cis r r %10
+			R2.*11 %21
+			b2\f f4
+			f'8.( es16) d4 r8 d\pE
+			es2 es8 es
+			es8.( d16 c8) r r4 %25
+			d4 f8 f f f
+			f4 d r
+			R2.*6 %33
+			g2.\f
+			c, %35
+			R2.*8 %43
+			f2-.\fE c4-.
+			as'-. f-. r %45
+			R2.*4
+			f2.~\f %50
+			\once\tieDashed f~
+			f2 as,4-.
+			as-. g-. r
+			R2.*5 %58
+			es'8.\p es16 c4 r
+			f8.\ffE f16 f4\fermata r %60
+			R2.*9 %69
+			R2.\fermataMarkup \bar "|." %70 FINIS
 		}
-	}
+% 	}
 }
 
 % ClarinettoI = {
