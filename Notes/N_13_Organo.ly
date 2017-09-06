@@ -1064,9 +1064,147 @@ AgnusDeiOrganoR = {
 	\clef treble
 	\key c \minor \time 3/4 \tempoAgnusDei
 	<< \relative c' {
-			
+		c'2 g4
+		es c r
+		r es2~
+		es4 d8 r r4
+		r g f~ %5
+		f es r
+		c'2.~
+		c
+		d2 c4
+		h8. g16 g4 r %10
+		r r g8 f~
+		f4 es r
+		r r g~
+		g8. a16 b4 a
+		g2 g4 %15
+		as!8. b16 c4 c
+		des8. es16 f4 f
+		es2 c4
+		b2.~
+		b %20
+		as
+		as2 es4
+		es'8. des16 c4 r8 c
+		des2.~
+		des8. c16 b8 g as b %25
+		c4 es2
+		es4 c r
+		as2.~
+		as4 g f8 es~
+		es2 as8 c %30
+		es2.~
+		es4 d des~
+		des c2
+		f2.
+		b, %35
+		es~
+		es2 des4~
+		des2 ces4~
+		ces4. b8 b4
+		b2 as4 %40
+		ges2.
+		f4 r8 a b a
+		b4 b, r
+		es'2 b4
+		ges es r %45
+		r ges2~
+		ges4 f8 r-\critnote r4
+		r b as~
+		as ges r
+		es'2.~ %50
+		es~
+		es2 ges,?4~
+		ges f r
+		a b b
+		a b r %55
+		r r8 f4 as!8
+		ces4 as f
+		ges2 b4
+		des b r
+		<ges es'>2\fermata r4 %60
+		ges2.~
+		ges~
+		\once\slurDashed ges(
+		fis)
+		g! %65
+		a?
+		g4 r fis
+		g8 r r4 fis
+		g8 r r4 g~
+		g2\fermata r4 %70 FINIS
 	} \\ \relative c' {
-		
+		c'2 g4
+		es c r
+		r c2~
+		c4 h8 r r4
+		r d2~ %5
+		d4 c r
+		es2.~
+		es
+		as2 a4
+		g8. d16 d4 r %10
+		r r d~
+		d c r
+		r r e~
+		e2.~
+		e2 es4~ %15
+		es2 as4
+		as2 as4
+		as2.~
+		as
+		g %20
+		as
+		es
+		g4 as r8 as~
+		as2.
+		g8. as16 g8 es f g %25
+		as2.
+		as2 r4
+		f2.
+		es2 b4
+		as2 r4 %30
+		r as'2~
+		as4 f g~
+		g as2
+		as2.
+		g %35
+		as4 g ges
+		f2.~
+		f4 ges as~
+		as4. ges8 ges4
+		f2.~ %40
+		f4 es2
+		d4 r8 es f es
+		d4 b r
+		es'2 b4
+		ges es r %45
+		r es2~
+		es4 d8 r r4
+		r f2~
+		f4 es r
+		ges2.~ %50
+		ges~
+		ges2 es4~
+		es d r
+		es d f
+		ges f r %55
+		r r8 des4.~
+		des2.~
+		des2 ges?4
+		b ges? r
+		es2 r4 %60
+		es2.
+		fes
+		es
+		es~
+		es~ %65
+		es
+		d4 r c
+		h8 r r4 c
+		h8 r r4 h~
+		h2 r4 %70 FINIS
 	} >>
 }
 
@@ -1074,9 +1212,146 @@ AgnusDeiOrganoL = {
 	\clef bass
 	\key c \minor \time 3/4 \tempoAgnusDei
 	<< \relative c {
-			
+		\dynamicUp c'2\fE g4
+		es c8 r16 c\pE h c es g
+		as8. g16 f4 fis
+		s2.
+		s %5
+		s
+		g\f
+		as
+		f'2 es4
+		d8. h16 h4 r %10
+		r r g~
+		g2 r4
+		r r b~
+		b8. a16 g4 a
+		b2 b4\f %15
+		as8. g16 as4 es'
+		des8. c16 des4 h
+		c2 es4~
+		es2.~
+		es2 des4 %20
+		c2.\p
+		c\f
+		b4 es r8 es\p
+		f2 fes4
+		es es,8 es' d des %25
+		c2.~
+		c4 es r
+		des2.\p
+		b2 g4
+		as2 r4 %30
+		c2 ces4
+		b2.
+		b4 as2
+		ces2.\f
+		es %35
+		as,~\p
+		as4 a b~
+		b2 des4~
+		des2.
+		b~ %40
+		b4 ces c
+		d r8 es\ff d es
+		f4 b, r
+		es2\f b4
+		ges es8 r16 es\pE d es ges b %45
+		ces8. b16 as4 c?
+		b4 b8 r r4
+		r8 d d2
+		es4 es, r
+		b'2.\f %50
+		ces
+		c
+		b2 b4
+		ces b d
+		es d s %55
+		s r8 as4 as8
+		f2 ces'4
+		b2 ges4~
+		ges b r
+		<ges ces>2\ff r4 %60
+		ces2.\pp
+		des
+		ces
+		c~
+		c~ %65
+		c
+		h4 r es,
+		d8 r r4 es
+		d8 r r4 <d g>~
+		q2 r4 %70
 	} \\ \relative c {
-		
+		\dynamicUp c'2 g4
+		es c r
+		R2.
+		\oneVoice g'4 g,8 r r4
+		r8 h' h2 %5
+		c4 c, r \voiceTwo
+		c-\ped es c
+		as c as
+		f8 f' f f fis fis
+		g8. g,16 g4 \mvTr g'\pE-\senzaPed %10
+		as8. g16 h,4 h-\ped
+		c c8 es g a
+		b4 des, des
+		des2.~
+		des4 des des %15
+		c8. b16 as4 ges'?
+		f8. es16 des4 d
+		es es es
+		es es es
+		es, es es %20
+		as es' c
+		as8 as' as as as as
+		es4 as, r
+		R2.
+		r4 es r8 es' %25
+		as,4 c es
+		as as, r
+		des8 des des des des des
+		des des des des des des
+		c4 c r %30
+		R2.
+		r4 r es8 es
+		e e f f f f
+		r d! f as d d,
+		r des g b des des, %35
+		c c c c c c
+		des des des des des des
+		des des es es f f
+		ges ges ges ges ges ges
+		d! d d d d d %40
+		es es ces ces a a
+		b4 r8 ces'-\parenthesize-> b-\parenthesize-> ces-\parenthesize->
+		b4 b, r
+		es'2 b4
+		ges r r %45
+		r r a?
+		b b, r
+		R2.*2
+		es4 ges es %50
+		ces es ces
+		a a' a,
+		b b r
+		R2.
+		r4 r8 b' b b %55
+		ces8.-\parenthesize-> des,16 des8 des des des
+		des4 r8 des des des
+		des4 r8 des des des
+		des4 des r
+		ces2\fermata r4 %60
+		ces ces'2
+		b,4 b'2
+		heses,4 heses'2
+		as,4 as'2
+		g,!4 g'2 %65
+		fis,4\< fis'2
+		g4\! r g,~
+		g8 r r4 g~
+		g8 r r g g g
+		g2\fermata r4 \bar "||" %70 FINIS
 	} >>
 }
 

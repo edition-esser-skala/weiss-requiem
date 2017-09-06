@@ -208,13 +208,13 @@ AgnusDeiClarinettoI = {
 			d'2\f a4-.
 			f'-. d-. r
 			R2.*4 %6
-			d2.\fE
+			d2.\f
 			d
 			e2( d4)
 			cis r r %10
 			R2.*11 %21
 			b2\f f4
-			f'8.( es16) d4 r8 d\pE
+			f'8.( es16) d4 r8 d\p
 			es2 es8 es
 			es8.( d16 c8) r r4 %25
 			d4 f8 f f f
@@ -223,7 +223,7 @@ AgnusDeiClarinettoI = {
 			g2.\f
 			c, %35
 			R2.*8 %43
-			f2-.\fE c4-.
+			f2-.\f c4-.
 			as'-. f-. r %45
 			R2.*4
 			f2.~\f %50

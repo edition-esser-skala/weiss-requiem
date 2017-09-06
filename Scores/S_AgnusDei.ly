@@ -28,7 +28,7 @@
 						\partcombine \AgnusDeiCornoI \AgnusDeiCornoII
 					>>
 					\new Staff <<
-						\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" "in Es" } }
+						\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" \line { "in Es" \musicglyph #'"pedal.*" } } }
 						\partcombine \AgnusDeiTrombaI \AgnusDeiTrombaII
 					>>
 				>>
