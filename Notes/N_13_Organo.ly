@@ -1359,9 +1359,89 @@ CumSanctisOrganoR = {
 	\clef treble
 	\key es \major \time 2/2 \tempoCumSanctis
 	<< \relative c' {
-			
+		s1*9 %9
+		R1*4 %13
+		b'1
+		g'2 e %15
+		f c4 d
+		es4 d8 es f4 es
+		d es f2~
+		f4 es8 d es4 r
+		r d es f %20
+		es d8 c d4 es
+		c2 b4 c8 d
+		es2 as,4 b8 c
+		d2 g,4 a8 h
+		c4 b as2~ %25
+		as g
+		f r
+		s1
+		r2 b
+		g' e %30
+		r as,
+		f' d
+		r es
+		g, b
+		b4 a c d %35
+		es d es f~
+		f d es2~
+		es4 d8 c d2
+		es es~
+		es1~ %40
+		es~
+		es
+		es
+		e
+		f %45
+		f2 es!~
+		es1
+		d
+		es
+		\oneVoice <es, g,>2 q %50
+		q r \bar "|." %51 FINIS
 	} \\ \relative c' {
-		
+		\oneVoice R1*9 \voiceTwo %9
+		es1 %10
+		c'2 a
+		b f4 g
+		as g8 as b4 as
+		g2 es
+		r b'~ %15
+		b4 a as2
+		g f4 g8 a
+		b2. as4
+		g2 es
+		r f~ %20
+		f2. es4~
+		es2 d4 es8 f
+		g2 c,4 d8 es
+		f2 h,4 c8 d
+		c4 g'2 f4~ %25
+		f2 es
+		d r
+		\oneVoice R1 \voiceTwo
+		R
+		r4 b' as g %30
+		f g as r
+		r as g f
+		es f g2
+		r g4-\critnote f
+		es2-\critnote a4 b %35
+		a2 c
+		b g
+		f2. g8 as!
+		g2 g~
+		g1~ %40
+		g
+		b2 g
+		as1
+		g
+		f2 as %45
+		as g
+		f1~
+		f
+		g
+		s1*2 \bar "|." %51 FINIS
 	} >>
 }
 
@@ -1369,8 +1449,99 @@ CumSanctisOrganoL = {
 	\clef bass
 	\key es \major \time 2/2 \tempoCumSanctis
 	<< \relative c {
-			
+		\override MultiMeasureRest.staff-position = #8 R1*4 \revert MultiMeasureRest.staff-position
+		b'1 %5
+		g'2 e
+		f c4 d
+		es d8 es f4 es
+		d2 b
+		r4 b2 g4 %10
+		es2 c'
+		b4 d2 es4~
+		es2 d
+		es r
+		s1*4 %18
+		r2 g,
+		es' c %20
+		b4 d8 es f4 b,
+		c b8 c d4 c
+		b as8 b c4 b
+		as g8 as g2
+		g4 c c2 %25
+		b1~
+		b2 r
+		r b
+		g' e
+		r4 des c b %30
+		as g f r
+		r c' b as
+		g f es2
+		r es'4 d
+		c2 es4 d %35
+		c2-\critnote a
+		as g4 c
+		c2 b
+		b b
+		es c %40
+		es1
+		g2 es~
+		es1
+		des
+		c2 c %45
+		b1~
+		b~
+		b~
+		b
+		b2 b
+		b r \bar "|." %51 FINIS
 	} \\ \relative c {
-		
+		\dynamicUp es1\f
+		c'2 a
+		b f4 g
+		as g8 as b4 as
+		g2 es %5
+		r b'~
+		b4 a as2
+		g f4 g8 a
+		b2. as4~
+		as g f es %10
+		c d8 es f4 es
+		d b as' g
+		f2 b,
+		es g
+		\oneVoice R1*4 \voiceTwo %18
+		es1
+		c'2 a %20
+		b f4 g
+		as g8 as b4 as
+		g f8 g as4 g
+		f es8 f g4 f
+		e2 f4. es8 %25
+		d4 b es g
+		b2 b,~
+		b1~
+		b~
+		b~ %30
+		b~
+		b~
+		b~
+		b~
+		b~ %35
+		b~
+		b2 c
+		as b
+		es es\ff
+		c' a %40
+		b2. es,4
+		des'2 h
+		c c,
+		b'-\critnote b,
+		as'4 g f es %45
+		d2 es
+		b'1
+		b,
+		es
+		es2\p es %50
+		es r \bar "|." %51 FINIS
 	} >>
 }

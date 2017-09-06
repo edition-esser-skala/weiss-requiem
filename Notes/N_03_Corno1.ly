@@ -174,7 +174,7 @@ BenedictusCornoI = {
 			((1 . 16) . (4 4))
 			((1 . 32) . (8 8))
 		)))
-	\transpose c es {
+% 	\transpose c es {
 		\relative c' {
 			\clef treble
 			\key c \major \time 2/4 \tempoBenedictus
@@ -220,7 +220,7 @@ BenedictusCornoI = {
 			r8 \pa c,[\p e g]
 			c2 \bar "|." %54 FINIS
 		}
-	}
+% 	}
 }
 
 AgnusDeiCornoI = {
@@ -265,7 +265,7 @@ AgnusDeiCornoI = {
 }
 
 CumSanctisCornoI = {
-	\transpose c es {
+% 	\transpose c es {
 		\relative c' {
 			\clef treble
 			\key c \major \time 2/2 \tempoCumSanctis
@@ -295,5 +295,5 @@ CumSanctisCornoI = {
 			c\p c %50
 			c r \bar "|." %51 FINIS
 		}
-	}
+% 	}
 }

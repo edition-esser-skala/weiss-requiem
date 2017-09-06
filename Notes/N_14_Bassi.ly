@@ -746,5 +746,38 @@ CumSanctisBassi = {
 }
 
 CumSanctisBassFigures = \figuremode {
-	
+	r1*9 %9
+	<5 2>2. \bassFigureExtendersOn q4 \bassFigureExtendersOff %10
+	r2 <_!>4 <\t>
+	<6>2 <2>4 <6>
+	<7>2 q
+	r <6>
+	r1 %15
+	r
+	r
+	r
+	<9>2 <8>
+	r <5>4 <6> %20
+	<4> <3> <6 4> <6>
+	<5 3> <\t \t> <5 3> <\t \t>
+	<6> <\t> <5 3> <\t \t>
+	<6> <\t> <_!> <\t>
+	<6> <5-> <9> <8>8 <\t> %25
+	<6 5>4 <\t \t> <5 3> <\t \t>
+	r1*10 %36
+	<7>1
+	<6 5>
+	<8 3>1 \bassFigureExtendersOn
+	q %40
+	q
+	q2 q \bassFigureExtendersOff
+	<6>1
+	<4! _->
+	<6>2. \bassFigureExtendersOn q4 \bassFigureExtendersOff %45
+	<6 5>1
+	<4>
+	<3>
+	r
+	r %50
+	r %51 FINIS
 }

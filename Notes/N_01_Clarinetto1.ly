@@ -170,7 +170,7 @@ BenedictusClarinettoI = {
 			((1 . 16) . (4 4))
 			((1 . 32) . (8 8))
 		)))
-	\transpose c' b {
+% 	\transpose c' b {
 		\relative c' {
 			\clef treble
 			\key f \major \time 2/4 \tempoBenedictus
@@ -197,7 +197,7 @@ BenedictusClarinettoI = {
 			f2\p\<
 			f4\> r\! \bar "|." %54 FINIS
 		}
-	}
+% 	}
 }
 
 AgnusDeiClarinettoI = {
@@ -240,7 +240,7 @@ AgnusDeiClarinettoI = {
 }
 
 CumSanctisClarinettoI = {
-% 	\transpose b c' {
+	\transpose b c' {
 		\relative c' {
 			\clef treble
 			\key es \major \time 2/2 \tempoCumSanctis
@@ -285,5 +285,5 @@ CumSanctisClarinettoI = {
 			es,2\p es %50
 			es r\bar "|." %51 FINIS
 		}
-% 	}
+	}
 }
