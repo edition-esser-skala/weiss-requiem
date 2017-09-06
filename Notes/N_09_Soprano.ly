@@ -485,12 +485,146 @@ AgnusDeiSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key c \minor \time 3/4 \autoBeamOff \tempoAgnusDei
-		
+		\mvTr c'2\fE^\tuttiE g4
+		es c r
+		r r r8 es\p
+		es4 d r
+		r r f %5
+		f es r
+		c'2.\f
+		c2 c4
+		d2( c4)
+		h r r %10
+		r r g8\p f
+		f4 es r
+		r r g8\p g
+		g8.([ a16] b4) a
+		g8. g16 g4 g8\f g %15
+		as8.([ b16]) c4 c8 c
+		des8.([ es16)] f4 f8 f
+		es2 c4
+		b2.~
+		b2 b4 %20
+		as r r
+		as2 es4
+		es'8.([ des16)] c4 r8 c\p
+		des4 des8 des des des
+		des8.([ c16)] b8 g([ as b)] %25
+		c4 es8 es es es
+		es4 c r
+		f2(\p es16[ des c b])
+		as4 g8 g f'8. es16
+		es4 c r %30
+		es2.~
+		es4( d) des
+		des c2
+		f2.\f
+		b, %35
+		es~\p
+		es2 des4
+		des2 ces4
+		ces4. b8 b4
+		b2 as4 %40
+		ges2 ges4
+		f r r
+		R2.
+		es'2\f b4
+		ges es r %45
+		r r r8 ges\p
+		ges4 f r
+		r r as
+		as ges r
+		es'2.\f %50
+		es~
+		es2 ges,4
+		ges f r
+		r r b8\pE b
+		a4 b r %55
+		r r8 f4 as?8
+		ces4( as) f
+		ges4. ges8 b b
+		des8. des16 b4 r
+		es8.\ff es16 es4\fermata r %60
+		ges,2\pp ges4
+		ges ges r
+		ges ges4. ges8
+		ges8. ges16 ges4 r
+		g4. g8 g4 %65
+		as2.\<
+		g4\! r r
+		R2.*2
+		R2.\fermataMarkup \bar "|." %70 FINIS
 	}
 }
 
 AgnusDeiSopranoLyrics = \lyricmode {
+	A -- gnus
+	De -- i,
+	qui
+	tol -- lis
+	pec -- %5
+	ca -- ta,
+	pec --
+	ca -- ta
+	mun --
+	di: %10
+	Do -- na
+	e -- is,
+	do -- na
+	e -- is
+	re -- qui -- em, do -- na %15
+	e -- is, do -- na
+	e -- is, do -- na
+	e -- is
+	re --
+	qui %20
+	em.
+	A -- gnus
+	De -- i, qui
+	tol -- lis pec -- ca -- ta
+	mun -- di, qui __ %25
+	tol -- lis pec -- ca -- ta
+	mun -- di,
+	qui __
+	tol -- lis pec -- ca -- ta
+	mun -- di: %30
+	Do --
+	na
+	e -- is,
+	do --
+	na, %35
+	do --
+	na
+	e -- is
+	re -- qui -- em,
+	e -- is %40
+	re -- qui
+	em.
 	
+	A -- gnus
+	De -- i, %45
+	qui
+	tol -- lis
+	pec --
+	ca -- ta,
+	pec -- %50
+	ca --
+	ta
+	mun -- di:
+	Do -- na
+	e -- is, %55
+	do -- na
+	e -- is,
+	do -- na e -- is
+	re -- qui -- em,
+	re -- qui -- em %60
+	sem -- pi --
+	ter -- nam,
+	et lux per --
+	pe -- tu -- a
+	lu -- ce -- at %65
+	e --
+	is. %67 FINIS
 }
 
 % SopranoNotes = {

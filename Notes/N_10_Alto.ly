@@ -454,14 +454,148 @@ AgnusDeiAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key c \minor \time 3/4 \autoBeamOff \tempoAgnusDei
-		
+		\mvTr c'2\f^\tuttiE g4
+		es c r
+		r r r8 c\p
+		c4 h r
+		r r d %5
+		d c r
+		g'2.\f
+		as2 as4
+		as2( a4)
+		g r r %10
+		r r d8\p d
+		d4 c r
+		r r e8 e
+		es2 es4
+		e8. e16 e4 es8\f es %15
+		es4 es as8 as
+		as4 as as8 as
+		as2 as4
+		as2.(
+		g2) g4 %20
+		as r r
+		es2 es4
+		g as r8 as\p
+		as4 as8 as as as
+		g8.([ as16)] g8 es([ f g)] %25
+		as4 as8 as as as
+		as4 as r
+		as2.\p
+		es2 g4
+		as as r %30
+		r as2~
+		as4( f) g
+		g as2
+		as2.\f
+		g %35
+		as4(\p g) ges
+		f2 f4
+		f( ges) as
+		as4. ges8 ges4
+		f2 f4 %40
+		f( es) es
+		d r r
+		R2.
+		es2\f b'4
+		ges es r %45
+		r r r8 es\p
+		es4 d r
+		r r f
+		f es r
+		ges2.\f %50
+		ges~
+		ges2 es4
+		es d r
+		r r f8\p f
+		ges4 f r %55
+		r r8 des4 des8
+		des2 des4
+		des4. des8 ges ges
+		b8. b16 ges4 r
+		ges8.\ff ges16 ges4\fermata r %60
+		es2\pp es4
+		fes fes r
+		es4 es4. es8
+		es8. es16 es4 r
+		es4. es8 es4 %65
+		es2.\<
+		d4\! r r
+		R2.*2
+		R2.\fermataMarkup %70 FINIS
 	}
 }
 
 AgnusDeiAltoLyrics = \lyricmode {
+	A -- gnus
+	De -- i,
+	qui
+	tol -- lis
+	pec -- %5
+	ca -- ta,
+	pec --
+	ca -- ta
+	mun --
+	di: %10
+	Do -- na
+	e -- is,
+	do -- na
+	e -- is
+	re -- qui -- em, do -- na %15
+	e -- is, do -- na
+	e -- is, do -- na
+	e -- is
+	re --
+	qui %20
+	em.
+	A -- gnus
+	De -- i, qui
+	tol -- lis pec -- ca -- ta
+	mun -- di, qui __ %25
+	tol -- lis pec -- ca -- ta
+	mun -- di,
+	pec --
+	ca -- ta
+	mun -- di: %30
+	Do --
+	na
+	e -- is,
+	do --
+	na, %35
+	do -- na
+	e -- is,
+	e -- is
+	re -- qui -- em,
+	e -- is %40
+	re -- qui
+	em.
 	
+	A -- gnus
+	De -- i, %45
+	qui
+	tol -- lis
+	pec --
+	ca -- ta,
+	pec -- %50
+	ca --
+	ta
+	mun -- di:
+	Do -- na
+	e -- is, %55
+	do -- na
+	e -- is,
+	do -- na e -- is
+	re -- qui -- em,
+	re -- qui -- em %60
+	sem -- pi --
+	ter -- nam,
+	et lux per --
+	pe -- tu -- a
+	lu -- ce -- at %65
+	e --
+	is. %67 FINIS
 }
-% 
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

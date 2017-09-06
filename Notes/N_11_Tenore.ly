@@ -472,12 +472,142 @@ AgnusDeiTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key c \minor \time 3/4 \autoBeamOff \tempoAgnusDei
-		
+		\mvTr c2\f^\tuttiE g4
+		es c r
+		R2.*2
+		r4 r h'\p %5
+		c c, r
+		es'2.\f
+		es2 es4
+		f2( es4)
+		d r r %10
+		r r g,8\p g
+		g4 g r
+		r r b8 b
+		b8.([ a16] g4) a
+		b8. b16 b4 b8\f b %15
+		as8.([ g16)] as4 es'8 es
+		des8.([ c16)] des4 h8 h
+		c2 es4
+		es2.~
+		es2 des4 %20
+		c r r
+		c2 c4
+		b as r8 es'\p
+		f4 f8 f fes fes
+		es4 es,8 es'([ d des)] %25
+		c4 c8 c c c
+		c4 es r
+		des?2(\p f4)
+		b,2 b4
+		c es r %30
+		c2( ces4
+		b2) b4
+		b as2
+		ces2.\f
+		es %35
+		es2(\p as,4~
+		as a) b
+		b2 des4
+		des4. des8 des4
+		b2 b4 %40
+		b4( ces) c
+		b r r
+		R2.
+		es2\f b4
+		ges es r %45
+		R2.*2
+		r4 r d'!\p
+		es es, r
+		b'2.\f %50
+		ces(
+		c2) c4
+		b b r
+		r r d8\p d
+		es4 d r %55
+		r r8 as4 as8
+		f2 ces'4
+		b4. b8 ges ges
+		ges8. b16 b4 r
+		ces8.\ff ces16 ces4\fermata r %60
+		ces2\pp ces4
+		des des r
+		ces4. ces8 ces4
+		c8. c16 c4 r
+		c4. c8 c4 %65
+		c2.\<
+		h4\! r r
+		R2.*2
+		R2.\fermataMarkup \bar "|." %70 FINIS
 	}
 }
 
 AgnusDeiTenoreLyrics = \lyricmode {
+	A -- gnus
+	De -- i,
 	
+	pec -- %5
+	ca -- ta,
+	pec --
+	ca -- ta
+	mun --
+	di: %10
+	Do -- na
+	e -- is,
+	do -- na
+	e -- is
+	re -- qui -- em, do -- na %15
+	e -- is, do -- na
+	e -- is, do -- na
+	e -- is
+	re --
+	qui %20
+	em.
+	A -- gnus
+	De -- i, qui
+	tol -- lis pec -- ca -- ta
+	mun -- di, qui __ %25
+	tol -- lis pec -- ca -- ta
+	mun -- di,
+	pec --
+	ca -- ta
+	mun -- di: %30
+	Do --
+	na
+	e -- is,
+	do --
+	na, %35
+	do --
+	na
+	e -- is
+	re -- qui -- em,
+	e -- is %40
+	re -- qui
+	em.
+	
+	A -- gnus
+	De -- i, %45
+	
+	pec -- %48
+	ca -- ta,
+	pec -- %50
+	ca --
+	ta
+	mun -- di:
+	Do -- na
+	e -- is, %55
+	do -- na
+	e -- is,
+	do -- na e -- is
+	re -- qui -- em,
+	re -- qui -- em %60
+	sem -- pi --
+	ter -- nam,
+	et lux per --
+	pe -- tu -- a
+	lu -- ce -- at %65
+	e --
+	is. %67 FINIS
 }
 
 % TenoreNotes = {

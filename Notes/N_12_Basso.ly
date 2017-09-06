@@ -475,12 +475,142 @@ AgnusDeiBassoNotes = {
 	\relative c {
 		\clef bass
 		\key c \minor \time 3/4 \autoBeamOff \tempoAgnusDei
-		
+		\mvTr c'2\f^\tuttiE g4
+		es c r
+		r r r8 fis\p
+		g4 g, r
+		R2.*2 %6
+		c2.\f
+		as2 as'4
+		f2( fis4)
+		g r \mvTr g8\pE^\solo g %10
+		as8.([-> g16)] h,4 r
+		r r8 es([ g)] a
+		b4 des,2
+		des2^\tutti des4
+		des8. des16 des4 des8\f des %15
+		c8.([ b16)] as4 ges'8 ges
+		f8.([ es16)] des4 d8 d
+		es2 es4
+		es2.~
+		es2 es4 %20
+		as r r
+		as,2\f as'4
+		es as r
+		R2.
+		r4 r r8 es\pE %25
+		as,4 as'8 as as as
+		as4 as, r
+		des2.\p
+		des2 des4
+		c c r %30
+		R2.
+		r4 r es8\p es
+		e4 f2
+		d!2.\f
+		des %35
+		c(\p
+		des2) des4
+		des( es) f
+		ges4. ges8 ges4
+		d!2 d4 %40
+		es( ces) a
+		b r r
+		R2.
+		es'2\fE b4
+		ges es r %45
+		r r r8 a\p
+		b4 b, r
+		R2.*2
+		es2.\f %50
+		ces(
+		a2) a4
+		b b \mvTr b'8\pE^\solo b
+		ces4-> b r
+		r r8 b16 b b8 b %55
+		ces8.-> des,16 des2
+		r4 des^\tutti des
+		r r8 des4 des8
+		des8. des16 des4 r
+		ces8.\ff ces16 ces4\fermata r %60
+		ces2\pp ces4
+		b b r
+		heses^\critnote heses4. heses8
+		as8. as16 as4 r
+		g4. g8 g'4 %65
+		fis2.\<
+		g4\! r r
+		R2.*2
+		R2.\fermataMarkup \bar "|." %70 FINIS
 	}
 }
 
 AgnusDeiBassoLyrics = \lyricmode {
+	A -- gnus
+	De -- i,
+	qui
+	tol -- lis
 	
+	pec -- %7
+	ca -- ta
+	mun --
+	di: Do -- na %10
+	e -- is,
+	do -- na
+	e -- is,
+	e -- is
+	re -- qui -- em, do -- na %15
+	e -- is, do -- na
+	e -- is, do -- na
+	e -- is
+	re --
+	qui %20
+	em.
+	A -- gnus
+	De -- i,
+	
+	qui %25
+	tol -- lis pec -- ca -- ta
+	mun -- di,
+	pec --
+	ca -- ta
+	mun -- di: %30
+	
+	Do -- na
+	e -- is,
+	do --
+	na, %35
+	do --
+	na
+	e -- is
+	re -- qui -- em,
+	e -- is %40
+	re -- qui
+	em.
+	
+	A -- gnus
+	De -- i, %45
+	qui
+	tol -- lis
+	
+	pec -- %50
+	ca --
+	ta
+	mun -- di: Do -- na
+	e -- is,
+	do -- na e -- is %55
+	re -- qui -- em,
+	do -- na
+	e -- is
+	re -- qui -- em,
+	re -- qui -- em %60
+	sem -- pi --
+	ter -- nam,
+	et lux per --
+	pe -- tu -- a
+	lu -- ce -- at %65
+	e --
+	is. %67 FINIS
 }
 
 % BassoNotes = {

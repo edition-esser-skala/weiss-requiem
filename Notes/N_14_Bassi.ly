@@ -567,7 +567,7 @@ AgnusDeiBassi = {
 		es es es
 		es, es es %20
 		as8 r es'\p r c r
-		as as' as as as as
+		as\f as' as as as as
 		es4 as, r
 		R2.
 		r4 r r8 es'\p %25
@@ -589,7 +589,7 @@ AgnusDeiBassi = {
 		es es ces ces a a
 		b4 r8 ces'\ff-> b-> ces->
 		b4 b, r
-		es'2 b4-.
+		es'2\fE b4-.
 		ges es8 r16 es\p d( es ges b) %45
 		ces8. b16 as4 a
 		b b, r
