@@ -240,11 +240,50 @@ AgnusDeiClarinettoI = {
 }
 
 CumSanctisClarinettoI = {
-% 	\transpose c' b {
+% 	\transpose b c' {
 		\relative c' {
 			\clef treble
 			\key es \major \time 2/2 \tempoCumSanctis
-			
+			R1*9 %9
+			\pa R1*4 %13
+			b'1\f
+			g'2 e %15
+			f c4( d)
+			es4( d8 es f4 es)
+			d es f2~
+			f4 es8( d es4) r
+			r d es f %20
+			es d8 c d4 \pd es
+			c2 b4( c8 d)
+			es2 as,4( b8 c)
+			d2 g,4( a8 h)
+			c4 b as2~ %25
+			as g
+			f r
+			R1
+			\pa r2 b
+			g' e %30
+			r as,
+			f' d
+			r es
+			g, b
+			b4( a) c( d) %35
+			es( d) es f
+			f d es2~
+			es4 d8 c d2
+			es \pd es~\ffE
+			es es %40
+			es1~
+			es2 es
+			es1
+			e1(
+			f2) f %45
+			f es!~
+			es1
+			d
+			es
+			es,2\p es %50
+			es r\bar "|." %51 FINIS
 		}
 % 	}
 }

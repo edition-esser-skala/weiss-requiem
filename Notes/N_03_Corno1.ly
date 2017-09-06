@@ -265,11 +265,35 @@ AgnusDeiCornoI = {
 }
 
 CumSanctisCornoI = {
-% 	\transpose c es {
+	\transpose c es {
 		\relative c' {
 			\clef treble
-			\key es \major \time 2/2 \tempoCumSanctis
-			
+			\key c \major \time 2/2 \tempoCumSanctis
+			R1*26 %26
+			g'2\f g,
+			g r
+			g' r
+			g r %30
+			R1
+			g2 r
+			R1
+			g2 r
+			R1*2 %36
+			d'2 \pao c
+			d d
+			c c~\ffE
+			c1 %40
+			c2 e4 e
+			e1
+			f
+			g2 \pao e
+			\once\tieDashed f1~ %45
+			f2 e
+			d1~
+			d2 d
+			c r
+			c\p c %50
+			c r \bar "|." %51 FINIS
 		}
-% 	}
+	}
 }

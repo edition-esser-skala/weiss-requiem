@@ -658,16 +658,17 @@ CumSanctisSopranoNotes = {
 		f( d es2~
 		es4 d8[ c] d2)
 		es es~\ff
-		es es es1~ %40
+		es es %40
+		es1~
 		es2 es
 		es1
 		e1(
-		f2) f
-		f( es~) %45
+		f2) f %45
+		f( es!~)
 		es1
 		d
 		es
-		R1*2 \bar "|." %50 FINIS
+		R1*2 \bar "|." %51 FINIS
 	}
 }
 

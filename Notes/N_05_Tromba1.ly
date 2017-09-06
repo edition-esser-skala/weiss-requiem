@@ -147,9 +147,29 @@ AgnusDeiTrombaI = {
 }
 
 CumSanctisTrombaI = {
-	\relative c' {
-		\clef treble
-		\key es \major \time 2/2 \tempoCumSanctis
-		
-	}
+% 	\transpose c es {
+		\relative c' {
+			\clef treble
+			\key c \major \time 2/2 \tempoCumSanctis
+			R1*26 %26
+			g2\f g
+			g r
+			g r
+			g r %30
+			R1*8 %38
+			r2 e'~\ffE
+			e1 %40
+			e2 c'4 c
+			c2 r
+			c r
+			g \pao e
+			g1~ %45
+			g2 e
+			g1~
+			g2 g
+			e r
+			e\p e %50
+			e r \bar "|." %51 FINIS
+		}
+% 	}
 }

@@ -367,6 +367,44 @@ CumSanctisViolinoI = {
 	\relative c' {
 		\clef treble
 		\key es \major \time 2/2 \tempoCumSanctis
-		
+		R1*13 %13
+		b'1\f
+		g'2 e %15
+		f c4( d)
+		es4 d8 es f4-. es-.
+		d-. es-. f2~
+		f4 es8 d es4 r
+		r d es f %20
+		es d8 c d4 es
+		c2 b4 c8( d)
+		es2 as,4 b8( c)
+		d2 g,4 a8( h)
+		c4 b as2~ %25
+		as g
+		f r
+		R1
+		r2 b
+		g' e %30
+		r as,
+		f' d
+		r es
+		g, b~
+		b4( a) c( d) %35
+		es( d) es f~
+		f d es2~
+		es4 d8 c d2
+		es4 g,2\ffE es'4~
+		es g2 g4~ %40
+		g g,2 es'4~
+		es g2 es4
+		as es2-> as4
+		e des'2-> e,4
+		f as2-> f4~ %45
+		f as,-. g-. es'-.
+		f,-. es'-. es-. es-.
+		f,-. d'-. d-. d-.
+		es2 r
+		<es, g,>2\p q %50
+		q r \bar "|." %51 FINIS
 	}
 }
