@@ -224,13 +224,44 @@ BenedictusCornoI = {
 }
 
 AgnusDeiCornoI = {
-	\transpose c es {
+% 	\transpose c es {
 		\relative c' {
 			\clef treble
-			\key c \minor \time 3/4 \tempoAgnusDei
-			
+			\key a \minor \time 3/4 \tempoAgnusDei
+			R2.*6 %6
+			c'2.\f
+			c
+			R2.
+			e8. e16 e4 r %10
+			R2.*4
+			r4 r c~\f %15
+			c c r
+			R2.
+			r4 c c
+			c2.
+			c2 c4 %20
+			c8 r r4 r
+			c2\f c4
+			c c8 r r4
+			R2.*10 %33
+			f2.\f
+			e4 c2 %35
+			R2.*8 %43
+			c2\f g4-.
+			R2.*5 %49
+			c2.~\f %50
+			\once\tieDashed c~
+			c2 c4
+			\pao g g r
+			R2.*3 %56
+			r4 b2~\p
+			b4 r r
+			R2.
+			c8.\ffE c16 c4\fermata r %60
+			R2.*9 %69
+			R2.\fermataMarkup \bar "|." %70 FINIS
 		}
-	}
+% 	}
 }
 
 % CornoI = {
