@@ -627,14 +627,14 @@ AgnusDeiSopranoLyrics = \lyricmode {
 	is. %67 FINIS
 }
 
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key es \major \time 4/4 \autoBeamOff \tempoRequiem
-% 		
-% 	}
-% }
-% 
-% SopranoLyrics = \lyricmode {
-% 	
-% }
+CumSanctisSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 2/2 \autoBeamOff \tempoCumSanctis
+		
+	}
+}
+
+CumSanctisSopranoLyrics = \lyricmode {
+	
+}

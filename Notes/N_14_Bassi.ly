@@ -690,14 +690,60 @@ AgnusDeiBassFigures = \figuremode {
 	r %70 FINIS
 }
 
-% Bassi = {
-% 	\relative c {
-% 		\clef bass
-% 		\key es \major \time 4/4 \tempoRequiem
-% 		
-% 	}
-% }
-% 
-% BassFigures = \figuremode {
-% 	
-% }
+CumSanctisBassi = {
+	\relative c {
+		\clef bass
+		\key es \major \time 2/2 \tempoCumSanctis
+		es1\f
+		c'2 a
+		b-. f4-. g-.
+		as-. g8-. as-. b4-. as-.
+		g2 es r b'~ %5
+		b4 a as2
+		g f4 g8 a
+		b2. as4~
+		as g f es
+		c d8 d f4 es %10
+		d b as' g
+		f2 b,
+		es g
+		R1*4 %17
+		es1
+		c'2 a
+		b f4 g %20
+		as g8 as b4 as
+		g f8 g as4 g
+		f es8 f g4 f
+		e2 f4. es8
+		d4 b es g %25
+		b2 b,~
+		b1~
+		b~
+		b~
+		b~ %30
+		b~
+		b~
+		b~
+		b~
+		b~ %35
+		b2 c
+		as b
+		es es\ff
+		c' a
+		b2. es,4 %40
+		des'2 h
+		c c,
+		b' b,
+		as'4 g f es
+		d2 es %45
+		b'1
+		b,
+		es2 r
+		es\p es
+		es r \bar "|." %50 FINIS
+	}
+}
+
+CumSanctisBassFigures = \figuremode {
+	
+}

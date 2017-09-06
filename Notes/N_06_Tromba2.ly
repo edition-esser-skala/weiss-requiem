@@ -146,10 +146,10 @@ AgnusDeiTrombaII = {
 % 	}
 }
 
-% TrombaII = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key c \major \time 4/4 \tempoRequiem
-% 		
-% 	}
-% }
+CumSanctisTrombaII = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 2/2 \tempoCumSanctis
+		
+	}
+}

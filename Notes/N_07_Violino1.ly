@@ -363,10 +363,10 @@ AgnusDeiViolinoI = {
 	}
 }
 
-% ViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key es \major \time 4/4 \tempoRequiem
-% 		
-% 	}
-% }
+CumSanctisViolinoI = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 2/2 \tempoCumSanctis
+		
+	}
+}

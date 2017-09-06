@@ -613,14 +613,14 @@ AgnusDeiBassoLyrics = \lyricmode {
 	is. %67 FINIS
 }
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		\key es \major \time 4/4 \autoBeamOff \tempoRequiem
-% 		
-% 	}
-% }
-% 
-% BassoLyrics = \lyricmode {
-% 	
-% }
+CumSanctisBassoNotes = {
+	\relative c {
+		\clef bass
+		\key es \major \time 2/2 \autoBeamOff \tempoCumSanctis
+		
+	}
+}
+
+CumSanctisBassoLyrics = \lyricmode {
+	
+}

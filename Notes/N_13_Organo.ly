@@ -1355,22 +1355,22 @@ AgnusDeiOrganoL = {
 	} >>
 }
 
-% OrganoR = {
-% 	\clef treble
-% 	\key c \minor \time 2/2 \tempoDiesIrae
-% 	<< \relative c' {
-% 			
-% 	} \\ \relative c' {
-% 		
-% 	} >>
-% }
-% 
-% OrganoL = {
-% 	\clef bass
-% 	\key c \minor \time 2/2 \tempoDiesIrae
-% 	<< \relative c {
-% 			
-% 	} \\ \relative c {
-% 		
-% 	} >>
-% }
+CumSanctisOrganoR = {
+	\clef treble
+	\key es \major \time 2/2 \tempoCumSanctis
+	<< \relative c' {
+			
+	} \\ \relative c' {
+		
+	} >>
+}
+
+CumSanctisOrganoL = {
+	\clef bass
+	\key es \major \time 2/2 \tempoCumSanctis
+	<< \relative c {
+			
+	} \\ \relative c {
+		
+	} >>
+}

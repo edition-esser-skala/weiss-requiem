@@ -610,14 +610,14 @@ AgnusDeiTenoreLyrics = \lyricmode {
 	is. %67 FINIS
 }
 
-% TenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-% 		\key es \major \time 4/4 \autoBeamOff \tempoRequiem
-% 		
-% 	}
-% }
-% 
-% TenoreLyrics = \lyricmode {
-% 	
-% }
+CumSanctisTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key es \major \time 2/2 \autoBeamOff \tempoCumSanctis
+		
+	}
+}
+
+CumSanctisTenoreLyrics = \lyricmode {
+	
+}

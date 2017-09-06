@@ -235,12 +235,12 @@ AgnusDeiClarinettoII = {
 % 	}
 }
 
-% ClarinettoII = {
+CumSanctisClarinettoII = {
 % 	\transpose c' b {
-% 		\relative c' {
-% 			\clef treble
-% 			\key f \major \time 4/4 \tempoRequiem
-% 			
-% 		}
+		\relative c' {
+			\clef treble
+			\key es \major \time 2/2 \tempoCumSanctis
+			
+		}
 % 	}
-% }
+}

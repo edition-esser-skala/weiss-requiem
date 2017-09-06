@@ -11,7 +11,7 @@
 % \include "Scores/S_Domine.ly"
 % \include "Scores/S_Sanctus.ly"
 % \include "Scores/S_Benedictus.ly"
-\include "Scores/S_AgnusDei.ly"
-% \include "Scores/S_CumSanctis.ly"
+% \include "Scores/S_AgnusDei.ly"
+\include "Scores/S_CumSanctis.ly"
 
 % \include "Parts/P_Bassi.ly"

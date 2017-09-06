@@ -596,14 +596,14 @@ AgnusDeiAltoLyrics = \lyricmode {
 	is. %67 FINIS
 }
 
-% AltoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		\key es \major \time 4/4 \autoBeamOff \tempoRequiem
-% 		
-% 	}
-% }
-% 
-% AltoLyrics = \lyricmode {
-% 	
-% }
+CumSanctisAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key es \major \time 2/2 \autoBeamOff \tempoCumSanctis
+		
+	}
+}
+
+CumSanctisAltoLyrics = \lyricmode {
+	
+}
