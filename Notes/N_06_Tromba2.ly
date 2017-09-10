@@ -125,7 +125,7 @@ BenedictusTrombaII = {
 }
 
 AgnusDeiTrombaII = {
-% 	\transpose c es {
+	\transpose c es {
 		\relative c' {
 			\clef treble
 			\key c \major \time 3/4 \tempoAgnusDei
@@ -136,14 +136,14 @@ AgnusDeiTrombaII = {
 			c2\f c4
 			c c8 r r4
 			R2.*10 %33
-			g2.\f
-			c4 \pao c2 %35
+			f,2.\f
+			c'4 \pao c2 %35
 			R2.*24 %59
 			c8.\ffE c16 c4\fermata r %60
 			R2.*9 %69
 			R2.\fermataMarkup \bar "|." %709 FINIS
 		}
-% 	}
+	}
 }
 
 CumSanctisTrombaII = {

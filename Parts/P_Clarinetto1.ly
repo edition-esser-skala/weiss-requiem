@@ -7,10 +7,11 @@
 \include "../definitions.ly"
 
 \paper {
-	indent = 2\cm
+	indent = 2.5\cm
 	system-separator-markup = ##f
 	system-system-spacing = #'((basic-distance . 15.5) (minimum-distance . 8) (padding . 1) (stretchability . 60))
 	last-bottom-spacing = #'((basic-distance . 20) (minimum-distance . 1) (padding . 1) (stretchability . 100))
+	min-systems-per-page = #2
 }
 
 #(set-global-staff-size 17.82)
@@ -31,8 +32,8 @@
 			<<
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Bassi"
-						\RequiemBassi
+						\set Staff.instrumentName = \markup { \center-column { "Clarinetto I" "in B" } }
+						\RequiemClarinettoI
 					}
 				>>
 			>>
@@ -43,13 +44,12 @@
 			subtitle = \markup { \vspace #3 \normal-text \larger \larger "2 DIES IRAE" }
 			composer = \markup { \larger " " }
 		}
-% 		\paper { min-systems-per-page = #3 }
 		\score {
 			<<
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Bassi"
-						\DiesIraeBassi
+						\set Staff.instrumentName = \markup { \center-column { "Clarinetto I" "in B" } }
+						\DiesIraeClarinettoI
 					}
 				>>
 			>>
@@ -64,8 +64,8 @@
 			<<
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Bassi"
-						\DomineBassi
+						\set Staff.instrumentName = \markup { \center-column { "Clarinetto I" "in B" } }
+						\DomineClarinettoI
 					}
 				>>
 			>>
@@ -80,8 +80,8 @@
 			<<
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Bassi"
-						\SanctusBassi
+						\set Staff.instrumentName = \markup { \center-column { "Clarinetto I" "in B" } }
+						\SanctusClarinettoI
 					}
 				>>
 			>>
@@ -96,8 +96,8 @@
 			<<
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Bassi"
-						\BenedictusBassi
+						\set Staff.instrumentName = \markup { \center-column { "Clarinetto I" "in B" } }
+						\BenedictusClarinettoI
 					}
 				>>
 			>>
@@ -112,8 +112,8 @@
 			<<
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Bassi"
-						\AgnusDeiBassi
+						\set Staff.instrumentName = \markup { \center-column { "Clarinetto I" "in B" } }
+						\AgnusDeiClarinettoI
 					}
 				>>
 			>>
@@ -128,8 +128,8 @@
 			<<
 				\new StaffGroup <<
 					\new Staff {
-						\set Staff.instrumentName = "Bassi"
-						\CumSanctisBassi
+						\set Staff.instrumentName = \markup { \center-column { "Clarinetto I" "in B" } }
+						\CumSanctisClarinettoI
 					}
 				>>
 			>>

@@ -7,7 +7,7 @@
 project = Weiß_RequiemInEs
 notes = Clarinetto1 Clarinetto2 Corno1 Corno2 Tromba1 Tromba2 \
         Violino1 Violino2 Soprano Alto Tenore Basso Organo Bassi
-parts = Bassi
+parts = Bassi Organo Coro Violino1 Violino2 Clarinetto1 Clarinetto2 Ottoni
 movements = Requiem DiesIrae Domine Sanctus Benedictus AgnusDei CumSanctis
 
 

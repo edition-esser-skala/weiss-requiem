@@ -29,11 +29,10 @@
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Bassi"
-						\RequiemBassi
-					}
+				\new PianoStaff <<
+					\set PianoStaff.instrumentName = "Organo"
+					\new Staff << \RequiemOrganoR >>
+					\new Staff << \RequiemOrganoL >>
 				>>
 			>>
 		}
@@ -46,11 +45,10 @@
 % 		\paper { min-systems-per-page = #3 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Bassi"
-						\DiesIraeBassi
-					}
+				\new PianoStaff <<
+					\set PianoStaff.instrumentName = "Organo"
+					\new Staff << \DiesIraeOrganoR >>
+					\new Staff << \DiesIraeOrganoL >>
 				>>
 			>>
 		}
@@ -62,11 +60,10 @@
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Bassi"
-						\DomineBassi
-					}
+				\new PianoStaff <<
+					\set PianoStaff.instrumentName = "Organo"
+					\new Staff << \DomineOrganoR >>
+					\new Staff << \DomineOrganoL >>
 				>>
 			>>
 		}
@@ -78,11 +75,10 @@
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Bassi"
-						\SanctusBassi
-					}
+				\new PianoStaff <<
+					\set PianoStaff.instrumentName = "Organo"
+					\new Staff << \SanctusOrganoR >>
+					\new Staff << \SanctusOrganoL >>
 				>>
 			>>
 		}
@@ -92,13 +88,13 @@
 			subtitle = \markup { \vspace #3 \normal-text \larger \larger "5 BENEDICTUS" }
 			composer = \markup { \larger " " }
 		}
+		\paper { max-systems-per-page = #5 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Bassi"
-						\BenedictusBassi
-					}
+				\new PianoStaff <<
+					\set PianoStaff.instrumentName = "Organo"
+					\new Staff << \BenedictusOrganoR >>
+					\new Staff << \BenedictusOrganoL >>
 				>>
 			>>
 		}
@@ -108,13 +104,13 @@
 			subtitle = \markup { \vspace #3 \normal-text \larger \larger "6 AGNUS DEI" }
 			composer = \markup { \larger " " }
 		}
+		\paper { max-systems-per-page = #5 }
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Bassi"
-						\AgnusDeiBassi
-					}
+				\new PianoStaff <<
+					\set PianoStaff.instrumentName = "Organo"
+					\new Staff << \AgnusDeiOrganoR >>
+					\new Staff << \AgnusDeiOrganoL >>
 				>>
 			>>
 		}
@@ -126,11 +122,10 @@
 		}
 		\score {
 			<<
-				\new StaffGroup <<
-					\new Staff {
-						\set Staff.instrumentName = "Bassi"
-						\CumSanctisBassi
-					}
+				\new PianoStaff <<
+					\set PianoStaff.instrumentName = "Organo"
+					\new Staff << \CumSanctisOrganoR >>
+					\new Staff << \CumSanctisOrganoL >>
 				>>
 			>>
 		}
