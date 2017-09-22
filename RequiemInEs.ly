@@ -20,5 +20,6 @@
 % \include "Parts/P_Violino1.ly"
 % \include "Parts/P_Violino2.ly"
 % \include "Parts/P_Coro.ly"
+\include "Parts/P_CoroOrg.ly"
 % \include "Parts/P_Organo.ly"
 % \include "Parts/P_Bassi.ly"
