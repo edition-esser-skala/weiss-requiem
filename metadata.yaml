@@ -1,0 +1,17 @@
+composer: Weiss, Johann Baptist
+title: Requiem in Es
+id: (A-Wn MS84811-4°)
+genre: requiem 
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 cl (B), 2 cor (Es), 2 clno (C), 2 vl, b, org
+sources:
+  1:
+    siglum: A-Wn
+    shelfmark: MS84811-4°
+    type: print (K. k. Universitäts Buchdruckerei “Styria”, Graz)
+    date: 1904
+    rism: 
+    url: http://data.onb.ac.at/rec/AC09143493
+github: weiss-requiem 
+imslp: Requiem_in_Es_(Weiß,_Johann_Baptist)
+notes:
+

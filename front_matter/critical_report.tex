@@ -1,0 +1,355 @@
+\documentclass[parskip=full]{scrreprt}
+
+\RedeclareSectionCommand[pagestyle=plain,afterskip=10pt plus 1pt]{chapter}
+\setkomafont{chapter}{\mdseries\headingfont\fontsize{40}{40}\selectfont\color{black!80}}
+\setkomafont{pageheadfoot}{\normalsize}
+
+\def\pnumbox#1{#1\hspace*{8cm}}
+\def\gobble#1{}
+\DeclareTOCStyleEntry[
+  indent=0pt,
+  beforeskip=0pt,
+  entryformat=\itshape,
+  entrynumberformat=\textcolor{oldred},
+  numwidth=2em,
+  linefill=\hfill,
+  pagenumberbox=\pnumbox,
+  pagenumberformat=\itshape
+]{tocline}{part}
+
+\DeclareTOCStyleEntry[
+  indent=0pt,
+  beforeskip=0pt,
+  entrynumberformat=\textcolor{oldred},
+  numwidth=2em,
+  linefill=\hfill,
+  pagenumberbox=\pnumbox
+]{tocline}{section}
+
+\DeclareTOCStyleEntry[
+  indent=0pt,
+  beforeskip=-\parskip,
+  entrynumberformat=\gobble,
+  entryformat=\ltseries,
+  numwidth=2em,
+  linefill=\hfill,
+  pagenumberbox=\pnumbox,
+  pagenumberformat=\ltseries
+]{tocline}{subsection}
+
+
+\usepackage{polyglossia}
+\setdefaultlanguage{english}
+
+
+\usepackage{fontspec}
+\setmainfont{Source Sans Pro}[
+  ItalicFont = Source Sans Pro Italic,
+  BoldFont = Source Sans Pro Bold,
+  BoldItalicFont = Source Sans Pro Bold Italic,
+  FontFace = {lt}{n}{Source Sans Pro Light},
+  FontFace = {lt}{it}{Source Sans Pro Light Italic},
+  FontFace = {sb}{n}{Source Sans Pro Semibold},
+  FontFace = {sb}{it}{Source Sans Pro Semibold Italic},
+  Numbers = Proportional,
+  Ligatures = Common
+]
+\DeclareRobustCommand{\ltseries}{\fontseries{lt}\selectfont}
+\DeclareRobustCommand{\sbseries}{\fontseries{sb}\selectfont}
+\DeclareTextFontCommand{\textlt}{\ltseries}
+\DeclareTextFontCommand{\textsb}{\sbseries}
+\newfontfamily\headingfont{Fredericka the Great}
+
+
+\usepackage[pass]{geometry}
+\newgeometry{twoside,inner=20mm,outer=40mm,top=20mm,bottom=40mm}
+
+
+\usepackage{url}
+\urlstyle{same}
+
+
+\usepackage{microtype}
+\microtypesetup{verbose=silent}
+
+
+\usepackage{booktabs,array,longtable}
+\newcolumntype{L}[1]{%
+  >{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}p{#1}%
+}
+
+
+\usepackage{graphicx}
+
+
+\usepackage{xcolor}
+\definecolor{oldred}{rgb}{.8313,0,0}
+
+
+\usepackage{pdfpages}
+
+
+\usepackage{scrlayer-scrpage}
+\pagestyle{scrheadings}
+\clearscrheadfoot
+\cfoot[\thepage]{\thepage}
+\pagenumbering{roman}
+
+\usepackage{enumitem}
+\setlist[description]{%
+  style=nextline,%
+  leftmargin=2em,%
+  first=\ltseries,%
+  font=\normalfont%
+}
+\def\lyrefitem#1{\item[\lyref{#1}]}
+
+
+\makeatletter
+
+\def\@firstofthree#1#2#3{#1}
+\def\@secondofthree#1#2#3{#2}
+\def\@thirdofthree#1#2#3{#3}
+\def\@firstoffour#1#2#3#4{#1}
+\def\@secondoffour#1#2#3#4{#2}
+\def\@thirdoffour#1#2#3#4{#3}
+\def\@fourthoffour#1#2#3#4{#4}
+\def\Dotfill{\leavevmode\cleaders\hb@xt@ .75em{\hss .\hss }\hfill \kern \z@}
+
+\def\lyrefnumber#1{\expandafter\@setref\csname r@#1\endcsname\@firstofthree{#1}}
+\def\lyreftitle#1{\expandafter\@setref\csname r@#1\endcsname\@secondofthree{#1}}
+\def\lyrefpage#1{\expandafter\@setref\csname r@#1\endcsname\@thirdofthree{#1}}
+
+\def\lyrefgenrenumber#1{\expandafter\@setref\csname r@#1\endcsname\@firstoffour{#1}}
+\def\lyrefgenregenre#1{\expandafter\@setref\csname r@#1\endcsname\@secondoffour{#1}}
+\def\lyrefgenretitle#1{\expandafter\@setref\csname r@#1\endcsname\@thirdoffour{#1}}
+\def\lyrefgenrepage#1{\expandafter\@setref\csname r@#1\endcsname\@fourthoffour{#1}}
+
+\def\lyref#1{%
+  \begingroup%
+  \makebox[0pt][l]{\color{oldred}\lyrefnumber{#1}}\hspace*{2em}%
+  \lyreftitle{#1}\Dotfill\lyrefpage{#1}%
+  \endgroup%
+}
+\def\lyrefpart#1{%
+  \begingroup%
+  \makebox[0pt][l]{\sbseries\color{oldred}\lyrefnumber{#1}}\hspace*{2em}%
+  \makebox[0pt][l]{\sbseries\lyreftitle{#1}}\hspace*{6.5em}%
+  \hfill\sbseries\lyrefpage{#1}%
+  \endgroup%
+}
+\def\lyrefsection#1{%
+  \begingroup%
+  \makebox[0pt][l]{\color{oldred}\lyrefgenrenumber{#1}}\hspace*{2em}%
+  \makebox[0pt][l]{\ltseries\lyrefgenregenre{#1}}\hspace*{6.5em}%
+  \lyrefgenretitle{#1}\Dotfill\lyrefgenrepage{#1}%
+  \endgroup%
+}
+\InputIfFileExists{../tmp/lilypond.ref}{}{\InputIfFileExists{../lilypond.ref}{}{}}
+
+
+\newcommand\fancytitlehead{
+  \headingfont%
+  \fontsize{80}{80}\selectfont%
+  \textcolor{black!80}{%
+    \makebox[0pt][l]{\@ifundefined{@shortname}{\@lastname}{\@shortname}.}%
+  }\\[15pt]%
+  \fontsize{60}{60}\selectfont%
+  \makebox[0pt][l]{\@ifundefined{@shorttitle}{\@title}{\@shorttitle}.}%
+}
+
+
+\def\firstname#1{\def\@firstname{#1}}
+\def\lastname#1{\def\@lastname{#1}}
+\def\shortname#1{\def\@shortname{#1}}
+\def\shorttitle#1{\def\@shorttitle{#1}}
+\def\namesuffix#1{\def\@namesuffix{#1}}
+\def\scoring#1{\def\@scoring{#1}}
+\def\parts#1{\def\@parts{#1}}
+
+\firstname{\relax}
+\lastname{\relax}
+\namesuffix{\relax}
+\scoring{\relax}
+\parts{\relax}
+
+
+\def\maketitle{%
+\begin{titlepage}%
+  \Large%
+  {\@titlehead}%
+  \vfill%
+  {\strut\@firstname}\\%
+  {\sbseries\color{oldred}\strut\@lastname}\\%
+  {\strut\@namesuffix}%
+  \vfill%
+  {\sbseries\@title}\\%
+  {\@subtitle}\\[\baselineskip]%
+  {\itshape\@scoring}%
+  \vfill%
+  {\itshape\@parts}\hspace*{\fill}\raisebox{0pt}[0pt][0pt]{\includegraphics{ees_logo}}%
+\end{titlepage}%
+}
+
+
+\newif\iftemplate\templatetrue
+\newif\ifprintreport\printreportfalse
+\directlua{
+scores = {
+  cl1 = "Clarinetto I in B",
+  cl2 = "Clarinetto II in B",
+  ottoni = "Clarino I, II in C\string\\newline Corno I, II in Es",
+  vl1 = "Violino I",
+  vl2 = "Violino II",
+  coro = "Coro",
+  org = "Organo",
+  org_realized = "Organo (realized)",
+  b = "Bassi",
+  full_score = "Full Score"
+}
+
+last_arg = arg[\string#arg]
+texio.write("Last argument: " .. last_arg)
+if not (scores[last_arg] == nil) then
+  tex.print("\string\\def\string\\lypdfname{" .. last_arg .. "}")
+  tex.print("\string\\parts{" .. scores[last_arg] .. "}")
+  if (last_arg == "full_score") then
+    tex.print("\string\\printreporttrue")
+  end
+end
+}
+
+\@ifundefined{lypdfname}{%
+  \templatefalse
+  \printreporttrue
+  \parts{Draft}
+}{\templatetrue}
+
+\makeatother
+
+
+
+\begin{document}
+\frenchspacing
+
+\titlehead{\fancytitlehead}
+\firstname{Johann Baptist}
+\lastname{Weiss}
+\title{Requiem in Es}
+\shorttitle{Requiem}
+\subtitle{(A-Wn MS84811-4°)}
+\scoring{S, A, T, B (solo), S, A, T, B (coro), 2 cl (B), 2 cor (Es), 2 clno (C), 2 vl, b, org}
+\maketitle
+
+
+\thispagestyle{empty}
+
+\vspace*{\fill}
+
+\raisebox{-4mm}{\includegraphics{byncsaeu}}\hspace*{1em}Wolfgang Esser-Skala, 2021
+
+© 2021 by Wolfgang Esser-Skala. This edition is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. To view a copy of this license, visit \url{http://creativecommons.org/licenses/by-nc-sa/4.0/}.
+
+Music engraving by LilyPond 2.22.0 (\url{http://www.lilypond.org}).\\
+Front matter typeset with Source Sans Pro and Fredericka the Great.
+
+\textit{Second version, July 2021}
+
+\vspace*{2cm}
+
+\ifprintreport
+\chapter*{Critical Report}
+
+This edition bases upon a print issued in 1904 by the K. k. Universitäts Buchdruckerei “Styria” in Graz (plate nos. St.23, 23a and 23b; ed. Ernst Lanninger, then pastor of Hörsching, Upper Austria). The print has been archived in the Department of Music of the Austrian National Library (\url{http://data.onb.ac.at/rec/AC09143493}; siglum MS84811-4°). Weiss’ autograph has apparently been lost.
+
+The title page reads:
+\begin{quote}
+REQUIEM IN ES. / Für Sopran, Alt, Tenor, Bass, 2 Violinen, 2 Klari- / netten, 2 Hörner, 2 Tromben und Violon / mit Begleitung der Orgel / Von / J. B. Weiss / dem ersten Lehrer des Dr. A. Bruckner im Orgelspiel / [...] / Verlag von Ernst Lanninger / Pfarrer in Hörsching in Ober-Österreich .
+\end{quote}
+
+In general, this edition follows the print as closely a reasonably possible. However, this print is rather inconsistent regarding articulations and dynamics. Generally, any changes that were introduced by the editor are indicated by italic type (lyrics, dynamics and directions), parentheses (expressive marks and bass figures) or dashes (slurs and ties). Bass figures were added by the editor. Accidentals are used according to modern conventions. Asterisks denote changes that are clarified in the detailed remarks below.\footnote{Abbreviations: A, alto; B, bass; b, basses; cl, clarinet; clno, clarion; cor, horn; org, organ; Pr, print; r, rest; S, soprano; T, tenor; vl, violin.}
+
+\bigskip
+
+\begin{longtable}{lll L{10cm}}
+  \toprule
+  \itshape Mov. & \itshape Bar & \itshape Staff & \itshape Note \\
+  \midrule \endhead
+  1 & 7   & vl 2   & 6th eighth in Pr: as′8 \\
+    & 15  & vl 2   & second half of bar in Pr: as′8–f′8–f′8–f′8 \\
+    & 19  & cl 1   & 5th eight in Pr: f″16–e″16, here adapted to T \\
+    & 36  & cor 1  & bar in Pr: e′2–r2 \\
+    & 36  & cor 2  & bar in Pr: c′2–r2 \\
+  \midrule
+  2 & 3   & T      & lyrics in Pr: i - rae \\
+    & 30  & org    & left hand, upper voice, last quarter in Pr: f+ces′4 \\
+    & 33  & vl 2   & 2nd quarter in Pr: es+e′+c″4 \\
+    & 36  & cl 2   & bar in Pr: as′2 \\
+    & 51  & vl 2   & 3rd eighth in Pr: c″8 \\
+    & 70f & org    & right hand, upper voice in Pr: unison with vl 1 (cue notes in Pr?) \\
+  \midrule
+  3 & –   & cor 2  & in Pr written for a B flat horn \\
+    & 8   & vl 2   & 3rd sixteenth in Pr: d′16 \\
+    & 9   & vl 2   & first quarter in Pr: a′8.–g′16–g′16 \\
+    & 34  & cl 1   & 1st eighth in Pr: d″8 \\
+    & 34  & vl 2   & grace notes in Pr: a′16–c″16 \\
+    & 37  & vl 1   & 15th sixteenth in Pr: e″16 \\
+    & 40  & vl 2   & 2nd sixteenth in Pr: a′16 \\
+  \midrule
+  4 & 13  & b      & bar in Pr: Bes4–bes16–bes16–bes16–bes16 \\
+    & 15  & vl 2   & last eighth in Pr: as′8 \\
+    & 15  & org    & 3rd eighth in Pr: c+es8 \\
+    & 31f & clno 2 & bars in Pr: c′4–b4–b4 and b2–r4 \\
+    & 32  & org    & bar in Pr: Es+g2–r4 \\
+  \midrule
+  5 & 8   & vl 2   & 3rd eighth in Pr: g′16–g′16 \\
+    & 11  & vl 2   & 1st quarter in Pr: es′8–d′16–d′16 \\
+    & 15  & cl 1   & last sixteenth in Pr: c″16 \\
+    & 16  & T      & bar in Pr: d′8–c′8–r4 \\
+    & 24  & vl 1   & 4th sixteenth in Pr: es″16 \\
+    & 24  & B      & bar in Pr: r4–Bes8–Bes8 \\
+    & 25  & org    & 2nd note in Pr: f′16 \\
+    & 32  & A      & 2nd quarter in Pr: as′8.–g′16 \\
+  \midrule
+  6 & –   & clno 1, 2 & in Pr written for C instruments \\
+    & 9   & vl 2   & 1st/2nd quarter in Pr: as′2 \\
+    & 21  & vl 1   & 1st eighth in Pr: c″8 \\
+    & 23  & vl 2   & 3rd eighth in Pr: g′8 \\
+    & 28  & vl 1   & 2nd eighth in Pr: es′8 \\
+    & 34  & clno 1 & bar in Pr: g2. \\
+    & 34  & clno 2 & bar in Pr: g′2. \\
+    & 47  & vl 2   & 3rd eighth in Pr: es′8 \\
+    & 47  & org    & right hand, upper voice in Pr:
+                     r16–bes16–d′16–f′16–as′16–bes′16 \\
+    & 63  & B      & bar in Pr: A4–A4.–A8 \\
+    & 64  & S      & bar in Pr: fis′8.–fis′16–fis′4–r4 \\
+  \midrule
+  7 & 11  & b      & 4th eighth in Pr: d8 \\
+    & 34  & org    & right hand, lower voice, 3rd quarter in Pr: f′4 \\
+    & 35  & org    & right hand, lower voice, first half
+                     of bar in Pr: bes′4–a′4 \\
+    & 36  & org    & left hand, upper voice, first half note in Pr: es′2 \\
+    & 44  & org    & bar in Pr: bes2.–Bes4 \\
+  \bottomrule
+\end{longtable}
+
+
+This edition has been compiled and checked with utmost diligence. Nevertheless, errors and mistakes cannot be totally excluded. Please report any errors and mistakes to \url{wolfgang@esser-skala.at} or create an issue or pull request on the edition’s GitHub page \url{https://github.com/skafdasschaf/weiss-requiem}. Your help will be greatly appreciated.
+
+\bigskip
+\textit{Koppl, July 2021\\
+Wolfgang Esser-Skala}
+
+\cleardoublepage
+\chapter*{Contents}
+
+\InputIfFileExists{../tmp/lilypond.toc}{}{\InputIfFileExists{../lilypond.toc}{}{}}
+
+\cleardoublepage
+\fi
+
+\iftemplate
+\includepdf[pages=-]{../tmp/\lypdfname.pdf}
+\fi
+
+\end{document}

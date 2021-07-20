@@ -1,63 +1,34 @@
-# Johann Baptist Weiß: Requiem in Es
+# Johann Baptist Weiss: Requiem in Es
 
-Engraving files for LilyPond 2.18.0
+Engraving files for LilyPond 2.22.0
 
-First version, September 2017
+
+## Requirements
+
+* LilyPond >= 2.22.0
+* LuaLaTeX >= 1.12.0
+* GNU Make >= 4.2.1
+* Latexmk >= 4.70b
+* The Source Sans and Fredericka the Great fonts from Google Fonts
 
 
 ## Build instructions
 
-Use the `make` tool for building scores. Specify one of the following **targets** to create:
+Use `make` for building scores:
+* `make final/scores` generates all publication-ready scores in folder `final/`.
+* `make info` lists other available build targets.
 
-* **Requiem** etc.: individual movements
-* **Bassi** etc.: individual parts
-* **parts**: all parts
-* **movements**: all movements
-* **score**: full score
-* **all**: full score and all parts
-* **archive**: ZIP file with all sources
-* **info**: show all available targets
-
-PDF files will be stored in a subfolder *./PDF*, MIDI files in a subfolder *./MIDI*.
-
-The file *RequiemInEs.ly* allows you to work with an editor like Kile: Change the included movement/parts file in this script to generate files *RequiemInEs.pdf* and *RequiemInEs.midi*, which can be opened via the ViewPDF and OpenMIDI functionalities.
+Alternatively, the file *main.ly* allows you to work with a text editor (e.g., Atom):
+Change the included scores file in this script to generate files *main.pdf* and *main.midi*.
 
 
 ## Files
 
-* *Makefile* – the configuration file for make.
-* *definitions.ly* – contains general definitions.
-* *RequiemInEs.ly* – allows building movements/parts from within Kile.
-* Individual voices in folder *Notes*:
-    * N_01_Clarinetto1.ly
-    * N_02_Clarinetto2.ly
-    * N_03_Corno1.ly
-    * N_04_Corno2.ly
-    * N_05_Tromba1.ly
-    * N_06_Tromba2.ly
-    * N_07_Violino1.ly
-    * N_08_Violino2.ly
-    * N_09_Soprano.ly
-    * N_10_Alto.ly
-    * N_11_Tenore.ly
-    * N_12_Basso.ly
-    * N_13_Organo.ly
-    * N_14_Bassi.ly
-* Movement definitions in folder *Scores*:
-    * S_Requiem.ly
-    * S_DiesIrae.ly
-    * S_Domine.ly
-    * S_Sanctus.ly
-    * S_Benedictus.ly
-    * S_AgnusDei.ly
-    * S_CumSanctis.ly
-* Parts definitions in folder *Parts*:
-    * P_Bassi.ly
-
-
-## Copyright
-
-(c) 2017 by Wolfgang Skala.
-
-This file is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
-To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
+* *definitions.ly* – contains general definitions
+* *Makefile* – configuration file for `make`
+* *main.ly* – allows building scores without using `make`
+* *LICENSE.txt* – the license
+* *README.md* – this file
+* *front_matter/* – LuaLaTeX files and images for typesetting front matter
+* *notes/* – LY files containing individual voices
+* *scores/* – LY files containing score definitions
