@@ -1,36 +1,28 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-
-\paper {
-  #(define (page-post-process layout pages) (ly:create-toc-file layout pages))
-}
-
-#(set-global-staff-size 15.87)
+\include "score_settings/full-score.ly"
 
 \book {
   \bookpart {
-    \header {
-      number = "1"
-      title = "I N T R O I T U S   –   K Y R I E"
-    }
+    \section "1" "Introitus – Kyrie"
+    \addTocEntry
     \paper { indent = 2.5\cm }
-    \tocSection "1" "Introitus – Kyrie"
     \score {
       <<
         \new StaffGroup {
           \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { "Clarinetto I, II" "in B" }
+            \set Staff.instrumentName = \transposedName "Clarinetto I, II" "B" "flat"
             \partCombine \RequiemClarinettoI \RequiemClarinettoII
           >>
         }
         \new StaffGroup <<
           \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { "Corno I, II" "in Es" }
+            \set Staff.instrumentName = \transposedName "Corno I, II" "E" "flat"
             \partCombine \RequiemCornoI \RequiemCornoII
           >>
           \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { "Clarino I, II" "in C" }
+            \set Staff.instrumentName = \transposedName "Clarino I, II" "C" ""
             \partCombine \RequiemClarinoI \RequiemClarinoII
           >>
         >>
@@ -92,11 +84,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "2"
-      title = "S E Q U E N T I A"
-    }
-    \tocSection "2" "Sequentia"
+    \section "2" "Sequentia"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup {
@@ -173,11 +162,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "3"
-      title = "O F F E R T O R I U M"
-    }
-    \tocSection "3" "Offertorium"
+    \section "3" "Offertorium"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup {
@@ -254,11 +240,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "4"
-      title = "S A N C T U S"
-    }
-    \tocSection "4" "Sanctus"
+    \section "4" "Sanctus"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup {
@@ -335,11 +318,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "5"
-      title = "B E N E D I C T U S"
-    }
-    \tocSection "5" "Benedictus"
+    \section "5" "Benedictus"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup {
@@ -416,11 +396,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "6"
-      title = "A G N U S   D E I"
-    }
-    \tocSection "6" "Agnus Dei"
+    \section "6" "Agnus Dei"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup {
@@ -497,11 +474,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "7"
-      title = "C U M   S A N C T I S   T U I S"
-    }
-    \tocSection "7" "Cum Sanctis Tuis"
+    \section "7" "Cum Sanctis Tuis"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup {

@@ -1,17 +1,22 @@
-composer: Weiss, Johann Baptist
-title: Requiem in Es
-id: (A-Wn MS84811-4°)
-genre: requiem 
-scoring: S, A, T, B (solo), S, A, T, B (coro), 2 cl (B), 2 cor (Es), 2 clno (C), 2 vl, b, org
+composer:
+  last: Weiß
+  first: Johann Baptist
+title: Requiem
+genre: requiem
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 cl (\flat B), 2 cor (\flat E), 2 clno (C), 2 vl, b, org
+license: cc-by-sa-4.0
 sources:
-  1:
+  C1:
     siglum: A-Wn
     shelfmark: MS84811-4°
-    type: print (K. k. Universitäts Buchdruckerei “Styria”, Graz)
+    type: print
     date: 1904
-    rism: 
-    url: http://data.onb.ac.at/rec/AC09143493
-github: weiss-requiem 
+    url: https://data.onb.ac.at/rec/AC09143493
+    license: public domain
+    principal: true
+    notes: K. k. Universitäts Buchdruckerei Styria, Graz, plate numbers St.23, 23a and 23b; edited by Ernst Lanninger, then pastor of Hörsching, Upper Austria
 imslp: Requiem_in_Es_(Weiß,_Johann_Baptist)
-notes:
-
+parts:
+  cl1: Clarinetto I in \flat B
+  cl2: Clarinetto II in \flat B
+  ottoni: Clarino I, II in C\\Corno I, II in \flat E
